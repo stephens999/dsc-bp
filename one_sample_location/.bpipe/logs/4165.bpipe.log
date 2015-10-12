@@ -1,0 +1,103 @@
+bpipe.Runner	[10]	INFO	|10:34:41 Starting 
+bpipe.Runner	[10]	INFO	|10:34:41 OS: Mac OS X (10.10.3) Java: 1.6.0_65 Vendor: Apple Inc. 
+bpipe.Runner	[10]	INFO	|10:34:41 Initializing plugins ... 
+bpipe.Config	[10]	INFO	|10:34:41 No plugins directory found: /Users/stephens/Dropbox/Documents/git/dsc-bpipe/one_sample_location/.bpipe/plugins 
+bpipe.Runner	[10]	INFO	|10:34:41 Reading user config ...  
+bpipe.Config	[10]	INFO	|10:34:41 No configuration file found in same dir as pipeline file /Users/stephens/Dropbox/Documents/git/dsc-bpipe/one_sample_location/bpipe.config 
+bpipe.Config	[10]	INFO	|10:34:41 No local configuration file found 
+bpipe.Utils	[11]	INFO	|10:34:42 Read config from /Users/stephens/bpipe-0.9.8.7/bin/../bpipe.config executed in 0.364 seconds 
+bpipe.Utils	[10]	INFO	|10:34:42 Read user config executed in 0.544 seconds 
+bpipe.Runner	[10]	INFO	|10:34:42 Loading tool database ...  
+bpipe.ToolDatabase	[12]	INFO	|10:34:42 Loading tool database from user configuration 
+bpipe.Concurrency	[13]	INFO	|10:34:42 Creating thread pool with 32 threads to execute parallel pipelines 
+bpipe.Tool	[12]	INFO	|10:34:42 Configured meta data about tool samtools 
+bpipe.Tool	[12]	INFO	|10:34:42 Configured meta data about tool bwa 
+bpipe.Tool	[12]	INFO	|10:34:42 Configured meta data about tool bowtie 
+bpipe.Tool	[12]	INFO	|10:34:42 Configured meta data about tool fastqc 
+bpipe.Tool	[12]	INFO	|10:34:42 Configured meta data about tool coverageBed 
+bpipe.Tool	[12]	INFO	|10:34:42 Configured meta data about tool fastx_clipper 
+bpipe.Tool	[12]	INFO	|10:34:42 Configured meta data about tool convert2annovar.pl 
+bpipe.Tool	[12]	INFO	|10:34:42 Configured meta data about tool summarize_annovar.pl 
+bpipe.NotificationManager	[14]	INFO	|10:34:42 Configuring notifications 
+bpipe.Tool	[12]	INFO	|10:34:42 Configured meta data about tool bowtie2 
+bpipe.Tool	[12]	INFO	|10:34:42 Configured meta data about tool GenomeAnalysisTK 
+bpipe.NotificationManager	[14]	INFO	|10:34:42 Trying class name file for notification channel file 
+bpipe.Tool	[12]	INFO	|10:34:42 Configured meta data about tool MarkDuplicates 
+bpipe.Tool	[12]	INFO	|10:34:42 Configured meta data about tool signalp 
+bpipe.Tool	[12]	INFO	|10:34:42 Configured meta data about tool variant_effect_predictor.pl 
+bpipe.Tool	[12]	INFO	|10:34:42 Configured meta data about tool igvtools 
+bpipe.Tool	[12]	INFO	|10:34:42 Configured meta data about tool ls 
+bpipe.Runner	[10]	INFO	|10:34:42 No CLI parameters specified 
+bpipe.NotificationManager	[14]	INFO	|10:34:42 Unable to create notification channel using class file: java.lang.ClassNotFoundException: file 
+bpipe.NotificationManager	[14]	INFO	|10:34:42 Trying class name bpipe.FILENotificationChannel for notification channel file 
+bpipe.NotificationManager	[14]	INFO	|10:34:42 Unable to create notification channel using class bpipe.FILENotificationChannel: java.lang.ClassNotFoundException: bpipe.FILENotificationChannel 
+bpipe.NotificationManager	[14]	INFO	|10:34:42 Trying class name bpipe.file for notification channel file 
+bpipe.NotificationManager	[14]	INFO	|10:34:42 Unable to create notification channel using class bpipe.file: java.lang.ClassNotFoundException: bpipe.file 
+bpipe.NotificationManager	[14]	INFO	|10:34:42 Trying class name bpipe.FileNotificationChannel for notification channel file 
+bpipe.NotificationManager	[14]	INFO	|10:34:42 Successfully created notification channel using class bpipe.FileNotificationChannel 
+bpipe.Runner	[10]	INFO	|10:34:42 Parsing script ...  
+bpipe.Runner	[10]	INFO	|10:34:42 Run ...  
+bpipe.Pipeline	[10]	INFO	|10:34:42 Running with input null 
+bpipe.PipelineCategory	[10]	INFO	|10:34:42 Found closure variable rnorm0 
+bpipe.PipelineCategory	[10]	INFO	|10:34:42 Found closure variable rnorm1 
+bpipe.Pipeline	[10]	WARNING	|10:34:42 Pipeline folder /Users/stephens/bpipes could not be found 
+bpipe.Pipeline	[10]	INFO	|10:34:42 Loaded external reference: args 
+bpipe.Pipeline	[10]	INFO	|10:34:42 External reference args is overridden by local reference 
+bpipe.Pipeline	[10]	INFO	|10:34:42 Loaded external reference: rnorm0 
+bpipe.Pipeline	[10]	INFO	|10:34:42 External reference rnorm0 is overridden by local reference 
+bpipe.Pipeline	[10]	INFO	|10:34:42 Loaded external reference: rnorm1 
+bpipe.Pipeline	[10]	INFO	|10:34:42 External reference rnorm1 is overridden by local reference 
+bpipe.Pipeline	[10]	INFO	|10:34:42 Running segment with inputs null 
+bpipe.Dependencies	[10]	INFO	|10:34:42 Checking input (s) null 
+bpipe.Utils	[10]	INFO	|10:34:42 Output folder scan (concurrency=5) executed in 0.006 seconds 
+bpipe.Utils	[10]	INFO	|10:34:42 Index output graph executed in 0 
+bpipe.PipelineStage	[10]	INFO	|10:34:42 Stage rnorm0 : INPUT=null OUTPUT=rnorm0 
+bpipe.PipelineDelegate	[10]	INFO	|10:34:42 Setting or creating a delegate for context 456335625 body 1886315524/script14443688825111489750960 in thread 1 
+bpipe.PipelineDelegate	[10]	INFO	|10:34:42 Created new delegate bpipe.PipelineDelegate@6e681db8 overriding type script14443688825111489750960 in thread 1 
+bpipe.PipelineContext	[10]	INFO	|10:34:42 No inputs resolved by input wrappers: outputs based on default rnorm0 
+bpipe.PipelineContext	[10]	INFO	|10:34:42 No inputs resolved by input wrappers: outputs based on default rnorm0 
+bpipe.PipelineContext	[10]	INFO	|10:34:42 Tracking outputs referenced=[[]] inferred=[[rnorm0.data, rnorm0.meta]] for command Rscript R/scenarios/rnorm.R 1000 0 rnorm0.data rnorm0.meta 
+bpipe.PipelineContext	[10]	INFO	|10:34:42 Checking actual resolved inputs [] 
+bpipe.Command	[10]	INFO	|10:34:42 Checking for configuration for command Rscript 
+bpipe.Command	[10]	INFO	|10:34:42 Default command properties: [executor:local] 
+bpipe.CommandManager	[10]	INFO	|10:34:42 Using config [executor:local] for command 
+bpipe.CommandManager	[10]	INFO	|10:34:42 Created bpipe command id 2 
+bpipe.Concurrency	[10]	INFO	|10:34:42 Thread main requesting for 1 concurrency permit(s) type threads with 32 available 
+bpipe.Concurrency	[10]	INFO	|10:34:42 Thread main acquired resource threads in amount 1 
+bpipe.Command	[15]	INFO	|10:34:42 Command 2 changing state from null to RUNNING 
+bpipe.executor.ThrottledDelegatingCommandExecutor	[10]	INFO	|10:34:43 Waiting for command to complete before releasing 1 resources 
+bpipe.Command	[10]	INFO	|10:34:43 Command 2 changing state from RUNNING to COMPLETE 
+bpipe.executor.ThrottledDelegatingCommandExecutor	[10]	INFO	|10:34:43 Releasing 1 resources 
+bpipe.Concurrency	[10]	INFO	|10:34:43 Thread main releasing 1 threads 
+bpipe.executor.ThrottledDelegatingCommandExecutor	[10]	INFO	|10:34:43 Released 1 resources 
+bpipe.PipelineStage	[10]	INFO	|10:34:43 Stage rnorm0 returned null as default inputs for next stage 
+bpipe.PipelineStage	[10]	INFO	|10:34:43 Using inferred outputs [rnorm0.data, rnorm0.meta] as outputs because no explicit outputs set 
+bpipe.PipelineStage	[10]	INFO	|10:34:43 Inferring nextInputs from explicit output as [rnorm0.data, rnorm0.meta] 
+bpipe.PipelineStage	[10]	INFO	|10:34:43 Setting next inputs [rnorm0.data, rnorm0.meta] on stage 1732609623, context 456335625 in thread 1 
+bpipe.Dependencies	[10]	INFO	|10:34:43 Context 456335625 for stage rnorm0 has resolved inputs [] 
+bpipe.Dependencies	[10]	INFO	|10:34:43 Saving output file details to file .bpipe/outputs/rnorm0.rnorm0.data.properties for command Rscript R/scenarios/... 
+bpipe.Dependencies	[10]	INFO	|10:34:43 Context 456335625 for stage rnorm0 has resolved inputs [] 
+bpipe.Dependencies	[10]	INFO	|10:34:43 Saving output file details to file .bpipe/outputs/rnorm0.rnorm0.meta.properties for command Rscript R/scenarios/... 
+bpipe.PipelineStage	[10]	INFO	|10:34:43 Checking files: [rnorm0.data, rnorm0.meta] 
+bpipe.Dependencies	[10]	INFO	|10:34:43 Checking output (s) [rnorm0.data, rnorm0.meta] 
+bpipe.Dependencies	[10]	INFO	|10:34:43  Checking file rnorm0.data 
+bpipe.Dependencies	[10]	INFO	|10:34:43  Checking file rnorm0.meta 
+bpipe.Pipeline	[10]	INFO	|10:34:43 Pipeline segment  in thread 1 has finished normally 
+bpipe.Pipeline	[10]	INFO	|10:34:43 Finished running segment for inputs null 
+bpipe.Dependencies	[16]	INFO	|10:34:43 Reading property file .bpipe/outputs/rnorm0.rnorm0.meta.properties 
+bpipe.Dependencies	[17]	INFO	|10:34:43 Reading property file .bpipe/outputs/rnorm0.rnorm0.data.properties 
+bpipe.Utils	[10]	INFO	|10:34:43 Output folder scan (concurrency=5) executed in 0.024 seconds 
+bpipe.Dependencies	[10]	INFO	|10:34:43 External inputs: [[], []] for outputs [rnorm0.data, rnorm0.meta] 
+bpipe.Dependencies	[10]	INFO	|10:34:43 There are 1 output groups 
+bpipe.Dependencies	[10]	INFO	|10:34:43 Subtracting 2 remaining outputs from 2 total outputs 
+bpipe.Dependencies	[10]	INFO	|10:34:43 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|10:34:43 ---- rnorm0.data / entry 1589782904 ---- 
+bpipe.Dependencies	[10]	INFO	|10:34:43 rnorm0.data is newer than input files 
+bpipe.Dependencies	[10]	INFO	|10:34:43 ---- rnorm0.meta / entry 1589782904 ---- 
+bpipe.Dependencies	[10]	INFO	|10:34:43 rnorm0.meta is newer than input files 
+bpipe.Dependencies	[10]	INFO	|10:34:43 ====Finished Output Graph===== 
+bpipe.Utils	[10]	INFO	|10:34:43 Index output graph executed in 0.001 seconds 
+bpipe.Pipeline	[10]	INFO	|10:34:43 Outputs are: 
+		rnorm0.data
+		rnorm0.meta 
+bpipe.Runner	[18]	INFO	|10:34:43 Deleting job file /Users/stephens/.bpipedb/jobs/4165 

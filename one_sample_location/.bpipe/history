@@ -1,0 +1,23 @@
+4054	bpipe run osl.bpipe
+4103	bpipe run osl.bpipe
+4165	bpipe run osl.bpipe
+4224	bpipe run osl.bpipe
+4279	bpipe run osl.bpipe
+4335	bpipe run osl.bpipe
+4393	bpipe run osl.bpipe
+4442	bpipe run osl.bpipe
+4519	bpipe run osl.bpipe
+4576	bpipe run osl.bpipe
+4626	bpipe run osl.bpipe
+4682	bpipe run osl.bpipe
+4924	bpipe run osl.bpipe
+4982	bpipe run osl.bpipe
+5030	bpipe run osl.bpipe s0
+5139	bpipe run osl.bpipe s0
+5205	bpipe run osl.bpipe s0 s1
+5268	bpipe run osl.bpipe s.0 s.1
+5531	bpipe run osl.bpipe s.0 s.1 s.rnorm0.data s.rnorm0.mean.MSE.score s.rnorm0.mean.out s.rnorm0.median.MSE.score s.rnorm0.median.out s.rnorm0.meta s.rnorm1.data s.rnorm1.mean.MSE.score s.rnorm1.mean.out s.rnorm1.median.MSE.score s.rnorm1.median.out s.rnorm1.meta
+5971	bpipe run osl.bpipe s.%
+6021	bpipe run osl.bpipe s.%
+6068	bpipe run osl.bpipe s.0 s.1
+6319	bpipe run osl.bpipe s_0.txt s_1.txt

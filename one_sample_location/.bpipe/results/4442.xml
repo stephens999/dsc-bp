@@ -1,0 +1,31 @@
+<job id='4442'>
+  <succeeded>true</succeeded>
+  <startDateTime>2015-10-08 22:40:49</startDateTime>
+  <endDateTime>2015-10-08 22:40:50</endDateTime>
+  <commands>
+    <command>
+      <stage>rnorm0</stage>
+      <branch></branch>
+      <content>Rscript R/scenarios/rnorm.R 1000 0 rnorm0.data rnorm0.meta</content>
+      <start>2015-10-08 22:40:49</start>
+      <end>2015-10-08 22:40:50</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>mean</stage>
+      <branch></branch>
+      <content>Rscript R/methods/mean.R rnorm0.data rnorm0.mean.out</content>
+      <start>2015-10-08 22:40:50</start>
+      <end>2015-10-08 22:40:50</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>MSE</stage>
+      <branch></branch>
+      <content>Rscript R/scores/MSE.R rnorm0.mean.out rnorm0.meta rnorm0.mean.MSE.score</content>
+      <start>2015-10-08 22:40:50</start>
+      <end>2015-10-08 22:40:50</end>
+      <exitCode>0</exitCode>
+    </command>
+  </commands>
+</job>

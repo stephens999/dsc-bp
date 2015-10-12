@@ -1,0 +1,18 @@
+<job id='4924'>
+  <succeeded>true</succeeded>
+  <startDateTime>2015-10-09 07:28:29</startDateTime>
+  <endDateTime>2015-10-09 07:28:31</endDateTime>
+  <commands>
+    <command>
+      <stage>set_seed</stage>
+      <branch>*.1</branch>
+      <content>unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444400910502237000-0"  Rscript - &lt;&lt;'!'
+            set.seed(1)
+!
+</content>
+      <start>2015-10-09 07:28:30</start>
+      <end>2015-10-09 07:28:31</end>
+      <exitCode>0</exitCode>
+    </command>
+  </commands>
+</job>

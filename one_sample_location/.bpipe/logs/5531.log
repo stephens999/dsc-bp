@@ -1,0 +1,1120 @@
+[----]	====================================================================================================
+[----]	|                              Starting Pipeline at 2015-10-09 07:44                               |
+[----]	====================================================================================================
+[rnorm0.median.out.1]	
+[rnorm0.median.out.1]	================================= Stage rnorm0 [rnorm0.median.out] =================================
+[rnorm0.data.1]	
+[rnorm0.data.1]	==================================== Stage rnorm0 [rnorm0.data] ====================================
+[rnorm0.mean.out.1]	
+[rnorm0.mean.out.1]	================================== Stage rnorm0 [rnorm0.mean.out] ==================================
+[rnorm0.meta.1]	
+[rnorm0.meta.1]	==================================== Stage rnorm0 [rnorm0.meta] ====================================
+[rnorm0.mean.MSE.score.1]	
+[rnorm0.mean.MSE.score.1]	=============================== Stage rnorm0 [rnorm0.mean.MSE.score] ===============================
+[rnorm0.median.MSE.score.1]	
+[rnorm0.median.MSE.score.1]	============================== Stage rnorm0 [rnorm0.median.MSE.score] ==============================
+[1.1]	
+[1.1]	========================================= Stage rnorm0 [1] =========================================
+[0.1]	
+[0.1]	========================================= Stage rnorm0 [0] =========================================
+[rnorm1.mean.MSE.score.1]	
+[rnorm1.mean.MSE.score.1]	=============================== Stage rnorm0 [rnorm1.mean.MSE.score] ===============================
+[rnorm0.data.2]	
+[rnorm0.data.2]	==================================== Stage rnorm0 [rnorm0.data] ====================================
+[rnorm1.mean.out.1]	
+[rnorm1.mean.out.1]	================================== Stage rnorm0 [rnorm1.mean.out] ==================================
+[rnorm0.median.out.2]	
+[rnorm0.median.out.2]	================================= Stage rnorm0 [rnorm0.median.out] =================================
+[rnorm0.mean.MSE.score.2]	
+[rnorm0.mean.MSE.score.2]	=============================== Stage rnorm0 [rnorm0.mean.MSE.score] ===============================
+[rnorm1.data.1]	
+[rnorm1.data.1]	==================================== Stage rnorm0 [rnorm1.data] ====================================
+[1.2]	
+[1.2]	========================================= Stage rnorm0 [1] =========================================
+[rnorm1.median.out.1]	
+[rnorm1.median.out.1]	================================= Stage rnorm0 [rnorm1.median.out] =================================
+[rnorm1.data.2]	
+[rnorm1.data.2]	==================================== Stage rnorm0 [rnorm1.data] ====================================
+[rnorm0.meta.3]	
+[rnorm0.meta.3]	==================================== Stage rnorm1 [rnorm0.meta] ====================================
+[rnorm0.mean.MSE.score.4]	
+[rnorm0.mean.MSE.score.4]	=============================== Stage rnorm1 [rnorm0.mean.MSE.score] ===============================
+[rnorm1.mean.MSE.score.4]	
+[rnorm1.mean.MSE.score.4]	=============================== Stage rnorm1 [rnorm1.mean.MSE.score] ===============================
+[rnorm0.median.MSE.score.2]	
+[rnorm0.median.MSE.score.2]	============================== Stage rnorm0 [rnorm0.median.MSE.score] ==============================
+[rnorm1.meta.4]	
+[rnorm1.meta.4]	==================================== Stage rnorm1 [rnorm1.meta] ====================================
+[rnorm0.mean.out.2]	
+[rnorm0.mean.out.2]	================================== Stage rnorm0 [rnorm0.mean.out] ==================================
+[rnorm1.median.out.2]	
+[rnorm1.median.out.2]	================================= Stage rnorm0 [rnorm1.median.out] =================================
+[1.4]	
+[1.4]	========================================= Stage rnorm1 [1] =========================================
+[rnorm0.data.3]	
+[rnorm0.data.3]	==================================== Stage rnorm1 [rnorm0.data] ====================================
+[rnorm1.median.MSE.score.1]	
+[rnorm1.median.MSE.score.1]	============================== Stage rnorm0 [rnorm1.median.MSE.score] ==============================
+[rnorm1.mean.MSE.score.2]	
+[rnorm1.mean.MSE.score.2]	=============================== Stage rnorm0 [rnorm1.mean.MSE.score] ===============================
+[rnorm1.meta.1]	
+[rnorm1.meta.1]	==================================== Stage rnorm0 [rnorm1.meta] ====================================
+[rnorm0.mean.out.3]	
+[rnorm0.mean.out.3]	================================== Stage rnorm1 [rnorm0.mean.out] ==================================
+[0.3]	
+[0.3]	========================================= Stage rnorm1 [0] =========================================
+[rnorm1.median.MSE.score.2]	
+[rnorm1.median.MSE.score.2]	============================== Stage rnorm0 [rnorm1.median.MSE.score] ==============================
+[rnorm0.meta.2]	
+[rnorm0.meta.2]	==================================== Stage rnorm0 [rnorm0.meta] ====================================
+[rnorm1.meta.2]	
+[rnorm1.meta.2]	==================================== Stage rnorm0 [rnorm1.meta] ====================================
+[0.4]	
+[0.4]	========================================= Stage rnorm1 [0] =========================================
+[rnorm0.mean.out.4]	
+[rnorm0.mean.out.4]	================================== Stage rnorm1 [rnorm0.mean.out] ==================================
+[1.3]	
+[1.3]	========================================= Stage rnorm1 [1] =========================================
+[rnorm1.mean.MSE.score.3]	
+[rnorm1.mean.MSE.score.3]	=============================== Stage rnorm1 [rnorm1.mean.MSE.score] ===============================
+[rnorm1.mean.out.2]	
+[rnorm1.mean.out.2]	================================== Stage rnorm0 [rnorm1.mean.out] ==================================
+[0.2]	
+[0.2]	========================================= Stage rnorm0 [0] =========================================
+[rnorm0.median.out.4]	
+[rnorm0.median.out.4]	================================= Stage rnorm1 [rnorm0.median.out] =================================
+[rnorm1.median.out.3]	
+[rnorm1.median.out.3]	================================= Stage rnorm1 [rnorm1.median.out] =================================
+[rnorm0.median.MSE.score.4]	
+[rnorm0.median.MSE.score.4]	============================== Stage rnorm1 [rnorm0.median.MSE.score] ==============================
+[rnorm0.data.4]	
+[rnorm0.data.4]	==================================== Stage rnorm1 [rnorm0.data] ====================================
+[rnorm0.mean.MSE.score.3]	
+[rnorm0.mean.MSE.score.3]	=============================== Stage rnorm1 [rnorm0.mean.MSE.score] ===============================
+[rnorm1.median.MSE.score.3]	
+[rnorm1.median.MSE.score.3]	============================== Stage rnorm1 [rnorm1.median.MSE.score] ==============================
+[rnorm0.median.MSE.score.3]	
+[rnorm0.median.MSE.score.3]	============================== Stage rnorm1 [rnorm0.median.MSE.score] ==============================
+[rnorm1.data.3]	
+[rnorm1.data.3]	==================================== Stage rnorm1 [rnorm1.data] ====================================
+[rnorm0.meta.4]	
+[rnorm0.meta.4]	==================================== Stage rnorm1 [rnorm0.meta] ====================================
+[rnorm1.median.MSE.score.4]	
+[rnorm1.median.MSE.score.4]	============================== Stage rnorm1 [rnorm1.median.MSE.score] ==============================
+[rnorm1.mean.out.3]	
+[rnorm1.mean.out.3]	================================== Stage rnorm1 [rnorm1.mean.out] ==================================
+[rnorm0.median.out.3]	
+[rnorm0.median.out.3]	================================= Stage rnorm1 [rnorm0.median.out] =================================
+[rnorm1.mean.out.4]	
+[rnorm1.mean.out.4]	================================== Stage rnorm1 [rnorm1.mean.out] ==================================
+[rnorm1.meta.3]	
+[rnorm1.meta.3]	==================================== Stage rnorm1 [rnorm1.meta] ====================================
+[rnorm1.median.out.4]	
+[rnorm1.median.out.4]	================================= Stage rnorm1 [rnorm1.median.out] =================================
+[rnorm1.data.4]	
+[rnorm1.data.4]	==================================== Stage rnorm1 [rnorm1.data] ====================================
+[1.1.67]	Read 1 item
+[rnorm0.meta.1.64]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm0.meta.1.64]	  scan() expected 'a real', got 'X'
+[rnorm0.meta.1.64]	Calls: set.seed -> scan
+[rnorm0.meta.1.64]	Execution halted
+[rnorm0.mean.MSE.score.1.63]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm0.mean.MSE.score.1.63]	  scan() expected 'a real', got 'X'
+[rnorm0.mean.MSE.score.1.63]	Calls: set.seed -> scan
+[rnorm0.mean.MSE.score.1.63]	Execution halted
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401867489830000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.meta"))
+!
+ 
+
+[rnorm0.mean.out.1.66]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm0.mean.out.1.66]	  scan() expected 'a real', got 'X'
+[rnorm0.mean.out.1.66]	Calls: set.seed -> scan
+[rnorm0.data.2.72]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm0.data.2.72]	  scan() expected 'a real', got 'X'
+[rnorm0.data.2.72]	Calls: set.seed -> scan
+[rnorm0.data.2.72]	Execution halted
+[rnorm0.mean.out.1.66]	Execution halted
+[rnorm0.median.out.1.68]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm0.median.out.1.68]	  scan() expected 'a real', got 'X'
+[rnorm0.median.out.1.68]	Calls: set.seed -> scan
+[rnorm0.median.out.1.68]	Execution halted
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401867485851000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.mean.MSE.score"))
+!
+ 
+
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401867755271000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.data"))
+!
+ 
+
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401867482266000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.mean.out"))
+!
+ 
+
+[rnorm1.mean.MSE.score.1.71]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm1.mean.MSE.score.1.71]	  scan() expected 'a real', got 'X'
+[rnorm1.mean.MSE.score.1.71]	Calls: set.seed -> scan
+[rnorm1.mean.MSE.score.1.71]	Execution halted
+[rnorm0.mean.MSE.score.2.75]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm0.mean.MSE.score.2.75]	  scan() expected 'a real', got 'X'
+[rnorm0.mean.MSE.score.2.75]	Calls: set.seed -> scan
+[rnorm0.mean.MSE.score.2.75]	Execution halted
+[0.1.69]	Read 1 item
+[rnorm0.median.MSE.score.1.70]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm0.median.MSE.score.1.70]	  scan() expected 'a real', got 'X'
+[rnorm0.median.MSE.score.1.70]	Calls: set.seed -> scan
+[rnorm0.median.MSE.score.1.70]	Execution halted
+[rnorm0.data.1.65]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm0.data.1.65]	  scan() expected 'a real', got 'X'
+[rnorm0.data.1.65]	Calls: set.seed -> scan
+[rnorm0.data.1.65]	Execution halted
+[rnorm1.mean.out.1.74]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm1.mean.out.1.74]	  scan() expected 'a real', got 'X'
+[rnorm1.mean.out.1.74]	Calls: set.seed -> scan
+[rnorm1.mean.out.1.74]	Execution halted
+[rnorm0.median.out.2.73]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm0.median.out.2.73]	  scan() expected 'a real', got 'X'
+[rnorm0.median.out.2.73]	Calls: set.seed -> scan
+[rnorm0.median.out.2.73]	Execution halted
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401867482982000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.median.out"))
+!
+ 
+
+[1.1]	
+[1.1]	========================================== Stage mean [1] ==========================================
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401867563649000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.mean.MSE.score"))
+!
+ 
+
+[rnorm1.median.MSE.score.1.77]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm1.median.MSE.score.1.77]	  scan() expected 'a real', got 'X'
+[rnorm1.median.MSE.score.1.77]	Calls: set.seed -> scan
+[rnorm1.median.MSE.score.1.77]	Execution halted
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401867499788000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.median.MSE.score"))
+!
+ 
+
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868035819000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.mean.MSE.score"))
+!
+ 
+
+[0.1]	
+[0.1]	========================================== Stage mean [0] ==========================================
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401867856537000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.median.out"))
+!
+ 
+
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868224475000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.mean.out"))
+!
+ 
+
+[rnorm1.median.out.1.78]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm1.median.out.1.78]	  scan() expected 'a real', got 'X'
+[rnorm1.median.out.1.78]	Calls: set.seed -> scan
+[rnorm1.median.out.1.78]	Execution halted
+[1.2.76]	Read 1 item
+[rnorm1.data.1.79]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm1.data.1.79]	  scan() expected 'a real', got 'X'
+[rnorm1.data.1.79]	Calls: set.seed -> scan
+[rnorm1.data.1.79]	Execution halted
+[rnorm0.mean.out.2.80]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm0.mean.out.2.80]	  scan() expected 'a real', got 'X'
+[rnorm0.mean.out.2.80]	Calls: set.seed -> scan
+[rnorm0.mean.out.2.80]	Execution halted
+[rnorm1.data.2.86]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm1.data.2.86]	  scan() expected 'a real', got 'X'
+[rnorm1.data.2.86]	Calls: set.seed -> scan
+[rnorm1.data.2.86]	Execution halted
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401867482447000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.data"))
+!
+ 
+
+[rnorm1.meta.2.88]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm1.meta.2.88]	  scan() expected 'a real', got 'X'
+[rnorm1.meta.2.88]	Calls: set.seed -> scan
+[rnorm1.meta.2.88]	Execution halted
+[rnorm0.data.3.81]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm0.data.3.81]	  scan() expected 'a real', got 'X'
+[rnorm0.data.3.81]	Calls: set.seed -> scan
+[rnorm0.data.3.81]	Execution halted
+[rnorm0.median.MSE.score.2.82]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm0.median.MSE.score.2.82]	  scan() expected 'a real', got 'X'
+[rnorm0.median.MSE.score.2.82]	Calls: set.seed -> scan
+[rnorm0.median.MSE.score.2.82]	Execution halted
+[1.3.93]	Read 1 item
+[rnorm0.meta.3.87]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm0.meta.3.87]	  scan() expected 'a real', got 'X'
+[rnorm0.meta.3.87]	Calls: set.seed -> scan
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868510590000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.median.MSE.score"))
+!
+ 
+
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868416181000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.median.out"))
+!
+ 
+
+[rnorm0.meta.3.87]	Execution halted
+[rnorm0.mean.MSE.score.4.83]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm0.mean.MSE.score.4.83]	  scan() expected 'a real', got 'X'
+[rnorm0.mean.MSE.score.4.83]	Calls: set.seed -> scan
+[rnorm0.mean.MSE.score.4.83]	Execution halted
+[rnorm1.meta.1.94]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm1.mean.out.2.90]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm1.meta.1.94]	  scan() expected 'a real', got 'X'
+[rnorm1.mean.out.2.90]	  scan() expected 'a real', got 'X'
+[rnorm1.mean.out.2.90]	Calls: set.seed -> scan
+[rnorm1.meta.1.94]	Calls: set.seed -> scan
+[rnorm1.mean.out.2.90]	Execution halted
+[rnorm1.meta.1.94]	Execution halted
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868497349000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.data"))
+!
+ 
+
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868573765000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.data"))
+!
+ 
+
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868607574000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.median.MSE.score"))
+!
+ 
+
+[rnorm0.meta.2.85]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm0.meta.2.85]	  scan() expected 'a real', got 'X'
+[rnorm0.meta.2.85]	Calls: set.seed -> scan
+[rnorm0.meta.2.85]	Execution halted
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868724757000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.data"))
+!
+ 
+
+[rnorm1.mean.MSE.score.2.91]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm1.mean.MSE.score.2.91]	  scan() expected 'a real', got 'X'
+[rnorm1.mean.MSE.score.2.91]	Calls: set.seed -> scan
+[rnorm1.mean.MSE.score.2.91]	Execution halted
+[rnorm1.meta.4.89]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm1.meta.4.89]	  scan() expected 'a real', got 'X'
+[rnorm1.meta.4.89]	Calls: set.seed -> scan
+[rnorm1.meta.4.89]	Execution halted
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868492389000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.mean.out"))
+!
+ 
+
+[1.2]	
+[1.2]	========================================= Stage median [1] =========================================
+[rnorm1.median.out.2.84]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm1.median.out.2.84]	  scan() expected 'a real', got 'X'
+[rnorm1.median.out.2.84]	Calls: set.seed -> scan
+[rnorm1.median.out.2.84]	Execution halted
+[rnorm0.mean.out.4.92]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm0.mean.out.4.92]	  scan() expected 'a real', got 'X'
+[rnorm0.mean.out.4.92]	Calls: set.seed -> scan
+[rnorm0.mean.out.4.92]	Execution halted
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868502823000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.meta"))
+!
+ 
+
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868586612000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.mean.MSE.score"))
+!
+ 
+
+[1.1]	
+[1.1]	========================================== Stage MSE [1] ===========================================
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869053795000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.mean.out"))
+!
+ 
+
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868863101000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.meta"))
+!
+ 
+
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869021539000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.meta"))
+!
+ 
+
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868678612000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.meta"))
+!
+ 
+
+[0.1]	
+[0.1]	========================================== Stage MSE [0] ===========================================
+[1.3]	
+[1.3]	========================================== Stage mean [1] ==========================================
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868601344000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.median.out"))
+!
+ 
+
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868611847000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.meta"))
+!
+ 
+
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869003648000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.mean.MSE.score"))
+!
+ 
+
+[rnorm1.median.MSE.score.2.95]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm1.median.MSE.score.2.95]	  scan() expected 'a real', got 'X'
+[rnorm1.median.MSE.score.2.95]	Calls: set.seed -> scan
+[rnorm1.median.MSE.score.2.95]	Execution halted
+[rnorm1.mean.MSE.score.4.96]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm1.mean.MSE.score.4.96]	  scan() expected 'a real', got 'X'
+[rnorm1.mean.MSE.score.4.96]	Calls: set.seed -> scan
+[rnorm1.mean.MSE.score.4.96]	Execution halted
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868835262000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.mean.out"))
+!
+ 
+
+[1.3]	
+[1.3]	========================================== Stage MSE [1] ===========================================
+[1.2]	
+[1.2]	========================================== Stage MSE [1] ===========================================
+[0.2.97]	Read 1 item
+[0.4.98]	Read 1 item
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869025248000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.median.MSE.score"))
+!
+ 
+
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868774920000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.mean.MSE.score"))
+!
+ 
+
+[0.4]	
+[0.4]	========================================= Stage median [0] =========================================
+[0.2]	
+[0.2]	========================================= Stage median [0] =========================================
+[rnorm1.median.MSE.score.3.99]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm1.median.MSE.score.3.99]	  scan() expected 'a real', got 'X'
+[rnorm1.median.MSE.score.3.99]	Calls: set.seed -> scan
+[rnorm1.median.MSE.score.3.99]	Execution halted
+[rnorm0.mean.MSE.score.3.104]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm0.mean.MSE.score.3.104]	  scan() expected 'a real', got 'X'
+[rnorm0.mean.MSE.score.3.104]	Calls: set.seed -> scan
+[rnorm0.mean.MSE.score.3.104]	Execution halted
+[rnorm0.median.MSE.score.4.102]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm0.median.MSE.score.4.102]	  scan() expected 'a real', got 'X'
+[rnorm0.median.MSE.score.4.102]	Calls: set.seed -> scan
+[rnorm0.median.MSE.score.4.102]	Execution halted
+[0.3.100]	Read 1 item
+[1.4.101]	Read 1 item
+[rnorm0.data.4.105]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm0.data.4.105]	  scan() expected 'a real', got 'X'
+[rnorm0.data.4.105]	Calls: set.seed -> scan
+[rnorm0.data.4.105]	Execution halted
+[1.4]	
+[1.4]	========================================= Stage median [1] =========================================
+[0.3]	
+[0.3]	========================================== Stage mean [0] ==========================================
+[rnorm0.mean.out.3.103]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm0.mean.out.3.103]	  scan() expected 'a real', got 'X'
+[rnorm0.mean.out.3.103]	Calls: set.seed -> scan
+[rnorm0.mean.out.3.103]	Execution halted
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869485590000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.median.MSE.score"))
+!
+ 
+
+[0.2]	
+[0.2]	========================================== Stage MSE [0] ===========================================
+[0.4]	
+[0.4]	========================================== Stage MSE [0] ===========================================
+[rnorm1.median.out.3.107]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm1.median.out.3.107]	  scan() expected 'a real', got 'X'
+[rnorm1.median.out.3.107]	Calls: set.seed -> scan
+[rnorm1.median.out.3.107]	Execution halted
+[rnorm1.mean.MSE.score.3.106]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm1.mean.MSE.score.3.106]	  scan() expected 'a real', got 'X'
+[rnorm1.mean.MSE.score.3.106]	Calls: set.seed -> scan
+[rnorm1.mean.MSE.score.3.106]	Execution halted
+[1.4]	
+[1.4]	========================================== Stage MSE [1] ===========================================
+[rnorm1.data.4.109]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm1.data.4.109]	  scan() expected 'a real', got 'X'
+[rnorm1.data.4.109]	Calls: set.seed -> scan
+[rnorm1.data.4.109]	Execution halted
+[rnorm0.median.out.4.108]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm0.median.out.4.108]	  scan() expected 'a real', got 'X'
+[rnorm0.median.out.4.108]	Calls: set.seed -> scan
+[rnorm0.median.out.4.108]	Execution halted
+[rnorm0.median.out.3.112]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm0.median.out.3.112]	  scan() expected 'a real', got 'X'
+[rnorm0.median.out.3.112]	Calls: set.seed -> scan
+[rnorm0.median.out.3.112]	Execution halted
+[0.3]	
+[0.3]	========================================== Stage MSE [0] ===========================================
+[rnorm1.mean.out.3.113]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm1.mean.out.3.113]	  scan() expected 'a real', got 'X'
+[rnorm1.mean.out.3.113]	Calls: set.seed -> scan
+[rnorm1.mean.out.3.113]	Execution halted
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869564789000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.mean.MSE.score"))
+!
+ 
+
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869579216000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.data"))
+!
+ 
+
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869549051000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.median.MSE.score"))
+!
+ 
+
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869473626000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.mean.out"))
+!
+ 
+
+[rnorm1.median.MSE.score.4.114]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm1.median.MSE.score.4.114]	  scan() expected 'a real', got 'X'
+[rnorm1.median.MSE.score.4.114]	Calls: set.seed -> scan
+[rnorm1.median.MSE.score.4.114]	Execution halted
+[rnorm1.mean.out.4.115]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm1.mean.out.4.115]	  scan() expected 'a real', got 'X'
+[rnorm1.mean.out.4.115]	Calls: set.seed -> scan
+[rnorm1.mean.out.4.115]	Execution halted
+[rnorm1.meta.3.111]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm1.meta.3.111]	  scan() expected 'a real', got 'X'
+[rnorm1.meta.3.111]	Calls: set.seed -> scan
+[rnorm1.meta.3.111]	Execution halted
+[rnorm1.median.out.4.110]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm1.median.out.4.110]	  scan() expected 'a real', got 'X'
+[rnorm1.median.out.4.110]	Calls: set.seed -> scan
+[rnorm1.median.out.4.110]	Execution halted
+[rnorm0.median.MSE.score.3.117]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm0.median.MSE.score.3.117]	  scan() expected 'a real', got 'X'
+[rnorm0.median.MSE.score.3.117]	Calls: set.seed -> scan
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869594568000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.mean.MSE.score"))
+!
+ 
+
+[rnorm0.median.MSE.score.3.117]	Execution halted
+[rnorm1.data.3.118]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm1.data.3.118]	  scan() expected 'a real', got 'X'
+[rnorm1.data.3.118]	Calls: set.seed -> scan
+[rnorm1.data.3.118]	Execution halted
+[rnorm0.meta.4.116]	Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
+[rnorm0.meta.4.116]	  scan() expected 'a real', got 'X'
+[rnorm0.meta.4.116]	Calls: set.seed -> scan
+[rnorm0.meta.4.116]	Execution halted
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869604725000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.data"))
+!
+ 
+
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869593814000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.median.out"))
+!
+ 
+
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869603184000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.median.out"))
+!
+ 
+
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869625951000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.median.out"))
+!
+ 
+
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869633472000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.mean.out"))
+!
+ 
+
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869628331000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.median.MSE.score"))
+!
+ 
+
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869625036000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.mean.out"))
+!
+ 
+
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869613546000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.meta"))
+!
+ 
+
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869609468000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.median.out"))
+!
+ 
+
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869752607000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.median.MSE.score"))
+!
+ 
+
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869760519000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.data"))
+!
+ 
+
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869754585000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.meta"))
+!
+ 
+
+
+========================================= Pipeline Failed ==========================================
+
+One or more parallel stages aborted. The following messages were reported: 
+
+Branch rnorm0.data.1 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401867482447000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.data"))
+!
+
+
+Branch rnorm0.mean.MSE.score.1 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401867485851000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.mean.MSE.score"))
+!
+
+
+Branch rnorm0.mean.out.1 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401867482266000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.mean.out"))
+!
+
+
+Branch rnorm0.median.MSE.score.1 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401867499788000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.median.MSE.score"))
+!
+
+
+Branch rnorm0.median.out.1 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401867482982000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.median.out"))
+!
+
+
+Branch rnorm0.meta.1 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401867489830000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.meta"))
+!
+
+
+Branch rnorm1.data.1 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868497349000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.data"))
+!
+
+
+Branch rnorm1.mean.MSE.score.1 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401867563649000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.mean.MSE.score"))
+!
+
+
+Branch rnorm1.mean.out.1 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868224475000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.mean.out"))
+!
+
+
+Branch rnorm1.median.MSE.score.1 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868510590000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.median.MSE.score"))
+!
+
+
+Branch rnorm1.median.out.1 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868416181000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.median.out"))
+!
+
+
+Branch rnorm1.meta.1 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869021539000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.meta"))
+!
+
+
+Branch rnorm0.data.2 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401867755271000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.data"))
+!
+
+
+Branch rnorm0.mean.MSE.score.2 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868035819000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.mean.MSE.score"))
+!
+
+
+Branch rnorm0.mean.out.2 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868492389000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.mean.out"))
+!
+
+
+Branch rnorm0.median.MSE.score.2 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868607574000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.median.MSE.score"))
+!
+
+
+Branch rnorm0.median.out.2 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401867856537000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.median.out"))
+!
+
+
+Branch rnorm0.meta.2 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868678612000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.meta"))
+!
+
+
+Branch rnorm1.data.2 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868724757000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.data"))
+!
+
+
+Branch rnorm1.mean.MSE.score.2 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869003648000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.mean.MSE.score"))
+!
+
+
+Branch rnorm1.mean.out.2 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869053795000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.mean.out"))
+!
+
+
+Branch rnorm1.median.MSE.score.2 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869025248000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.median.MSE.score"))
+!
+
+
+Branch rnorm1.median.out.2 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868601344000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.median.out"))
+!
+
+
+Branch rnorm1.meta.2 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868863101000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.meta"))
+!
+
+
+Branch rnorm0.data.3 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868573765000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.data"))
+!
+
+
+Branch rnorm0.mean.MSE.score.3 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869564789000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.mean.MSE.score"))
+!
+
+
+Branch rnorm0.mean.out.3 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869473626000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.mean.out"))
+!
+
+
+Branch rnorm0.median.MSE.score.3 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869752607000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.median.MSE.score"))
+!
+
+
+Branch rnorm0.median.out.3 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869625951000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.median.out"))
+!
+
+
+Branch rnorm0.meta.3 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868502823000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.meta"))
+!
+
+
+Branch rnorm1.data.3 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869760519000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.data"))
+!
+
+
+Branch rnorm1.mean.MSE.score.3 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869594568000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.mean.MSE.score"))
+!
+
+
+Branch rnorm1.mean.out.3 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869633472000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.mean.out"))
+!
+
+
+Branch rnorm1.median.MSE.score.3 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869485590000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.median.MSE.score"))
+!
+
+
+Branch rnorm1.median.out.3 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869593814000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.median.out"))
+!
+
+
+Branch rnorm1.meta.3 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869613546000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.meta"))
+!
+
+
+Branch rnorm0.data.4 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869579216000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.data"))
+!
+
+
+Branch rnorm0.mean.MSE.score.4 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868586612000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.mean.MSE.score"))
+!
+
+
+Branch rnorm0.mean.out.4 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868835262000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.mean.out"))
+!
+
+
+Branch rnorm0.median.MSE.score.4 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869549051000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.median.MSE.score"))
+!
+
+
+Branch rnorm0.median.out.4 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869603184000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.median.out"))
+!
+
+
+Branch rnorm0.meta.4 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869754585000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.meta"))
+!
+
+
+Branch rnorm1.data.4 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869604725000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.data"))
+!
+
+
+Branch rnorm1.mean.MSE.score.4 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868774920000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.mean.MSE.score"))
+!
+
+
+Branch rnorm1.mean.out.4 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869625036000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.mean.out"))
+!
+
+
+Branch rnorm1.median.MSE.score.4 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869628331000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.median.MSE.score"))
+!
+
+
+Branch rnorm1.median.out.4 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869609468000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.median.out"))
+!
+
+
+Branch rnorm1.meta.4 in stage Unknown reported message:
+
+Command failed with exit status = 1 : 
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868611847000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.meta"))
+!
+
+

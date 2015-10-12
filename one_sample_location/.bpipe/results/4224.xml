@@ -1,0 +1,15 @@
+<job id='4224'>
+  <succeeded>true</succeeded>
+  <startDateTime>2015-10-08 22:36:36</startDateTime>
+  <endDateTime>2015-10-08 22:36:37</endDateTime>
+  <commands>
+    <command>
+      <stage>mean</stage>
+      <branch></branch>
+      <content>Rscript R/methods/mean.R rnorm0.data rnorm0.mean.out</content>
+      <start>2015-10-08 22:36:37</start>
+      <end>2015-10-08 22:36:37</end>
+      <exitCode>0</exitCode>
+    </command>
+  </commands>
+</job>

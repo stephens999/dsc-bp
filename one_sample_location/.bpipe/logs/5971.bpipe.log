@@ -1,0 +1,330 @@
+bpipe.Runner	[10]	INFO	|7:45:20 Starting 
+bpipe.Runner	[10]	INFO	|7:45:20 OS: Mac OS X (10.10.3) Java: 1.6.0_65 Vendor: Apple Inc. 
+bpipe.Runner	[10]	INFO	|7:45:20 Initializing plugins ... 
+bpipe.Config	[10]	INFO	|7:45:20 No plugins directory found: /Users/stephens/Dropbox/Documents/git/dsc-bpipe/one_sample_location/.bpipe/plugins 
+bpipe.Runner	[10]	INFO	|7:45:20 Reading user config ...  
+bpipe.Config	[10]	INFO	|7:45:20 No configuration file found in same dir as pipeline file /Users/stephens/Dropbox/Documents/git/dsc-bpipe/one_sample_location/bpipe.config 
+bpipe.Config	[10]	INFO	|7:45:20 No local configuration file found 
+bpipe.Utils	[11]	INFO	|7:45:21 Read config from /Users/stephens/bpipe-0.9.8.7/bin/../bpipe.config executed in 0.351 seconds 
+bpipe.Utils	[10]	INFO	|7:45:21 Read user config executed in 0.532 seconds 
+bpipe.Runner	[10]	INFO	|7:45:21 Loading tool database ...  
+bpipe.ToolDatabase	[12]	INFO	|7:45:21 Loading tool database from user configuration 
+bpipe.Tool	[12]	INFO	|7:45:21 Configured meta data about tool samtools 
+bpipe.Tool	[12]	INFO	|7:45:21 Configured meta data about tool bwa 
+bpipe.Tool	[12]	INFO	|7:45:21 Configured meta data about tool bowtie 
+bpipe.Tool	[12]	INFO	|7:45:21 Configured meta data about tool fastqc 
+bpipe.Tool	[12]	INFO	|7:45:21 Configured meta data about tool coverageBed 
+bpipe.Tool	[12]	INFO	|7:45:21 Configured meta data about tool fastx_clipper 
+bpipe.Tool	[12]	INFO	|7:45:21 Configured meta data about tool convert2annovar.pl 
+bpipe.Tool	[12]	INFO	|7:45:21 Configured meta data about tool summarize_annovar.pl 
+bpipe.Tool	[12]	INFO	|7:45:21 Configured meta data about tool bowtie2 
+bpipe.Tool	[12]	INFO	|7:45:21 Configured meta data about tool GenomeAnalysisTK 
+bpipe.Tool	[12]	INFO	|7:45:21 Configured meta data about tool MarkDuplicates 
+bpipe.Tool	[12]	INFO	|7:45:21 Configured meta data about tool signalp 
+bpipe.Tool	[12]	INFO	|7:45:21 Configured meta data about tool variant_effect_predictor.pl 
+bpipe.Tool	[12]	INFO	|7:45:21 Configured meta data about tool igvtools 
+bpipe.Tool	[12]	INFO	|7:45:21 Configured meta data about tool ls 
+bpipe.Concurrency	[13]	INFO	|7:45:21 Creating thread pool with 32 threads to execute parallel pipelines 
+bpipe.NotificationManager	[14]	INFO	|7:45:21 Configuring notifications 
+bpipe.NotificationManager	[14]	INFO	|7:45:21 Trying class name file for notification channel file 
+bpipe.NotificationManager	[14]	INFO	|7:45:21 Unable to create notification channel using class file: java.lang.ClassNotFoundException: file 
+bpipe.NotificationManager	[14]	INFO	|7:45:21 Trying class name bpipe.FILENotificationChannel for notification channel file 
+bpipe.NotificationManager	[14]	INFO	|7:45:21 Unable to create notification channel using class bpipe.FILENotificationChannel: java.lang.ClassNotFoundException: bpipe.FILENotificationChannel 
+bpipe.NotificationManager	[14]	INFO	|7:45:21 Trying class name bpipe.file for notification channel file 
+bpipe.Runner	[10]	INFO	|7:45:21 No CLI parameters specified 
+bpipe.NotificationManager	[14]	INFO	|7:45:21 Unable to create notification channel using class bpipe.file: java.lang.ClassNotFoundException: bpipe.file 
+bpipe.NotificationManager	[14]	INFO	|7:45:21 Trying class name bpipe.FileNotificationChannel for notification channel file 
+bpipe.NotificationManager	[14]	INFO	|7:45:21 Successfully created notification channel using class bpipe.FileNotificationChannel 
+bpipe.Runner	[10]	INFO	|7:45:21 Parsing script ...  
+bpipe.Runner	[10]	INFO	|7:45:21 Run ...  
+bpipe.Pipeline	[10]	INFO	|7:45:21 Running with input [s.%] 
+bpipe.PipelineCategory	[10]	INFO	|7:45:21 Found closure variable rnorm0 
+bpipe.PipelineCategory	[10]	INFO	|7:45:21 Found closure variable rnorm1 
+bpipe.PipelineCategory	[10]	INFO	|7:45:21 Found closure variable mean 
+bpipe.PipelineCategory	[10]	INFO	|7:45:21 Found closure variable median 
+bpipe.PipelineCategory	[10]	INFO	|7:45:21 Found closure variable MSE 
+bpipe.Pipeline	[10]	WARNING	|7:45:21 Pipeline folder /Users/stephens/bpipes could not be found 
+bpipe.Pipeline	[10]	INFO	|7:45:21 Loaded external reference: args 
+bpipe.Pipeline	[10]	INFO	|7:45:21 External reference args is overridden by local reference 
+bpipe.Pipeline	[10]	INFO	|7:45:21 Loaded external reference: rnorm0 
+bpipe.Pipeline	[10]	INFO	|7:45:21 External reference rnorm0 is overridden by local reference 
+bpipe.Pipeline	[10]	INFO	|7:45:21 Loaded external reference: rnorm1 
+bpipe.Pipeline	[10]	INFO	|7:45:21 External reference rnorm1 is overridden by local reference 
+bpipe.Pipeline	[10]	INFO	|7:45:21 Loaded external reference: mean 
+bpipe.Pipeline	[10]	INFO	|7:45:21 External reference mean is overridden by local reference 
+bpipe.Pipeline	[10]	INFO	|7:45:21 Loaded external reference: median 
+bpipe.Pipeline	[10]	INFO	|7:45:21 External reference median is overridden by local reference 
+bpipe.Pipeline	[10]	INFO	|7:45:21 Loaded external reference: MSE 
+bpipe.Pipeline	[10]	INFO	|7:45:21 External reference MSE is overridden by local reference 
+bpipe.DefinePipelineCategory	[10]	INFO	|7:45:21 multiply on input null with pattern s.% 
+bpipe.InputSplitter	[10]	INFO	|7:45:21 Found * pattern at [], hash at [] and % at [2] 
+bpipe.InputSplitter	[10]	INFO	|7:45:21 Sorted: [2] 
+bpipe.InputSplitter	[10]	INFO	|7:45:21 % groups are at [0] 
+bpipe.InputSplitter	[10]	INFO	|7:45:21 Result is [pattern:s\.([^/]*), splits:[0]] 
+bpipe.DefinePipelineCategory	[10]	INFO	|7:45:21 Processing segment 643131721 
+bpipe.DefinePipelineCategory	[10]	INFO	|7:45:21 Processing segment 1462017562 
+bpipe.DefinePipelineCategory	[10]	INFO	|7:45:21 Processing segment 1472528887 
+bpipe.DefinePipelineCategory	[10]	INFO	|7:45:21 Processing segment 291009269 
+bpipe.PipelineCategory	[10]	INFO	|7:45:21 Joiners for pipeline 1359404786 = [bpipe.PipelineCategory$_plus_closure1@1a170b6d, bpipe.PipelineCategory$_plus_closure1@5eef2e7c, bpipe.PipelineCategory$_plus_closure1@28d4ff95, bpipe.PipelineCategory$_plus_closure1@37d7a424, bpipe.PipelineCategory$_plus_closure1@2e595420, bpipe.PipelineCategory$_plus_closure1@6aa218a5, bpipe.PipelineCategory$_plus_closure1@38002f54, bpipe.PipelineCategory$_plus_closure1@14235085] 
+bpipe.Pipeline	[10]	INFO	|7:45:21 Running segment with inputs s.% 
+bpipe.Dependencies	[10]	INFO	|7:45:21 Checking input (s) s.% 
+bpipe.Dependencies	[15]	INFO	|7:45:21 Reading property file .bpipe/outputs/median.s.rnorm1.median.out.properties 
+bpipe.Dependencies	[15]	INFO	|7:45:21 Reading property file .bpipe/outputs/median.s0.rnorm0.median.out.properties 
+bpipe.Dependencies	[17]	INFO	|7:45:21 Reading property file .bpipe/outputs/rnorm0.s.rnorm0.meta.properties 
+bpipe.Dependencies	[16]	INFO	|7:45:21 Reading property file .bpipe/outputs/MSE.s.rnorm1.mean.MSE.score.properties 
+bpipe.Dependencies	[15]	INFO	|7:45:21 Reading property file .bpipe/outputs/median.s0.rnorm1.median.out.properties 
+bpipe.Dependencies	[17]	INFO	|7:45:21 Reading property file .bpipe/outputs/rnorm0.s0.rnorm0.data.properties 
+bpipe.Dependencies	[16]	INFO	|7:45:21 Reading property file .bpipe/outputs/MSE.s.rnorm1.median.MSE.score.properties 
+bpipe.Dependencies	[15]	INFO	|7:45:21 Reading property file .bpipe/outputs/MSE.rnorm0.mean.MSE.score.properties 
+bpipe.Dependencies	[17]	INFO	|7:45:21 Reading property file .bpipe/outputs/rnorm0.s0.rnorm0.meta.properties 
+bpipe.Dependencies	[16]	INFO	|7:45:21 Reading property file .bpipe/outputs/MSE.s0.rnorm0.mean.MSE.score.properties 
+bpipe.Dependencies	[15]	INFO	|7:45:21 Reading property file .bpipe/outputs/MSE.rnorm0.median.MSE.score.properties 
+bpipe.Dependencies	[17]	INFO	|7:45:21 Reading property file .bpipe/outputs/rnorm1.rnorm1.data.properties 
+bpipe.Dependencies	[16]	INFO	|7:45:21 Reading property file .bpipe/outputs/MSE.s0.rnorm0.median.MSE.score.properties 
+bpipe.Dependencies	[17]	INFO	|7:45:21 Reading property file .bpipe/outputs/rnorm1.rnorm1.meta.properties 
+bpipe.Dependencies	[16]	INFO	|7:45:21 Reading property file .bpipe/outputs/MSE.s0.rnorm1.mean.MSE.score.properties 
+bpipe.Dependencies	[15]	INFO	|7:45:21 Reading property file .bpipe/outputs/MSE.rnorm1.mean.MSE.score.properties 
+bpipe.Dependencies	[19]	INFO	|7:45:21 Reading property file .bpipe/outputs/mean.s0.rnorm0.mean.out.properties 
+bpipe.Dependencies	[18]	INFO	|7:45:21 Reading property file .bpipe/outputs/mean.rnorm0.mean.out.properties 
+bpipe.Dependencies	[17]	INFO	|7:45:21 Reading property file .bpipe/outputs/rnorm1.s.rnorm1.data.properties 
+bpipe.Dependencies	[15]	INFO	|7:45:21 Reading property file .bpipe/outputs/MSE.rnorm1.median.MSE.score.properties 
+bpipe.Dependencies	[15]	INFO	|7:45:21 Reading property file .bpipe/outputs/MSE.s.rnorm0.mean.MSE.score.properties 
+bpipe.Dependencies	[15]	INFO	|7:45:21 Reading property file .bpipe/outputs/MSE.s.rnorm0.median.MSE.score.properties 
+bpipe.Dependencies	[19]	INFO	|7:45:21 Reading property file .bpipe/outputs/mean.s0.rnorm1.mean.out.properties 
+bpipe.Dependencies	[18]	INFO	|7:45:21 Reading property file .bpipe/outputs/mean.rnorm1.mean.out.properties 
+bpipe.Dependencies	[17]	INFO	|7:45:21 Reading property file .bpipe/outputs/rnorm1.s.rnorm1.meta.properties 
+bpipe.Dependencies	[15]	INFO	|7:45:21 Reading property file .bpipe/outputs/mean.s.rnorm0.mean.out.properties 
+bpipe.Dependencies	[19]	INFO	|7:45:21 Reading property file .bpipe/outputs/median.rnorm0.median.out.properties 
+bpipe.Dependencies	[18]	INFO	|7:45:21 Reading property file .bpipe/outputs/mean.s.rnorm1.mean.out.properties 
+bpipe.Dependencies	[17]	INFO	|7:45:21 Reading property file .bpipe/outputs/rnorm1.s0.rnorm1.data.properties 
+bpipe.Dependencies	[16]	INFO	|7:45:21 Reading property file .bpipe/outputs/MSE.s0.rnorm1.median.MSE.score.properties 
+bpipe.Dependencies	[19]	INFO	|7:45:21 Reading property file .bpipe/outputs/median.rnorm1.median.out.properties 
+bpipe.Dependencies	[17]	INFO	|7:45:21 Reading property file .bpipe/outputs/rnorm1.s0.rnorm1.meta.properties 
+bpipe.Dependencies	[16]	INFO	|7:45:21 Reading property file .bpipe/outputs/rnorm0.rnorm0.data.properties 
+bpipe.Dependencies	[19]	INFO	|7:45:21 Reading property file .bpipe/outputs/median.s.rnorm0.median.out.properties 
+bpipe.Dependencies	[16]	INFO	|7:45:21 Reading property file .bpipe/outputs/rnorm0.rnorm0.meta.properties 
+bpipe.Dependencies	[16]	INFO	|7:45:21 Reading property file .bpipe/outputs/rnorm0.s.rnorm0.data.properties 
+bpipe.Utils	[10]	INFO	|7:45:22 Output folder scan (concurrency=5) executed in 0.071 seconds 
+bpipe.Dependencies	[10]	INFO	|7:45:22 External inputs: [[], [], [], [], [], [], [], [], [], [], [], []] for outputs [rnorm0.data, rnorm0.meta, rnorm1.data, rnorm1.meta, s0.rnorm0.data, s0.rnorm0.meta, s0.rnorm1.data, s0.rnorm1.meta, s.rnorm0.data, s.rnorm0.meta, s.rnorm1.data, s.rnorm1.meta] 
+bpipe.Dependencies	[10]	INFO	|7:45:22 There are 1 output groups 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Subtracting 12 remaining outputs from 36 total outputs 
+bpipe.Dependencies	[10]	INFO	|7:45:22 External inputs: [[rnorm0.data], [rnorm1.data], [rnorm0.data], [rnorm1.data], [s0.rnorm1.data], [s0.rnorm0.data], [s0.rnorm1.data], [s0.rnorm0.data], [s.rnorm0.data], [s.rnorm1.data], [s.rnorm0.data], [s.rnorm1.data]] for outputs [rnorm0.mean.out, rnorm1.mean.out, rnorm0.median.out, rnorm1.median.out, s0.rnorm1.mean.out, s0.rnorm0.median.out, s0.rnorm1.median.out, s0.rnorm0.mean.out, s.rnorm0.mean.out, s.rnorm1.mean.out, s.rnorm0.median.out, s.rnorm1.median.out] 
+bpipe.Dependencies	[10]	INFO	|7:45:22 New entry for rnorm0.mean.out 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Maxtimestamp for rnorm0.mean.out = 1444369250000 
+bpipe.Dependencies	[10]	INFO	|7:45:22 New entry for rnorm1.mean.out 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Maxtimestamp for rnorm1.mean.out = 1444370457000 
+bpipe.Dependencies	[10]	INFO	|7:45:22 New entry for rnorm0.median.out 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Maxtimestamp for rnorm0.median.out = 1444370457000 
+bpipe.Dependencies	[10]	INFO	|7:45:22 New entry for rnorm1.median.out 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Maxtimestamp for rnorm1.median.out = 1444370457000 
+bpipe.Dependencies	[10]	INFO	|7:45:22 New entry for s0.rnorm1.mean.out 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Maxtimestamp for s0.rnorm1.mean.out = 1444401012000 
+bpipe.Dependencies	[10]	INFO	|7:45:22 New entry for s0.rnorm0.median.out 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Maxtimestamp for s0.rnorm0.median.out = 1444401012000 
+bpipe.Dependencies	[10]	INFO	|7:45:22 New entry for s0.rnorm1.median.out 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Maxtimestamp for s0.rnorm1.median.out = 1444401012000 
+bpipe.Dependencies	[10]	INFO	|7:45:22 New entry for s0.rnorm0.mean.out 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Maxtimestamp for s0.rnorm0.mean.out = 1444401053000 
+bpipe.Dependencies	[10]	INFO	|7:45:22 New entry for s.rnorm0.mean.out 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Maxtimestamp for s.rnorm0.mean.out = 1444401302000 
+bpipe.Dependencies	[10]	INFO	|7:45:22 New entry for s.rnorm1.mean.out 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Maxtimestamp for s.rnorm1.mean.out = 1444401302000 
+bpipe.Dependencies	[10]	INFO	|7:45:22 New entry for s.rnorm0.median.out 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Maxtimestamp for s.rnorm0.median.out = 1444401302000 
+bpipe.Dependencies	[10]	INFO	|7:45:22 New entry for s.rnorm1.median.out 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Maxtimestamp for s.rnorm1.median.out = 1444401302000 
+bpipe.Dependencies	[10]	INFO	|7:45:22 There are 12 output groups 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Subtracting 12 remaining outputs from 24 total outputs 
+bpipe.Dependencies	[10]	INFO	|7:45:22 External inputs: [[rnorm0.mean.out, rnorm0.meta], [rnorm0.median.out, rnorm0.meta], [rnorm1.mean.out, rnorm1.meta], [rnorm1.median.out, rnorm1.meta], [s0.rnorm0.median.out, s0.rnorm0.meta], [s0.rnorm1.mean.out, s0.rnorm1.meta], [s0.rnorm1.median.out, s0.rnorm1.meta], [s0.rnorm0.mean.out, s0.rnorm0.meta], [s.rnorm0.mean.out, s.rnorm0.meta], [s.rnorm0.median.out, s.rnorm0.meta], [s.rnorm1.mean.out, s.rnorm1.meta], [s.rnorm1.median.out, s.rnorm1.meta]] for outputs [rnorm0.mean.MSE.score, rnorm0.median.MSE.score, rnorm1.mean.MSE.score, rnorm1.median.MSE.score, s0.rnorm0.median.MSE.score, s0.rnorm1.mean.MSE.score, s0.rnorm1.median.MSE.score, s0.rnorm0.mean.MSE.score, s.rnorm0.mean.MSE.score, s.rnorm0.median.MSE.score, s.rnorm1.mean.MSE.score, s.rnorm1.median.MSE.score] 
+bpipe.Dependencies	[10]	INFO	|7:45:22 New entry for rnorm0.mean.MSE.score 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Maxtimestamp for rnorm0.mean.MSE.score = 1444369250000 
+bpipe.Dependencies	[10]	INFO	|7:45:22 New entry for rnorm0.median.MSE.score 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Maxtimestamp for rnorm0.median.MSE.score = 1444370458000 
+bpipe.Dependencies	[10]	INFO	|7:45:22 New entry for rnorm1.mean.MSE.score 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Maxtimestamp for rnorm1.mean.MSE.score = 1444370458000 
+bpipe.Dependencies	[10]	INFO	|7:45:22 New entry for rnorm1.median.MSE.score 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Maxtimestamp for rnorm1.median.MSE.score = 1444370458000 
+bpipe.Dependencies	[10]	INFO	|7:45:22 New entry for s0.rnorm0.median.MSE.score 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Maxtimestamp for s0.rnorm0.median.MSE.score = 1444401012000 
+bpipe.Dependencies	[10]	INFO	|7:45:22 New entry for s0.rnorm1.mean.MSE.score 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Maxtimestamp for s0.rnorm1.mean.MSE.score = 1444401012000 
+bpipe.Dependencies	[10]	INFO	|7:45:22 New entry for s0.rnorm1.median.MSE.score 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Maxtimestamp for s0.rnorm1.median.MSE.score = 1444401012000 
+bpipe.Dependencies	[10]	INFO	|7:45:22 New entry for s0.rnorm0.mean.MSE.score 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Maxtimestamp for s0.rnorm0.mean.MSE.score = 1444401053000 
+bpipe.Dependencies	[10]	INFO	|7:45:22 New entry for s.rnorm0.mean.MSE.score 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Maxtimestamp for s.rnorm0.mean.MSE.score = 1444401303000 
+bpipe.Dependencies	[10]	INFO	|7:45:22 New entry for s.rnorm0.median.MSE.score 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Maxtimestamp for s.rnorm0.median.MSE.score = 1444401303000 
+bpipe.Dependencies	[10]	INFO	|7:45:22 New entry for s.rnorm1.mean.MSE.score 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Maxtimestamp for s.rnorm1.mean.MSE.score = 1444401303000 
+bpipe.Dependencies	[10]	INFO	|7:45:22 New entry for s.rnorm1.median.MSE.score 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Maxtimestamp for s.rnorm1.median.MSE.score = 1444401303000 
+bpipe.Dependencies	[10]	INFO	|7:45:22 There are 12 output groups 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Subtracting 12 remaining outputs from 12 total outputs 
+bpipe.Dependencies	[10]	INFO	|7:45:22 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:45:22 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:45:22 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:45:22 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:45:22 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:45:22 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:45:22 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:45:22 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:45:22 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:45:22 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:45:22 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:45:22 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:45:22  rnorm0.mean.MSE.score / entry 710643340  
+bpipe.Dependencies	[10]	INFO	|7:45:22 Checking timestamp of rnorm0.mean.MSE.score vs input rnorm0.mean.out 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Checking timestamp of rnorm0.mean.MSE.score vs input rnorm0.meta 
+bpipe.Dependencies	[10]	INFO	|7:45:22 rnorm0.mean.MSE.score is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:45:22  rnorm0.median.MSE.score / entry 420220839  
+bpipe.Dependencies	[10]	INFO	|7:45:22 Checking timestamp of rnorm0.median.MSE.score vs input rnorm0.median.out 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Checking timestamp of rnorm0.median.MSE.score vs input rnorm0.meta 
+bpipe.Dependencies	[10]	INFO	|7:45:22 rnorm0.median.MSE.score is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:45:22  rnorm1.mean.MSE.score / entry 957052253  
+bpipe.Dependencies	[10]	INFO	|7:45:22 Checking timestamp of rnorm1.mean.MSE.score vs input rnorm1.mean.out 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Checking timestamp of rnorm1.mean.MSE.score vs input rnorm1.meta 
+bpipe.Dependencies	[10]	INFO	|7:45:22 rnorm1.mean.MSE.score is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:45:22  rnorm1.median.MSE.score / entry 1418911234  
+bpipe.Dependencies	[10]	INFO	|7:45:22 Checking timestamp of rnorm1.median.MSE.score vs input rnorm1.median.out 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Checking timestamp of rnorm1.median.MSE.score vs input rnorm1.meta 
+bpipe.Dependencies	[10]	INFO	|7:45:22 rnorm1.median.MSE.score is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:45:22  s0.rnorm0.median.MSE.score / entry 1982693550  
+bpipe.Dependencies	[10]	INFO	|7:45:22 Checking timestamp of s0.rnorm0.median.MSE.score vs input s0.rnorm0.median.out 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Checking timestamp of s0.rnorm0.median.MSE.score vs input s0.rnorm0.meta 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s0.rnorm0.median.MSE.score is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s0.rnorm0.median.MSE.score does not exist 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s0.rnorm0.median.MSE.score removed but not by bpipe 
+bpipe.Dependencies	[10]	INFO	|7:45:22  s0.rnorm1.mean.MSE.score / entry 285018722  
+bpipe.Dependencies	[10]	INFO	|7:45:22 Checking timestamp of s0.rnorm1.mean.MSE.score vs input s0.rnorm1.mean.out 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Checking timestamp of s0.rnorm1.mean.MSE.score vs input s0.rnorm1.meta 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s0.rnorm1.mean.MSE.score is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s0.rnorm1.mean.MSE.score does not exist 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s0.rnorm1.mean.MSE.score removed but not by bpipe 
+bpipe.Dependencies	[10]	INFO	|7:45:22  s0.rnorm1.median.MSE.score / entry 1421127844  
+bpipe.Dependencies	[10]	INFO	|7:45:22 Checking timestamp of s0.rnorm1.median.MSE.score vs input s0.rnorm1.median.out 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Checking timestamp of s0.rnorm1.median.MSE.score vs input s0.rnorm1.meta 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s0.rnorm1.median.MSE.score is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s0.rnorm1.median.MSE.score does not exist 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s0.rnorm1.median.MSE.score removed but not by bpipe 
+bpipe.Dependencies	[10]	INFO	|7:45:22  s0.rnorm0.mean.MSE.score / entry 1186881800  
+bpipe.Dependencies	[10]	INFO	|7:45:22 Checking timestamp of s0.rnorm0.mean.MSE.score vs input s0.rnorm0.mean.out 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Checking timestamp of s0.rnorm0.mean.MSE.score vs input s0.rnorm0.meta 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s0.rnorm0.mean.MSE.score is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s0.rnorm0.mean.MSE.score does not exist 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s0.rnorm0.mean.MSE.score removed but not by bpipe 
+bpipe.Dependencies	[10]	INFO	|7:45:22  s.rnorm0.mean.MSE.score / entry 1630755718  
+bpipe.Dependencies	[10]	INFO	|7:45:22 Checking timestamp of s.rnorm0.mean.MSE.score vs input s.rnorm0.mean.out 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Checking timestamp of s.rnorm0.mean.MSE.score vs input s.rnorm0.meta 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s.rnorm0.mean.MSE.score is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:45:22  s.rnorm0.median.MSE.score / entry 420089169  
+bpipe.Dependencies	[10]	INFO	|7:45:22 Checking timestamp of s.rnorm0.median.MSE.score vs input s.rnorm0.median.out 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Checking timestamp of s.rnorm0.median.MSE.score vs input s.rnorm0.meta 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s.rnorm0.median.MSE.score is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:45:22  s.rnorm1.mean.MSE.score / entry 1678177258  
+bpipe.Dependencies	[10]	INFO	|7:45:22 Checking timestamp of s.rnorm1.mean.MSE.score vs input s.rnorm1.mean.out 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Checking timestamp of s.rnorm1.mean.MSE.score vs input s.rnorm1.meta 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s.rnorm1.mean.MSE.score is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:45:22  s.rnorm1.median.MSE.score / entry 74955508  
+bpipe.Dependencies	[10]	INFO	|7:45:22 Checking timestamp of s.rnorm1.median.MSE.score vs input s.rnorm1.median.out 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Checking timestamp of s.rnorm1.median.MSE.score vs input s.rnorm1.meta 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s.rnorm1.median.MSE.score is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:45:22 ====Finished Output Graph===== 
+bpipe.Dependencies	[10]	INFO	|7:45:22 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:45:22 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:45:22 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:45:22 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:45:22 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:45:22 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:45:22 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:45:22 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:45:22 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:45:22 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:45:22 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:45:22 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:45:22 --- rnorm0.mean.out / entry 68441474 --- 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Checking timestamp of rnorm0.mean.out vs input rnorm0.data 
+bpipe.Dependencies	[10]	INFO	|7:45:22 rnorm0.mean.out is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:45:22 -- rnorm1.mean.out / entry 1392102373 -- 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Checking timestamp of rnorm1.mean.out vs input rnorm1.data 
+bpipe.Dependencies	[10]	INFO	|7:45:22 rnorm1.mean.out is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:45:22 - rnorm0.median.out / entry 169941815 -- 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Checking timestamp of rnorm0.median.out vs input rnorm0.data 
+bpipe.Dependencies	[10]	INFO	|7:45:22 rnorm0.median.out is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:45:22 -- rnorm1.median.out / entry 58834195 -- 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Checking timestamp of rnorm1.median.out vs input rnorm1.data 
+bpipe.Dependencies	[10]	INFO	|7:45:22 rnorm1.median.out is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:45:22  s0.rnorm1.mean.out / entry 1866293025 - 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Checking timestamp of s0.rnorm1.mean.out vs input s0.rnorm1.data 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s0.rnorm1.mean.out is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s0.rnorm1.mean.out does not exist 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s0.rnorm1.mean.out removed but not by bpipe 
+bpipe.Dependencies	[10]	INFO	|7:45:22  s0.rnorm0.median.out / entry 640723093  
+bpipe.Dependencies	[10]	INFO	|7:45:22 Checking timestamp of s0.rnorm0.median.out vs input s0.rnorm0.data 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s0.rnorm0.median.out is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s0.rnorm0.median.out does not exist 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s0.rnorm0.median.out removed but not by bpipe 
+bpipe.Dependencies	[10]	INFO	|7:45:22  s0.rnorm1.median.out / entry 1150017993  
+bpipe.Dependencies	[10]	INFO	|7:45:22 Checking timestamp of s0.rnorm1.median.out vs input s0.rnorm1.data 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s0.rnorm1.median.out is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s0.rnorm1.median.out does not exist 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s0.rnorm1.median.out removed but not by bpipe 
+bpipe.Dependencies	[10]	INFO	|7:45:22 - s0.rnorm0.mean.out / entry 999585351 - 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Checking timestamp of s0.rnorm0.mean.out vs input s0.rnorm0.data 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s0.rnorm0.mean.out is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s0.rnorm0.mean.out does not exist 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s0.rnorm0.mean.out removed but not by bpipe 
+bpipe.Dependencies	[10]	INFO	|7:45:22 - s.rnorm0.mean.out / entry 280999237 -- 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Checking timestamp of s.rnorm0.mean.out vs input s.rnorm0.data 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s.rnorm0.mean.out is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:45:22 - s.rnorm1.mean.out / entry 1394241546 - 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Checking timestamp of s.rnorm1.mean.out vs input s.rnorm1.data 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s.rnorm1.mean.out is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:45:22  s.rnorm0.median.out / entry 210772451 - 
+bpipe.Dependencies	[10]	INFO	|7:45:22 Checking timestamp of s.rnorm0.median.out vs input s.rnorm0.data 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s.rnorm0.median.out is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:45:22  s.rnorm1.median.out / entry 1252050054  
+bpipe.Dependencies	[10]	INFO	|7:45:22 Checking timestamp of s.rnorm1.median.out vs input s.rnorm1.data 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s.rnorm1.median.out is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:45:22 ====Finished Output Graph===== 
+bpipe.Dependencies	[10]	INFO	|7:45:22 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:45:22 ---- rnorm0.data / entry 1605656028 ---- 
+bpipe.Dependencies	[10]	INFO	|7:45:22 rnorm0.data is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:45:22 ---- rnorm0.meta / entry 1605656028 ---- 
+bpipe.Dependencies	[10]	INFO	|7:45:22 rnorm0.meta is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:45:22 ---- rnorm1.data / entry 1605656028 ---- 
+bpipe.Dependencies	[10]	INFO	|7:45:22 rnorm1.data is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:45:22 ---- rnorm1.meta / entry 1605656028 ---- 
+bpipe.Dependencies	[10]	INFO	|7:45:22 rnorm1.meta is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:45:22 -- s0.rnorm0.data / entry 1605656028 --- 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s0.rnorm0.data is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s0.rnorm0.data does not exist 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s0.rnorm0.data removed but not by bpipe 
+bpipe.Dependencies	[10]	INFO	|7:45:22 -- s0.rnorm0.meta / entry 1605656028 --- 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s0.rnorm0.meta is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s0.rnorm0.meta does not exist 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s0.rnorm0.meta removed but not by bpipe 
+bpipe.Dependencies	[10]	INFO	|7:45:22 -- s0.rnorm1.data / entry 1605656028 --- 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s0.rnorm1.data is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s0.rnorm1.data does not exist 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s0.rnorm1.data removed but not by bpipe 
+bpipe.Dependencies	[10]	INFO	|7:45:22 -- s0.rnorm1.meta / entry 1605656028 --- 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s0.rnorm1.meta is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s0.rnorm1.meta does not exist 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s0.rnorm1.meta removed but not by bpipe 
+bpipe.Dependencies	[10]	INFO	|7:45:22 --- s.rnorm0.data / entry 1605656028 --- 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s.rnorm0.data is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:45:22 --- s.rnorm0.meta / entry 1605656028 --- 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s.rnorm0.meta is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:45:22 --- s.rnorm1.data / entry 1605656028 --- 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s.rnorm1.data is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:45:22 --- s.rnorm1.meta / entry 1605656028 --- 
+bpipe.Dependencies	[10]	INFO	|7:45:22 s.rnorm1.meta is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:45:22 ====Finished Output Graph===== 
+bpipe.Utils	[10]	INFO	|7:45:22 Index output graph executed in 0.003 seconds 
+bpipe.Dependencies	[10]	INFO	|7:45:22  Checking file s.% 
+bpipe.Dependencies	[10]	INFO	|7:45:22 There are no properties for s.% and file is missing 
+bpipe.Pipeline	[10]	INFO	|7:45:22 Pipeline segment failed (2): Expected input file s.% could not be found 
+bpipe.Pipeline	[10]	INFO	|7:45:22 Finished running segment for inputs s.% 
+bpipe.Runner	[20]	INFO	|7:45:22 Deleting job file /Users/stephens/.bpipedb/jobs/5971 

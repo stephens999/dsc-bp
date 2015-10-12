@@ -1,0 +1,808 @@
+bpipe.Runner	[10]	INFO	|7:28:28 Starting 
+bpipe.Runner	[10]	INFO	|7:28:28 OS: Mac OS X (10.10.3) Java: 1.6.0_65 Vendor: Apple Inc. 
+bpipe.Runner	[10]	INFO	|7:28:28 Initializing plugins ... 
+bpipe.Config	[10]	INFO	|7:28:28 No plugins directory found: /Users/stephens/Dropbox/Documents/git/dsc-bpipe/one_sample_location/.bpipe/plugins 
+bpipe.Runner	[10]	INFO	|7:28:28 Reading user config ...  
+bpipe.Config	[10]	INFO	|7:28:28 No configuration file found in same dir as pipeline file /Users/stephens/Dropbox/Documents/git/dsc-bpipe/one_sample_location/bpipe.config 
+bpipe.Config	[10]	INFO	|7:28:28 No local configuration file found 
+bpipe.Utils	[11]	INFO	|7:28:29 Read config from /Users/stephens/bpipe-0.9.8.7/bin/../bpipe.config executed in 0.439 seconds 
+bpipe.Utils	[10]	INFO	|7:28:29 Read user config executed in 0.679 seconds 
+bpipe.Runner	[10]	INFO	|7:28:29 Loading tool database ...  
+bpipe.Concurrency	[12]	INFO	|7:28:29 Creating thread pool with 32 threads to execute parallel pipelines 
+bpipe.NotificationManager	[13]	INFO	|7:28:29 Configuring notifications 
+bpipe.ToolDatabase	[14]	INFO	|7:28:29 Loading tool database from user configuration 
+bpipe.NotificationManager	[13]	INFO	|7:28:29 Trying class name file for notification channel file 
+bpipe.Tool	[14]	INFO	|7:28:29 Configured meta data about tool samtools 
+bpipe.Runner	[10]	INFO	|7:28:29 No CLI parameters specified 
+bpipe.Tool	[14]	INFO	|7:28:29 Configured meta data about tool bwa 
+bpipe.Tool	[14]	INFO	|7:28:29 Configured meta data about tool bowtie 
+bpipe.Tool	[14]	INFO	|7:28:29 Configured meta data about tool fastqc 
+bpipe.Tool	[14]	INFO	|7:28:29 Configured meta data about tool coverageBed 
+bpipe.Tool	[14]	INFO	|7:28:29 Configured meta data about tool fastx_clipper 
+bpipe.Tool	[14]	INFO	|7:28:29 Configured meta data about tool convert2annovar.pl 
+bpipe.Tool	[14]	INFO	|7:28:29 Configured meta data about tool summarize_annovar.pl 
+bpipe.Tool	[14]	INFO	|7:28:29 Configured meta data about tool bowtie2 
+bpipe.Tool	[14]	INFO	|7:28:29 Configured meta data about tool GenomeAnalysisTK 
+bpipe.Tool	[14]	INFO	|7:28:29 Configured meta data about tool MarkDuplicates 
+bpipe.Tool	[14]	INFO	|7:28:29 Configured meta data about tool signalp 
+bpipe.Tool	[14]	INFO	|7:28:29 Configured meta data about tool variant_effect_predictor.pl 
+bpipe.Tool	[14]	INFO	|7:28:29 Configured meta data about tool igvtools 
+bpipe.Tool	[14]	INFO	|7:28:29 Configured meta data about tool ls 
+bpipe.NotificationManager	[13]	INFO	|7:28:29 Unable to create notification channel using class file: java.lang.ClassNotFoundException: file 
+bpipe.NotificationManager	[13]	INFO	|7:28:29 Trying class name bpipe.FILENotificationChannel for notification channel file 
+bpipe.NotificationManager	[13]	INFO	|7:28:29 Unable to create notification channel using class bpipe.FILENotificationChannel: java.lang.ClassNotFoundException: bpipe.FILENotificationChannel 
+bpipe.NotificationManager	[13]	INFO	|7:28:29 Trying class name bpipe.file for notification channel file 
+bpipe.NotificationManager	[13]	INFO	|7:28:29 Unable to create notification channel using class bpipe.file: java.lang.ClassNotFoundException: bpipe.file 
+bpipe.NotificationManager	[13]	INFO	|7:28:29 Trying class name bpipe.FileNotificationChannel for notification channel file 
+bpipe.NotificationManager	[13]	INFO	|7:28:29 Successfully created notification channel using class bpipe.FileNotificationChannel 
+bpipe.Runner	[10]	INFO	|7:28:29 Parsing script ...  
+bpipe.Runner	[10]	INFO	|7:28:29 Run ...  
+bpipe.Pipeline	[10]	INFO	|7:28:29 Running with input null 
+bpipe.PipelineCategory	[10]	INFO	|7:28:29 Found closure variable rnorm0 
+bpipe.PipelineCategory	[10]	INFO	|7:28:29 Found closure variable rnorm1 
+bpipe.PipelineCategory	[10]	INFO	|7:28:29 Found closure variable mean 
+bpipe.PipelineCategory	[10]	INFO	|7:28:29 Found closure variable median 
+bpipe.PipelineCategory	[10]	INFO	|7:28:29 Found closure variable MSE 
+bpipe.PipelineCategory	[10]	INFO	|7:28:29 Found closure variable set_seed 
+bpipe.Pipeline	[10]	WARNING	|7:28:29 Pipeline folder /Users/stephens/bpipes could not be found 
+bpipe.Pipeline	[10]	INFO	|7:28:29 Loaded external reference: args 
+bpipe.Pipeline	[10]	INFO	|7:28:29 External reference args is overridden by local reference 
+bpipe.Pipeline	[10]	INFO	|7:28:29 Loaded external reference: rnorm0 
+bpipe.Pipeline	[10]	INFO	|7:28:29 External reference rnorm0 is overridden by local reference 
+bpipe.Pipeline	[10]	INFO	|7:28:29 Loaded external reference: rnorm1 
+bpipe.Pipeline	[10]	INFO	|7:28:29 External reference rnorm1 is overridden by local reference 
+bpipe.Pipeline	[10]	INFO	|7:28:29 Loaded external reference: mean 
+bpipe.Pipeline	[10]	INFO	|7:28:29 External reference mean is overridden by local reference 
+bpipe.Pipeline	[10]	INFO	|7:28:29 Loaded external reference: median 
+bpipe.Pipeline	[10]	INFO	|7:28:29 External reference median is overridden by local reference 
+bpipe.Pipeline	[10]	INFO	|7:28:29 Loaded external reference: MSE 
+bpipe.Pipeline	[10]	INFO	|7:28:29 External reference MSE is overridden by local reference 
+bpipe.Pipeline	[10]	INFO	|7:28:29 Loaded external reference: set_seed 
+bpipe.Pipeline	[10]	INFO	|7:28:29 External reference set_seed is overridden by local reference 
+bpipe.Pipeline	[10]	INFO	|7:28:29 Constructed pipeline is list: [bpipe.PipelineCategory$_plus_closure1@264d40df, bpipe.PipelineCategory$_plus_closure1@19de041e, bpipe.PipelineCategory$_plus_closure1@3ee05ad6, bpipe.PipelineCategory$_plus_closure1@7b6bb7d9] 
+bpipe.PipelineCategory	[10]	INFO	|7:28:29 Joiners for pipeline 612687420 = [bpipe.PipelineCategory$_plus_closure1@f1a47df, bpipe.PipelineCategory$_plus_closure1@6648938, bpipe.PipelineCategory$_plus_closure1@264d40df, bpipe.PipelineCategory$_plus_closure1@326cbecf, bpipe.PipelineCategory$_plus_closure1@19de041e, bpipe.PipelineCategory$_plus_closure1@16321e6, bpipe.PipelineCategory$_plus_closure1@3ee05ad6, bpipe.PipelineCategory$_plus_closure1@134683c0, bpipe.PipelineCategory$_plus_closure1@7b6bb7d9] 
+bpipe.Pipeline	[10]	INFO	|7:28:29 Running segment with inputs null 
+bpipe.Dependencies	[10]	INFO	|7:28:29 Checking input (s) null 
+bpipe.Dependencies	[15]	INFO	|7:28:29 Reading property file .bpipe/outputs/mean.rnorm0.mean.out.properties 
+bpipe.Dependencies	[18]	INFO	|7:28:29 Reading property file .bpipe/outputs/MSE.rnorm1.mean.MSE.score.properties 
+bpipe.Dependencies	[17]	INFO	|7:28:29 Reading property file .bpipe/outputs/mean.rnorm1.mean.out.properties 
+bpipe.Dependencies	[19]	INFO	|7:28:29 Reading property file .bpipe/outputs/rnorm0.rnorm0.meta.properties 
+bpipe.Dependencies	[16]	INFO	|7:28:29 Reading property file .bpipe/outputs/median.rnorm1.median.out.properties 
+bpipe.Dependencies	[16]	INFO	|7:28:29 Reading property file .bpipe/outputs/MSE.rnorm0.mean.MSE.score.properties 
+bpipe.Dependencies	[19]	INFO	|7:28:29 Reading property file .bpipe/outputs/rnorm1.rnorm1.data.properties 
+bpipe.Dependencies	[18]	INFO	|7:28:29 Reading property file .bpipe/outputs/MSE.rnorm1.median.MSE.score.properties 
+bpipe.Dependencies	[15]	INFO	|7:28:29 Reading property file .bpipe/outputs/median.rnorm0.median.out.properties 
+bpipe.Dependencies	[18]	INFO	|7:28:29 Reading property file .bpipe/outputs/rnorm0.rnorm0.data.properties 
+bpipe.Dependencies	[19]	INFO	|7:28:29 Reading property file .bpipe/outputs/rnorm1.rnorm1.meta.properties 
+bpipe.Dependencies	[16]	INFO	|7:28:29 Reading property file .bpipe/outputs/MSE.rnorm0.median.MSE.score.properties 
+bpipe.Utils	[10]	INFO	|7:28:29 Output folder scan (concurrency=5) executed in 0.056 seconds 
+bpipe.Dependencies	[10]	INFO	|7:28:29 External inputs: [[], [], [], []] for outputs [rnorm0.data, rnorm0.meta, rnorm1.data, rnorm1.meta] 
+bpipe.Dependencies	[10]	INFO	|7:28:29 There are 1 output groups 
+bpipe.Dependencies	[10]	INFO	|7:28:29 Subtracting 4 remaining outputs from 12 total outputs 
+bpipe.Dependencies	[10]	INFO	|7:28:29 External inputs: [[rnorm0.data], [rnorm1.data], [rnorm0.data], [rnorm1.data]] for outputs [rnorm0.mean.out, rnorm1.mean.out, rnorm0.median.out, rnorm1.median.out] 
+bpipe.Dependencies	[10]	INFO	|7:28:29 New entry for rnorm0.mean.out 
+bpipe.Dependencies	[10]	INFO	|7:28:29 Maxtimestamp for rnorm0.mean.out = 1444369250000 
+bpipe.Dependencies	[10]	INFO	|7:28:29 New entry for rnorm1.mean.out 
+bpipe.Dependencies	[10]	INFO	|7:28:29 Maxtimestamp for rnorm1.mean.out = 1444370457000 
+bpipe.Dependencies	[10]	INFO	|7:28:29 New entry for rnorm0.median.out 
+bpipe.Dependencies	[10]	INFO	|7:28:29 Maxtimestamp for rnorm0.median.out = 1444370457000 
+bpipe.Dependencies	[10]	INFO	|7:28:29 New entry for rnorm1.median.out 
+bpipe.Dependencies	[10]	INFO	|7:28:29 Maxtimestamp for rnorm1.median.out = 1444370457000 
+bpipe.Dependencies	[10]	INFO	|7:28:29 There are 4 output groups 
+bpipe.Dependencies	[10]	INFO	|7:28:29 Subtracting 4 remaining outputs from 8 total outputs 
+bpipe.Dependencies	[10]	INFO	|7:28:29 External inputs: [[rnorm0.mean.out, rnorm0.meta], [rnorm0.median.out, rnorm0.meta], [rnorm1.mean.out, rnorm1.meta], [rnorm1.median.out, rnorm1.meta]] for outputs [rnorm0.mean.MSE.score, rnorm0.median.MSE.score, rnorm1.mean.MSE.score, rnorm1.median.MSE.score] 
+bpipe.Dependencies	[10]	INFO	|7:28:29 New entry for rnorm0.mean.MSE.score 
+bpipe.Dependencies	[10]	INFO	|7:28:29 Maxtimestamp for rnorm0.mean.MSE.score = 1444369250000 
+bpipe.Dependencies	[10]	INFO	|7:28:29 New entry for rnorm0.median.MSE.score 
+bpipe.Dependencies	[10]	INFO	|7:28:29 Maxtimestamp for rnorm0.median.MSE.score = 1444370458000 
+bpipe.Dependencies	[10]	INFO	|7:28:30 New entry for rnorm1.mean.MSE.score 
+bpipe.Dependencies	[10]	INFO	|7:28:30 Maxtimestamp for rnorm1.mean.MSE.score = 1444370458000 
+bpipe.Dependencies	[10]	INFO	|7:28:30 New entry for rnorm1.median.MSE.score 
+bpipe.Dependencies	[10]	INFO	|7:28:30 Maxtimestamp for rnorm1.median.MSE.score = 1444370458000 
+bpipe.Dependencies	[10]	INFO	|7:28:30 There are 4 output groups 
+bpipe.Dependencies	[10]	INFO	|7:28:30 Subtracting 4 remaining outputs from 4 total outputs 
+bpipe.Dependencies	[10]	INFO	|7:28:30 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:28:30 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:28:30 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:28:30 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:28:30  rnorm0.mean.MSE.score / entry 1734273507  
+bpipe.Dependencies	[10]	INFO	|7:28:30 Checking timestamp of rnorm0.mean.MSE.score vs input rnorm0.mean.out 
+bpipe.Dependencies	[10]	INFO	|7:28:30 Checking timestamp of rnorm0.mean.MSE.score vs input rnorm0.meta 
+bpipe.Dependencies	[10]	INFO	|7:28:30 rnorm0.mean.MSE.score is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:28:30  rnorm0.median.MSE.score / entry 1176318351  
+bpipe.Dependencies	[10]	INFO	|7:28:30 Checking timestamp of rnorm0.median.MSE.score vs input rnorm0.median.out 
+bpipe.Dependencies	[10]	INFO	|7:28:30 Checking timestamp of rnorm0.median.MSE.score vs input rnorm0.meta 
+bpipe.Dependencies	[10]	INFO	|7:28:30 rnorm0.median.MSE.score is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:28:30  rnorm1.mean.MSE.score / entry 648070975  
+bpipe.Dependencies	[10]	INFO	|7:28:30 Checking timestamp of rnorm1.mean.MSE.score vs input rnorm1.mean.out 
+bpipe.Dependencies	[10]	INFO	|7:28:30 Checking timestamp of rnorm1.mean.MSE.score vs input rnorm1.meta 
+bpipe.Dependencies	[10]	INFO	|7:28:30 rnorm1.mean.MSE.score is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:28:30  rnorm1.median.MSE.score / entry 1868577756  
+bpipe.Dependencies	[10]	INFO	|7:28:30 Checking timestamp of rnorm1.median.MSE.score vs input rnorm1.median.out 
+bpipe.Dependencies	[10]	INFO	|7:28:30 Checking timestamp of rnorm1.median.MSE.score vs input rnorm1.meta 
+bpipe.Dependencies	[10]	INFO	|7:28:30 rnorm1.median.MSE.score is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:28:30 ====Finished Output Graph===== 
+bpipe.Dependencies	[10]	INFO	|7:28:30 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:28:30 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:28:30 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:28:30 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:28:30 -- rnorm0.mean.out / entry 2048592904 -- 
+bpipe.Dependencies	[10]	INFO	|7:28:30 Checking timestamp of rnorm0.mean.out vs input rnorm0.data 
+bpipe.Dependencies	[10]	INFO	|7:28:30 rnorm0.mean.out is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:28:30 --- rnorm1.mean.out / entry 95625177 --- 
+bpipe.Dependencies	[10]	INFO	|7:28:30 Checking timestamp of rnorm1.mean.out vs input rnorm1.data 
+bpipe.Dependencies	[10]	INFO	|7:28:30 rnorm1.mean.out is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:28:30 - rnorm0.median.out / entry 854581883 -- 
+bpipe.Dependencies	[10]	INFO	|7:28:30 Checking timestamp of rnorm0.median.out vs input rnorm0.data 
+bpipe.Dependencies	[10]	INFO	|7:28:30 rnorm0.median.out is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:28:30 - rnorm1.median.out / entry 587076445 -- 
+bpipe.Dependencies	[10]	INFO	|7:28:30 Checking timestamp of rnorm1.median.out vs input rnorm1.data 
+bpipe.Dependencies	[10]	INFO	|7:28:30 rnorm1.median.out is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:28:30 ====Finished Output Graph===== 
+bpipe.Dependencies	[10]	INFO	|7:28:30 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:28:30 ---- rnorm0.data / entry 810330843 ----- 
+bpipe.Dependencies	[10]	INFO	|7:28:30 rnorm0.data is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:28:30 ---- rnorm0.meta / entry 810330843 ----- 
+bpipe.Dependencies	[10]	INFO	|7:28:30 rnorm0.meta is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:28:30 ---- rnorm1.data / entry 810330843 ----- 
+bpipe.Dependencies	[10]	INFO	|7:28:30 rnorm1.data is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:28:30 ---- rnorm1.meta / entry 810330843 ----- 
+bpipe.Dependencies	[10]	INFO	|7:28:30 rnorm1.meta is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:28:30 ====Finished Output Graph===== 
+bpipe.Utils	[10]	INFO	|7:28:30 Index output graph executed in 0.003 seconds 
+bpipe.PipelineDelegate	[10]	INFO	|7:28:30 Setting or creating a delegate for context 1404197114 body 1643098115/java.lang.Class in thread 1 
+bpipe.PipelineDelegate	[10]	INFO	|7:28:30 Created new delegate bpipe.PipelineDelegate@28a7bd7a overriding type java.lang.Class in thread 1 
+bpipe.PipelineCategory	[10]	INFO	|7:28:30 multiply on input null with pattern * 
+bpipe.InputSplitter	[10]	INFO	|7:28:30 Found * pattern at [0], hash at [] and % at [] 
+bpipe.InputSplitter	[10]	INFO	|7:28:30 Sorted: [0] 
+bpipe.InputSplitter	[10]	INFO	|7:28:30 % groups are at [] 
+bpipe.InputSplitter	[10]	INFO	|7:28:30 Result is [pattern:([^/]*), splits:[]] 
+bpipe.PipelineCategory	[10]	INFO	|7:28:30 Created pipeline stage 1231409376 for parallel block 
+bpipe.PipelineCategory	[10]	INFO	|7:28:30 Processing segment 642597087 
+bpipe.PipelineCategory	[10]	INFO	|7:28:30 Creating pipeline to run parallel segment * with files null. Branch filter = [] 
+bpipe.PipelineCategory	[10]	INFO	|7:28:30 Processing segment 433980446 
+bpipe.PipelineCategory	[10]	INFO	|7:28:30 Creating pipeline to run parallel segment * with files null. Branch filter = [] 
+bpipe.PipelineCategory	[10]	INFO	|7:28:30 Processing segment 1054890710 
+bpipe.PipelineCategory	[10]	INFO	|7:28:30 Creating pipeline to run parallel segment * with files null. Branch filter = [] 
+bpipe.PipelineCategory	[10]	INFO	|7:28:30 Processing segment 2070656985 
+bpipe.PipelineCategory	[10]	INFO	|7:28:30 Creating pipeline to run parallel segment * with files null. Branch filter = [] 
+bpipe.PipelineContext	[20]	INFO	|7:28:30 Setting output null on context 848516929 in thread 23 
+bpipe.PipelineContext	[21]	INFO	|7:28:30 Setting output null on context 1732609623 in thread 24 
+bpipe.PipelineContext	[22]	INFO	|7:28:30 Setting output null on context 1335364646 in thread 25 
+bpipe.Concurrency	[10]	INFO	|7:28:30 Waiting for 4 parallel stages to complete (pool.active=4 pool.tasks=4) 
+bpipe.PipelineContext	[21]	INFO	|7:28:30 No inputs resolved by input wrappers: outputs based on default null 
+bpipe.PipelineContext	[22]	INFO	|7:28:30 No inputs resolved by input wrappers: outputs based on default null 
+bpipe.PipelineContext	[20]	INFO	|7:28:30 No inputs resolved by input wrappers: outputs based on default null 
+bpipe.PipelineContext	[23]	INFO	|7:28:30 Setting output null on context 115556431 in thread 26 
+bpipe.PipelineContext	[23]	INFO	|7:28:30 No inputs resolved by input wrappers: outputs based on default null 
+bpipe.PipelineCategory	[20]	INFO	|7:28:30 Adding dummy prior stage for thread 23 with outputs : null 
+bpipe.PipelineCategory	[21]	INFO	|7:28:30 Adding dummy prior stage for thread 24 with outputs : null 
+bpipe.PipelineCategory	[22]	INFO	|7:28:30 Adding dummy prior stage for thread 25 with outputs : null 
+bpipe.PipelineCategory	[23]	INFO	|7:28:30 Adding dummy prior stage for thread 26 with outputs : null 
+bpipe.Pipeline	[21]	INFO	|7:28:30 Running segment with inputs null 
+bpipe.Pipeline	[20]	INFO	|7:28:30 Running segment with inputs null 
+bpipe.Dependencies	[20]	INFO	|7:28:30 Checking input (s) null 
+bpipe.Pipeline	[22]	INFO	|7:28:30 Running segment with inputs null 
+bpipe.Dependencies	[21]	INFO	|7:28:30 Checking input (s) null 
+bpipe.Pipeline	[23]	INFO	|7:28:30 Running segment with inputs null 
+bpipe.Dependencies	[23]	INFO	|7:28:30 Checking input (s) null 
+bpipe.Dependencies	[22]	INFO	|7:28:30 Checking input (s) null 
+bpipe.PipelineDelegate	[21]	INFO	|7:28:30 Setting or creating a delegate for context 1444226787 body 433980446/java.lang.Class in thread 24 
+bpipe.PipelineDelegate	[21]	INFO	|7:28:30 Created new delegate bpipe.PipelineDelegate@11cdc190 overriding type java.lang.Class in thread 24 
+bpipe.Dependencies	[21]	INFO	|7:28:30 Checking input (s) null 
+bpipe.PipelineDelegate	[20]	INFO	|7:28:30 Setting or creating a delegate for context 332327930 body 642597087/java.lang.Class in thread 23 
+bpipe.PipelineDelegate	[23]	INFO	|7:28:30 Setting or creating a delegate for context 111947068 body 2070656985/java.lang.Class in thread 26 
+bpipe.PipelineDelegate	[23]	INFO	|7:28:30 Created new delegate bpipe.PipelineDelegate@dae6456 overriding type java.lang.Class in thread 26 
+bpipe.Dependencies	[23]	INFO	|7:28:30 Checking input (s) null 
+bpipe.PipelineDelegate	[20]	INFO	|7:28:30 Created new delegate bpipe.PipelineDelegate@172b29ed overriding type java.lang.Class in thread 23 
+bpipe.Dependencies	[20]	INFO	|7:28:30 Checking input (s) null 
+bpipe.PipelineDelegate	[22]	INFO	|7:28:30 Setting or creating a delegate for context 1532943889 body 1054890710/java.lang.Class in thread 25 
+bpipe.PipelineDelegate	[22]	INFO	|7:28:30 Created new delegate bpipe.PipelineDelegate@24e72f0c overriding type java.lang.Class in thread 25 
+bpipe.Dependencies	[22]	INFO	|7:28:30 Checking input (s) null 
+bpipe.PipelineDelegate	[20]	INFO	|7:28:30 Setting or creating a delegate for context 1493780687 body 107252024/java.lang.Class in thread 23 
+bpipe.PipelineDelegate	[20]	INFO	|7:28:30 Created new delegate bpipe.PipelineDelegate@25098594 overriding type java.lang.Class in thread 23 
+bpipe.PipelineDelegate	[22]	INFO	|7:28:30 Setting or creating a delegate for context 308417245 body 23273958/java.lang.Class in thread 25 
+bpipe.PipelineDelegate	[22]	INFO	|7:28:30 Created new delegate bpipe.PipelineDelegate@63ad6884 overriding type java.lang.Class in thread 25 
+bpipe.Dependencies	[20]	INFO	|7:28:30 Checking input (s) null 
+bpipe.PipelineDelegate	[21]	INFO	|7:28:30 Setting or creating a delegate for context 1140667915 body 845987535/java.lang.Class in thread 24 
+bpipe.PipelineDelegate	[21]	INFO	|7:28:30 Created new delegate bpipe.PipelineDelegate@da8e53c overriding type java.lang.Class in thread 24 
+bpipe.PipelineDelegate	[20]	INFO	|7:28:30 Setting or creating a delegate for context 1494019094 body 253380575/java.lang.Class in thread 23 
+bpipe.Dependencies	[21]	INFO	|7:28:30 Checking input (s) null 
+bpipe.PipelineDelegate	[20]	INFO	|7:28:30 Created new delegate bpipe.PipelineDelegate@7279df82 overriding type java.lang.Class in thread 23 
+bpipe.Dependencies	[20]	INFO	|7:28:30 Checking input (s) null 
+bpipe.Dependencies	[22]	INFO	|7:28:30 Checking input (s) null 
+bpipe.PipelineStage	[20]	INFO	|7:28:30 Stage set_seed [*] : INPUT=null OUTPUT=set_seed 
+bpipe.PipelineDelegate	[23]	INFO	|7:28:30 Setting or creating a delegate for context 1652311912 body 323388352/java.lang.Class in thread 26 
+bpipe.PipelineDelegate	[20]	INFO	|7:28:30 Setting or creating a delegate for context 1295265627 body 935543594/script1444400909511926102091 in thread 23 
+bpipe.PipelineDelegate	[23]	INFO	|7:28:30 Created new delegate bpipe.PipelineDelegate@1d1126f6 overriding type java.lang.Class in thread 26 
+bpipe.PipelineDelegate	[20]	INFO	|7:28:30 Created new delegate bpipe.PipelineDelegate@5114ef62 overriding type script1444400909511926102091 in thread 23 
+bpipe.Dependencies	[23]	INFO	|7:28:30 Checking input (s) null 
+bpipe.PipelineStage	[22]	INFO	|7:28:30 Stage rnorm1 [*] : INPUT=null OUTPUT=rnorm1 
+bpipe.PipelineDelegate	[22]	INFO	|7:28:30 Setting or creating a delegate for context 1837613354 body 50836846/script1444400909511926102091 in thread 25 
+bpipe.PipelineDelegate	[22]	INFO	|7:28:30 Created new delegate bpipe.PipelineDelegate@6b9ae493 overriding type script1444400909511926102091 in thread 25 
+bpipe.PipelineStage	[21]	INFO	|7:28:30 Stage rnorm0 [*] : INPUT=null OUTPUT=rnorm0 
+bpipe.PipelineDelegate	[21]	INFO	|7:28:30 Setting or creating a delegate for context 507648203 body 724860211/script1444400909511926102091 in thread 24 
+bpipe.PipelineDelegate	[21]	INFO	|7:28:30 Created new delegate bpipe.PipelineDelegate@569c6f2 overriding type script1444400909511926102091 in thread 24 
+bpipe.PipelineStage	[23]	INFO	|7:28:30 Stage rnorm1 [*] : INPUT=null OUTPUT=rnorm1 
+bpipe.PipelineDelegate	[23]	INFO	|7:28:30 Setting or creating a delegate for context 1561896816 body 50836846/bpipe.PipelineDelegate in thread 26 
+bpipe.PipelineDelegate	[23]	INFO	|7:28:30 Existing delegate bpipe.PipelineDelegate@6b9ae493 has type bpipe.PipelineDelegate in thread 26. Setting new context 1561896816 
+bpipe.PipelineContext	[23]	INFO	|7:28:30 No inputs resolved by input wrappers: outputs based on default rnorm1 
+bpipe.PipelineContext	[22]	INFO	|7:28:30 No inputs resolved by input wrappers: outputs based on default rnorm1 
+bpipe.PipelineContext	[21]	INFO	|7:28:30 No inputs resolved by input wrappers: outputs based on default rnorm0 
+bpipe.PipelineContext	[23]	INFO	|7:28:30 No inputs resolved by input wrappers: outputs based on default rnorm1 
+bpipe.PipelineContext	[21]	INFO	|7:28:30 No inputs resolved by input wrappers: outputs based on default rnorm0 
+bpipe.PipelineContext	[22]	INFO	|7:28:30 No inputs resolved by input wrappers: outputs based on default rnorm1 
+bpipe.PipelineContext	[21]	INFO	|7:28:30 Tracking outputs referenced=[[]] inferred=[[rnorm0.data, rnorm0.meta]] for command Rscript R/scenarios/rnorm.R 1000 0 rnorm0.data rnorm0.meta 
+bpipe.PipelineContext	[23]	INFO	|7:28:30 Tracking outputs referenced=[[]] inferred=[[rnorm1.data, rnorm1.meta]] for command Rscript R/scenarios/rnorm.R 1000 1 rnorm1.data rnorm1.meta 
+bpipe.PipelineContext	[22]	INFO	|7:28:30 Tracking outputs referenced=[[]] inferred=[[rnorm1.data, rnorm1.meta]] for command Rscript R/scenarios/rnorm.R 1000 1 rnorm1.data rnorm1.meta 
+bpipe.PipelineContext	[20]	INFO	|7:28:30 Entering echo mode on context 1295265627 
+bpipe.PipelineContext	[20]	INFO	|7:28:30 Tracking outputs referenced=[[]] inferred=[[]] for command unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444400910502237000-0"  Rscript - <<'!'
+            set.seed(1)
+!
+ 
+bpipe.PipelineContext	[23]	INFO	|7:28:30 Checking actual resolved inputs [] 
+bpipe.PipelineContext	[20]	INFO	|7:28:30 Checking actual resolved inputs [] 
+bpipe.PipelineContext	[21]	INFO	|7:28:30 Checking actual resolved inputs [] 
+bpipe.PipelineContext	[22]	INFO	|7:28:30 Checking actual resolved inputs [] 
+bpipe.PipelineContext	[23]	INFO	|7:28:30 Skipping command Rscript R/scenarios/rnorm.R 10... because outputs [rnorm1.data, rnorm1.meta] already exist (no inputs referenced) 
+bpipe.PipelineContext	[22]	INFO	|7:28:30 Skipping command Rscript R/scenarios/rnorm.R 10... because outputs [rnorm1.data, rnorm1.meta] already exist (no inputs referenced) 
+bpipe.PipelineContext	[21]	INFO	|7:28:30 Skipping command Rscript R/scenarios/rnorm.R 10... because outputs [rnorm0.data, rnorm0.meta] already exist (no inputs referenced) 
+bpipe.Command	[20]	INFO	|7:28:30 Checking for configuration for command unset 
+bpipe.Command	[20]	INFO	|7:28:30 Default command properties: [executor:local] 
+bpipe.PipelineStage	[21]	INFO	|7:28:30 Stage rnorm0 [*] returned null as default inputs for next stage 
+bpipe.PipelineStage	[22]	INFO	|7:28:30 Stage rnorm1 [*] returned null as default inputs for next stage 
+bpipe.PipelineStage	[23]	INFO	|7:28:30 Stage rnorm1 [*] returned null as default inputs for next stage 
+bpipe.CommandManager	[20]	INFO	|7:28:30 Using config [executor:local] for command 
+bpipe.PipelineStage	[23]	INFO	|7:28:30 Using inferred outputs [rnorm1.data, rnorm1.meta] as outputs because no explicit outputs set 
+bpipe.PipelineStage	[23]	INFO	|7:28:30 Inferring nextInputs from explicit output as [rnorm1.data, rnorm1.meta] 
+bpipe.PipelineStage	[21]	INFO	|7:28:30 Using inferred outputs [rnorm0.data, rnorm0.meta] as outputs because no explicit outputs set 
+bpipe.PipelineStage	[21]	INFO	|7:28:30 Inferring nextInputs from explicit output as [rnorm0.data, rnorm0.meta] 
+bpipe.PipelineStage	[23]	INFO	|7:28:30 Setting next inputs [rnorm1.data, rnorm1.meta] on stage 2014356761, context 1561896816 in thread 26 
+bpipe.PipelineStage	[22]	INFO	|7:28:30 Using inferred outputs [rnorm1.data, rnorm1.meta] as outputs because no explicit outputs set 
+bpipe.PipelineStage	[22]	INFO	|7:28:30 Inferring nextInputs from explicit output as [rnorm1.data, rnorm1.meta] 
+bpipe.PipelineStage	[23]	INFO	|7:28:30 Checking files: [rnorm1.data, rnorm1.meta] 
+bpipe.Dependencies	[23]	INFO	|7:28:30 Checking output (s) [rnorm1.data, rnorm1.meta] 
+bpipe.PipelineStage	[21]	INFO	|7:28:30 Setting next inputs [rnorm0.data, rnorm0.meta] on stage 214387172, context 507648203 in thread 24 
+bpipe.CommandManager	[20]	INFO	|7:28:30 Created bpipe command id 16 
+bpipe.Dependencies	[23]	INFO	|7:28:30  Checking file rnorm1.data 
+bpipe.PipelineStage	[22]	INFO	|7:28:30 Setting next inputs [rnorm1.data, rnorm1.meta] on stage 1394241546, context 1837613354 in thread 25 
+bpipe.Dependencies	[23]	INFO	|7:28:30  Checking file rnorm1.meta 
+bpipe.PipelineStage	[21]	INFO	|7:28:30 Checking files: [rnorm0.data, rnorm0.meta] 
+bpipe.PipelineStage	[22]	INFO	|7:28:30 Checking files: [rnorm1.data, rnorm1.meta] 
+bpipe.PipelineCategory	[23]	INFO	|7:28:30 Checking that outputs [rnorm1.data, rnorm1.meta] exist 
+bpipe.Dependencies	[23]	INFO	|7:28:30 Checking input (s) [rnorm1.data, rnorm1.meta] 
+bpipe.Dependencies	[23]	INFO	|7:28:30  Checking file rnorm1.data 
+bpipe.Dependencies	[22]	INFO	|7:28:30 Checking output (s) [rnorm1.data, rnorm1.meta] 
+bpipe.Dependencies	[21]	INFO	|7:28:30 Checking output (s) [rnorm0.data, rnorm0.meta] 
+bpipe.Dependencies	[21]	INFO	|7:28:30  Checking file rnorm0.data 
+bpipe.Dependencies	[21]	INFO	|7:28:30  Checking file rnorm0.meta 
+bpipe.Dependencies	[22]	INFO	|7:28:30  Checking file rnorm1.data 
+bpipe.Dependencies	[22]	INFO	|7:28:30  Checking file rnorm1.meta 
+bpipe.PipelineCategory	[22]	INFO	|7:28:30 Checking that outputs [rnorm1.data, rnorm1.meta] exist 
+bpipe.Dependencies	[22]	INFO	|7:28:30 Checking input (s) [rnorm1.data, rnorm1.meta] 
+bpipe.Dependencies	[22]	INFO	|7:28:30  Checking file rnorm1.data 
+bpipe.Dependencies	[22]	INFO	|7:28:30  Checking file rnorm1.meta 
+bpipe.Dependencies	[23]	INFO	|7:28:30  Checking file rnorm1.meta 
+bpipe.PipelineCategory	[23]	INFO	|7:28:30 Next inputs from stage = [rnorm1.data, rnorm1.meta] 
+bpipe.PipelineCategory	[22]	INFO	|7:28:30 Next inputs from stage = [rnorm1.data, rnorm1.meta] 
+bpipe.PipelineCategory	[21]	INFO	|7:28:30 Checking that outputs [rnorm0.data, rnorm0.meta] exist 
+bpipe.PipelineCategory	[22]	INFO	|7:28:30 Checking inputs for next stage:  [rnorm1.data, rnorm1.meta] 
+bpipe.Dependencies	[22]	INFO	|7:28:30 Checking input (s) [rnorm1.data, rnorm1.meta] 
+bpipe.Dependencies	[22]	INFO	|7:28:30  Checking file rnorm1.data 
+bpipe.Dependencies	[22]	INFO	|7:28:30  Checking file rnorm1.meta 
+bpipe.PipelineCategory	[23]	INFO	|7:28:30 Checking inputs for next stage:  [rnorm1.data, rnorm1.meta] 
+bpipe.Concurrency	[20]	INFO	|7:28:30 Thread Thread-8 requesting for 1 concurrency permit(s) type threads with 32 available 
+bpipe.Dependencies	[23]	INFO	|7:28:30 Checking input (s) [rnorm1.data, rnorm1.meta] 
+bpipe.Concurrency	[20]	INFO	|7:28:30 Thread Thread-8 acquired resource threads in amount 1 
+bpipe.Dependencies	[23]	INFO	|7:28:30  Checking file rnorm1.data 
+bpipe.Dependencies	[22]	INFO	|7:28:30 Checking input (s) [rnorm1.data, rnorm1.meta] 
+bpipe.Dependencies	[21]	INFO	|7:28:30 Checking input (s) [rnorm0.data, rnorm0.meta] 
+bpipe.Dependencies	[23]	INFO	|7:28:30  Checking file rnorm1.meta 
+bpipe.Dependencies	[21]	INFO	|7:28:30  Checking file rnorm0.data 
+bpipe.Dependencies	[22]	INFO	|7:28:30  Checking file rnorm1.data 
+bpipe.Dependencies	[23]	INFO	|7:28:30 Checking input (s) [rnorm1.data, rnorm1.meta] 
+bpipe.Dependencies	[22]	INFO	|7:28:30  Checking file rnorm1.meta 
+bpipe.Dependencies	[23]	INFO	|7:28:30  Checking file rnorm1.data 
+bpipe.Dependencies	[23]	INFO	|7:28:30  Checking file rnorm1.meta 
+bpipe.Dependencies	[21]	INFO	|7:28:30  Checking file rnorm0.meta 
+bpipe.PipelineCategory	[21]	INFO	|7:28:30 Next inputs from stage = [rnorm0.data, rnorm0.meta] 
+bpipe.PipelineCategory	[21]	INFO	|7:28:30 Checking inputs for next stage:  [rnorm0.data, rnorm0.meta] 
+bpipe.PipelineStage	[22]	INFO	|7:28:30 Stage mean [*] : INPUT=[rnorm1.data, rnorm1.meta] OUTPUT=rnorm1.data.mean 
+bpipe.PipelineStage	[23]	INFO	|7:28:30 Stage median [*] : INPUT=[rnorm1.data, rnorm1.meta] OUTPUT=rnorm1.data.median 
+bpipe.PipelineDelegate	[22]	INFO	|7:28:30 Setting or creating a delegate for context 1440758369 body 1863862863/script1444400909511926102091 in thread 25 
+bpipe.PipelineDelegate	[23]	INFO	|7:28:30 Setting or creating a delegate for context 1317342860 body 599179652/script1444400909511926102091 in thread 26 
+bpipe.PipelineDelegate	[23]	INFO	|7:28:30 Created new delegate bpipe.PipelineDelegate@49c88f2b overriding type script1444400909511926102091 in thread 26 
+bpipe.PipelineInput	[23]	INFO	|7:28:30 Searching for missing Property: data 
+bpipe.Dependencies	[21]	INFO	|7:28:30 Checking input (s) [rnorm0.data, rnorm0.meta] 
+bpipe.PipelineDelegate	[22]	INFO	|7:28:30 Created new delegate bpipe.PipelineDelegate@17e319a overriding type script1444400909511926102091 in thread 25 
+bpipe.Dependencies	[21]	INFO	|7:28:30  Checking file rnorm0.data 
+bpipe.Dependencies	[21]	INFO	|7:28:30  Checking file rnorm0.meta 
+bpipe.Command	[24]	INFO	|7:28:30 Command 16 changing state from null to RUNNING 
+bpipe.Dependencies	[21]	INFO	|7:28:30 Checking input (s) [rnorm0.data, rnorm0.meta] 
+bpipe.Dependencies	[21]	INFO	|7:28:30  Checking file rnorm0.data 
+bpipe.Dependencies	[21]	INFO	|7:28:30  Checking file rnorm0.meta 
+bpipe.PipelineInput	[22]	INFO	|7:28:30 Searching for missing Property: data 
+bpipe.PipelineStage	[21]	INFO	|7:28:30 Stage median [*] : INPUT=[rnorm0.data, rnorm0.meta] OUTPUT=rnorm0.data.median 
+bpipe.PipelineDelegate	[21]	INFO	|7:28:30 Setting or creating a delegate for context 1633100960 body 599179652/bpipe.PipelineDelegate in thread 24 
+bpipe.PipelineDelegate	[21]	INFO	|7:28:30 Existing delegate bpipe.PipelineDelegate@49c88f2b has type bpipe.PipelineDelegate in thread 24. Setting new context 1633100960 
+bpipe.PipelineInput	[21]	INFO	|7:28:30 Searching for missing Property: data 
+bpipe.PipelineInput	[22]	INFO	|7:28:30 Resolving inputs matching pattern ^.*\.data$ 
+bpipe.PipelineInput	[21]	INFO	|7:28:30 Resolving inputs matching pattern ^.*\.data$ 
+bpipe.PipelineInput	[22]	INFO	|7:28:30 Checking outputs [rnorm1.data, rnorm1.meta] 
+bpipe.PipelineInput	[21]	INFO	|7:28:30 Checking outputs [rnorm0.data, rnorm0.meta] 
+bpipe.PipelineInput	[23]	INFO	|7:28:30 Resolving inputs matching pattern ^.*\.data$ 
+bpipe.PipelineInput	[23]	INFO	|7:28:30 Checking outputs [rnorm1.data, rnorm1.meta] 
+bpipe.PipelineInput	[23]	INFO	|7:28:30 Found files with exts [data$] : [[rnorm1.data]] 
+bpipe.PipelineInput	[22]	INFO	|7:28:30 Found files with exts [data$] : [[rnorm1.data]] 
+bpipe.PipelineInput	[21]	INFO	|7:28:30 Found files with exts [data$] : [[rnorm0.data]] 
+bpipe.PipelineInput	[22]	INFO	|7:28:30 Adding resolved input rnorm1.data 
+bpipe.PipelineContext	[22]	INFO	|7:28:30 Using non-default output due to input property reference: rnorm1.data from resolved inputs [rnorm1.data] 
+bpipe.PipelineInput	[21]	INFO	|7:28:30 Adding resolved input rnorm0.data 
+bpipe.PipelineInput	[23]	INFO	|7:28:30 Adding resolved input rnorm1.data 
+bpipe.PipelineContext	[21]	INFO	|7:28:30 Using non-default output due to input property reference: rnorm0.data from resolved inputs [rnorm0.data] 
+bpipe.PipelineContext	[22]	INFO	|7:28:30 Tracking outputs referenced=[[]] inferred=[[rnorm1.mean.out]] for command Rscript R/methods/mean.R rnorm1.data rnorm1.mean.out 
+bpipe.PipelineContext	[21]	INFO	|7:28:30 Tracking outputs referenced=[[]] inferred=[[rnorm0.median.out]] for command Rscript R/methods/median.R rnorm0.data rnorm0.median.out 
+bpipe.PipelineContext	[22]	INFO	|7:28:30 Checking actual resolved inputs [rnorm1.data] 
+bpipe.PipelineContext	[21]	INFO	|7:28:30 Checking actual resolved inputs [rnorm0.data] 
+bpipe.PipelineContext	[23]	INFO	|7:28:30 Using non-default output due to input property reference: rnorm1.data from resolved inputs [rnorm1.data] 
+bpipe.PipelineContext	[23]	INFO	|7:28:30 Tracking outputs referenced=[[]] inferred=[[rnorm1.median.out]] for command Rscript R/methods/median.R rnorm1.data rnorm1.median.out 
+bpipe.Utils	[22]	INFO	|7:28:30 ===== Check rnorm1.mean.out ===== 
+bpipe.Utils	[22]	INFO	|7:28:30 Checking rnorm1.mean.out against inputs [rnorm1.data] 
+bpipe.Utils	[22]	INFO	|7:28:30 Check rnorm1.data : 1444369672000 >  rnorm1.mean.out : 1444370457000 
+bpipe.Dependencies	[22]	INFO	|7:28:30 No missing / older files from inputs: [rnorm1.mean.out] are up to date 
+bpipe.PipelineContext	[22]	INFO	|7:28:30 Skipping command Rscript R/methods/mean.R rnorm... due to inferred outputs [rnorm1.mean.out] newer than inputs [rnorm1.data, rnorm1.meta] 
+bpipe.Utils	[21]	INFO	|7:28:30 ===== Check rnorm0.median.out ===== 
+bpipe.PipelineContext	[23]	INFO	|7:28:30 Checking actual resolved inputs [rnorm1.data] 
+bpipe.Utils	[23]	INFO	|7:28:30 ===== Check rnorm1.median.out ===== 
+bpipe.Utils	[23]	INFO	|7:28:30 Checking rnorm1.median.out against inputs [rnorm1.data] 
+bpipe.Utils	[23]	INFO	|7:28:30 Check rnorm1.data : 1444369672000 >  rnorm1.median.out : 1444370457000 
+bpipe.Utils	[21]	INFO	|7:28:30 Checking rnorm0.median.out against inputs [rnorm0.data] 
+bpipe.PipelineStage	[22]	INFO	|7:28:30 Stage mean [*] returned null as default inputs for next stage 
+bpipe.Dependencies	[23]	INFO	|7:28:30 No missing / older files from inputs: [rnorm1.median.out] are up to date 
+bpipe.Utils	[21]	INFO	|7:28:30 Check rnorm0.data : 1444369250000 >  rnorm0.median.out : 1444370457000 
+bpipe.PipelineContext	[23]	INFO	|7:28:30 Skipping command Rscript R/methods/median.R rno... due to inferred outputs [rnorm1.median.out] newer than inputs [rnorm1.data, rnorm1.meta] 
+bpipe.Dependencies	[21]	INFO	|7:28:30 No missing / older files from inputs: [rnorm0.median.out] are up to date 
+bpipe.PipelineContext	[21]	INFO	|7:28:30 Skipping command Rscript R/methods/median.R rno... due to inferred outputs [rnorm0.median.out] newer than inputs [rnorm0.data, rnorm0.meta] 
+bpipe.PipelineStage	[22]	INFO	|7:28:30 Using inferred outputs [rnorm1.mean.out] as outputs because no explicit outputs set 
+bpipe.PipelineStage	[23]	INFO	|7:28:30 Stage median [*] returned null as default inputs for next stage 
+bpipe.PipelineStage	[21]	INFO	|7:28:30 Stage median [*] returned null as default inputs for next stage 
+bpipe.PipelineStage	[21]	INFO	|7:28:30 Using inferred outputs [rnorm0.median.out] as outputs because no explicit outputs set 
+bpipe.PipelineStage	[21]	INFO	|7:28:30 Inferring nextInputs from explicit output as [rnorm0.median.out] 
+bpipe.PipelineStage	[22]	INFO	|7:28:30 Inferring nextInputs from explicit output as [rnorm1.mean.out] 
+bpipe.PipelineStage	[23]	INFO	|7:28:30 Using inferred outputs [rnorm1.median.out] as outputs because no explicit outputs set 
+bpipe.PipelineStage	[21]	INFO	|7:28:30 Setting next inputs [rnorm0.median.out] on stage 1020053025, context 1633100960 in thread 24 
+bpipe.PipelineStage	[22]	INFO	|7:28:30 Setting next inputs [rnorm1.mean.out] on stage 669237174, context 1440758369 in thread 25 
+bpipe.PipelineStage	[21]	INFO	|7:28:30 Checking files: [rnorm0.median.out] 
+bpipe.PipelineStage	[23]	INFO	|7:28:30 Inferring nextInputs from explicit output as [rnorm1.median.out] 
+bpipe.PipelineStage	[22]	INFO	|7:28:30 Checking files: [rnorm1.mean.out] 
+bpipe.Dependencies	[21]	INFO	|7:28:30 Checking output (s) [rnorm0.median.out] 
+bpipe.Dependencies	[22]	INFO	|7:28:30 Checking output (s) [rnorm1.mean.out] 
+bpipe.Dependencies	[21]	INFO	|7:28:30  Checking file rnorm0.median.out 
+bpipe.PipelineStage	[23]	INFO	|7:28:30 Setting next inputs [rnorm1.median.out] on stage 307468946, context 1317342860 in thread 26 
+bpipe.Dependencies	[22]	INFO	|7:28:30  Checking file rnorm1.mean.out 
+bpipe.PipelineStage	[23]	INFO	|7:28:30 Checking files: [rnorm1.median.out] 
+bpipe.Dependencies	[23]	INFO	|7:28:30 Checking output (s) [rnorm1.median.out] 
+bpipe.Dependencies	[23]	INFO	|7:28:30  Checking file rnorm1.median.out 
+bpipe.PipelineContext	[21]	INFO	|7:28:30 Setting output [rnorm0.median.out] on context 1140667915 in thread 24 
+bpipe.PipelineContext	[22]	INFO	|7:28:30 Setting output [rnorm1.mean.out] on context 308417245 in thread 25 
+bpipe.PipelineStage	[21]	INFO	|7:28:30 Setting next inputs [rnorm0.median.out] on stage 509631262, context 1140667915 in thread 24 
+bpipe.PipelineStage	[22]	INFO	|7:28:30 Setting next inputs [rnorm1.mean.out] on stage 1207836198, context 308417245 in thread 25 
+bpipe.PipelineContext	[23]	INFO	|7:28:30 Setting output [rnorm1.median.out] on context 1652311912 in thread 26 
+bpipe.PipelineStage	[21]	INFO	|7:28:30 Checking files: [rnorm0.median.out] 
+bpipe.PipelineStage	[23]	INFO	|7:28:30 Setting next inputs [rnorm1.median.out] on stage 230731210, context 1652311912 in thread 26 
+bpipe.Dependencies	[21]	INFO	|7:28:30 Checking output (s) [rnorm0.median.out] 
+bpipe.PipelineStage	[23]	INFO	|7:28:30 Checking files: [rnorm1.median.out] 
+bpipe.PipelineStage	[22]	INFO	|7:28:30 Checking files: [rnorm1.mean.out] 
+bpipe.Dependencies	[23]	INFO	|7:28:30 Checking output (s) [rnorm1.median.out] 
+bpipe.Dependencies	[21]	INFO	|7:28:30  Checking file rnorm0.median.out 
+bpipe.Dependencies	[22]	INFO	|7:28:30 Checking output (s) [rnorm1.mean.out] 
+bpipe.PipelineCategory	[21]	INFO	|7:28:30 Checking that outputs [rnorm0.median.out] exist 
+bpipe.Dependencies	[22]	INFO	|7:28:30  Checking file rnorm1.mean.out 
+bpipe.Dependencies	[21]	INFO	|7:28:30 Checking input (s) [rnorm0.median.out] 
+bpipe.PipelineCategory	[22]	INFO	|7:28:30 Checking that outputs [rnorm1.mean.out] exist 
+bpipe.Dependencies	[21]	INFO	|7:28:30  Checking file rnorm0.median.out 
+bpipe.Dependencies	[22]	INFO	|7:28:30 Checking input (s) [rnorm1.mean.out] 
+bpipe.PipelineCategory	[21]	INFO	|7:28:30 Next inputs from stage = [rnorm0.median.out] 
+bpipe.Dependencies	[23]	INFO	|7:28:30  Checking file rnorm1.median.out 
+bpipe.Dependencies	[22]	INFO	|7:28:30  Checking file rnorm1.mean.out 
+bpipe.PipelineCategory	[21]	INFO	|7:28:30 Checking inputs for next stage:  [rnorm0.median.out] 
+bpipe.PipelineCategory	[23]	INFO	|7:28:30 Checking that outputs [rnorm1.median.out] exist 
+bpipe.Dependencies	[21]	INFO	|7:28:30 Checking input (s) [rnorm0.median.out] 
+bpipe.Dependencies	[23]	INFO	|7:28:30 Checking input (s) [rnorm1.median.out] 
+bpipe.Dependencies	[21]	INFO	|7:28:30  Checking file rnorm0.median.out 
+bpipe.Dependencies	[23]	INFO	|7:28:30  Checking file rnorm1.median.out 
+bpipe.PipelineCategory	[23]	INFO	|7:28:30 Next inputs from stage = [rnorm1.median.out] 
+bpipe.PipelineCategory	[22]	INFO	|7:28:30 Next inputs from stage = [rnorm1.mean.out] 
+bpipe.PipelineCategory	[23]	INFO	|7:28:30 Checking inputs for next stage:  [rnorm1.median.out] 
+bpipe.PipelineCategory	[22]	INFO	|7:28:30 Checking inputs for next stage:  [rnorm1.mean.out] 
+bpipe.Dependencies	[21]	INFO	|7:28:30 Checking input (s) [rnorm0.median.out] 
+bpipe.Dependencies	[22]	INFO	|7:28:30 Checking input (s) [rnorm1.mean.out] 
+bpipe.Dependencies	[23]	INFO	|7:28:30 Checking input (s) [rnorm1.median.out] 
+bpipe.Dependencies	[22]	INFO	|7:28:30  Checking file rnorm1.mean.out 
+bpipe.Dependencies	[23]	INFO	|7:28:30  Checking file rnorm1.median.out 
+bpipe.Dependencies	[21]	INFO	|7:28:30  Checking file rnorm0.median.out 
+bpipe.Dependencies	[23]	INFO	|7:28:30 Checking input (s) [rnorm1.median.out] 
+bpipe.Dependencies	[22]	INFO	|7:28:30 Checking input (s) [rnorm1.mean.out] 
+bpipe.Dependencies	[23]	INFO	|7:28:30  Checking file rnorm1.median.out 
+bpipe.Dependencies	[22]	INFO	|7:28:30  Checking file rnorm1.mean.out 
+bpipe.PipelineStage	[21]	INFO	|7:28:30 Stage MSE [*] : INPUT=[rnorm0.median.out] OUTPUT=rnorm0.median.out.MSE 
+bpipe.PipelineDelegate	[21]	INFO	|7:28:30 Setting or creating a delegate for context 1459922102 body 861590381/script1444400909511926102091 in thread 24 
+bpipe.PipelineDelegate	[21]	INFO	|7:28:30 Created new delegate bpipe.PipelineDelegate@5c8032df overriding type script1444400909511926102091 in thread 24 
+bpipe.PipelineInput	[21]	INFO	|7:28:30 Searching for missing Property: out 
+bpipe.PipelineInput	[21]	INFO	|7:28:30 Resolving inputs matching pattern ^.*\.out$ 
+bpipe.PipelineInput	[21]	INFO	|7:28:30 Checking outputs [rnorm0.median.out] 
+bpipe.PipelineInput	[21]	INFO	|7:28:30 Found files with exts [out$] : [[rnorm0.median.out]] 
+bpipe.PipelineInput	[21]	INFO	|7:28:30 Adding resolved input rnorm0.median.out 
+bpipe.PipelineStage	[22]	INFO	|7:28:30 Stage MSE [*] : INPUT=[rnorm1.mean.out] OUTPUT=rnorm1.mean.out.MSE 
+bpipe.executor.ThrottledDelegatingCommandExecutor	[20]	INFO	|7:28:30 Waiting for command to complete before releasing 1 resources 
+bpipe.PipelineStage	[23]	INFO	|7:28:30 Stage MSE [*] : INPUT=[rnorm1.median.out] OUTPUT=rnorm1.median.out.MSE 
+bpipe.PipelineDelegate	[23]	INFO	|7:28:30 Setting or creating a delegate for context 1311167840 body 861590381/bpipe.PipelineDelegate in thread 26 
+bpipe.PipelineDelegate	[23]	INFO	|7:28:30 Existing delegate bpipe.PipelineDelegate@5c8032df has type bpipe.PipelineDelegate in thread 26. Setting new context 1311167840 
+bpipe.PipelineInput	[23]	INFO	|7:28:30 Searching for missing Property: out 
+bpipe.PipelineDelegate	[22]	INFO	|7:28:30 Setting or creating a delegate for context 1468185013 body 861590381/bpipe.PipelineDelegate in thread 25 
+bpipe.PipelineInput	[23]	INFO	|7:28:30 Resolving inputs matching pattern ^.*\.out$ 
+bpipe.PipelineDelegate	[22]	INFO	|7:28:30 Existing delegate bpipe.PipelineDelegate@5c8032df has type bpipe.PipelineDelegate in thread 25. Setting new context 1468185013 
+bpipe.PipelineInput	[22]	INFO	|7:28:30 Searching for missing Property: out 
+bpipe.PipelineInput	[23]	INFO	|7:28:30 Checking outputs [rnorm1.median.out] 
+bpipe.PipelineInput	[23]	INFO	|7:28:30 Found files with exts [out$] : [[rnorm1.median.out]] 
+bpipe.PipelineInput	[23]	INFO	|7:28:30 Adding resolved input rnorm1.median.out 
+bpipe.PipelineInput	[22]	INFO	|7:28:30 Resolving inputs matching pattern ^.*\.out$ 
+bpipe.PipelineInput	[22]	INFO	|7:28:30 Checking outputs [rnorm1.mean.out] 
+bpipe.PipelineInput	[22]	INFO	|7:28:30 Found files with exts [out$] : [[rnorm1.mean.out]] 
+bpipe.PipelineInput	[22]	INFO	|7:28:30 Adding resolved input rnorm1.mean.out 
+bpipe.PipelineInput	[21]	INFO	|7:28:30 Searching for missing Property: meta 
+bpipe.PipelineInput	[23]	INFO	|7:28:30 Searching for missing Property: meta 
+bpipe.PipelineInput	[22]	INFO	|7:28:30 Searching for missing Property: meta 
+bpipe.PipelineInput	[23]	INFO	|7:28:30 Resolving inputs matching pattern ^.*\.meta$ 
+bpipe.PipelineInput	[23]	INFO	|7:28:30 Checking outputs [rnorm1.median.out] 
+bpipe.PipelineInput	[22]	INFO	|7:28:30 Resolving inputs matching pattern ^.*\.meta$ 
+bpipe.PipelineInput	[21]	INFO	|7:28:30 Resolving inputs matching pattern ^.*\.meta$ 
+bpipe.PipelineInput	[21]	INFO	|7:28:30 Checking outputs [rnorm0.median.out] 
+bpipe.PipelineInput	[21]	INFO	|7:28:30 Checking outputs [rnorm0.median.out] 
+bpipe.PipelineInput	[21]	INFO	|7:28:30 Checking outputs [rnorm0.data, rnorm0.meta] 
+bpipe.PipelineInput	[23]	INFO	|7:28:30 Checking outputs [rnorm1.median.out] 
+bpipe.PipelineInput	[23]	INFO	|7:28:30 Checking outputs [rnorm1.data, rnorm1.meta] 
+bpipe.PipelineInput	[21]	INFO	|7:28:30 Found files with exts [meta$] : [[rnorm0.meta]] 
+bpipe.PipelineInput	[23]	INFO	|7:28:30 Found files with exts [meta$] : [[rnorm1.meta]] 
+bpipe.PipelineInput	[22]	INFO	|7:28:30 Checking outputs [rnorm1.mean.out] 
+bpipe.PipelineInput	[23]	INFO	|7:28:30 Adding resolved input rnorm1.meta 
+bpipe.PipelineInput	[22]	INFO	|7:28:30 Checking outputs [rnorm1.mean.out] 
+bpipe.PipelineInput	[21]	INFO	|7:28:30 Adding resolved input rnorm0.meta 
+bpipe.PipelineContext	[21]	INFO	|7:28:30 Using non-default output due to input property reference: rnorm0.median.out from resolved inputs [rnorm0.median.out, rnorm0.meta] 
+bpipe.PipelineInput	[22]	INFO	|7:28:30 Checking outputs [rnorm1.data, rnorm1.meta] 
+bpipe.PipelineContext	[23]	INFO	|7:28:30 Using non-default output due to input property reference: rnorm1.median.out from resolved inputs [rnorm1.median.out, rnorm1.meta] 
+bpipe.PipelineInput	[22]	INFO	|7:28:30 Found files with exts [meta$] : [[rnorm1.meta]] 
+bpipe.PipelineInput	[22]	INFO	|7:28:30 Adding resolved input rnorm1.meta 
+bpipe.PipelineContext	[21]	INFO	|7:28:30 Tracking outputs referenced=[[]] inferred=[[rnorm0.median.MSE.score]] for command Rscript R/scores/MSE.R rnorm0.median.out rnorm0.meta rnorm0.median.MSE.score 
+bpipe.PipelineContext	[23]	INFO	|7:28:30 Tracking outputs referenced=[[]] inferred=[[rnorm1.median.MSE.score]] for command Rscript R/scores/MSE.R rnorm1.median.out rnorm1.meta rnorm1.median.MSE.score 
+bpipe.PipelineContext	[22]	INFO	|7:28:30 Using non-default output due to input property reference: rnorm1.mean.out from resolved inputs [rnorm1.mean.out, rnorm1.meta] 
+bpipe.PipelineContext	[21]	INFO	|7:28:30 Checking actual resolved inputs [rnorm0.median.out, rnorm0.meta] 
+bpipe.Utils	[21]	INFO	|7:28:30 ===== Check rnorm0.median.MSE.score ===== 
+bpipe.PipelineContext	[23]	INFO	|7:28:30 Checking actual resolved inputs [rnorm1.median.out, rnorm1.meta] 
+bpipe.Utils	[23]	INFO	|7:28:30 ===== Check rnorm1.median.MSE.score ===== 
+bpipe.Utils	[23]	INFO	|7:28:30 Checking rnorm1.median.MSE.score against inputs [rnorm1.median.out, rnorm1.meta] 
+bpipe.PipelineContext	[22]	INFO	|7:28:30 Tracking outputs referenced=[[]] inferred=[[rnorm1.mean.MSE.score]] for command Rscript R/scores/MSE.R rnorm1.mean.out rnorm1.meta rnorm1.mean.MSE.score 
+bpipe.PipelineContext	[22]	INFO	|7:28:30 Checking actual resolved inputs [rnorm1.mean.out, rnorm1.meta] 
+bpipe.Utils	[22]	INFO	|7:28:30 ===== Check rnorm1.mean.MSE.score ===== 
+bpipe.Utils	[22]	INFO	|7:28:30 Checking rnorm1.mean.MSE.score against inputs [rnorm1.mean.out, rnorm1.meta] 
+bpipe.Utils	[21]	INFO	|7:28:30 Checking rnorm0.median.MSE.score against inputs [rnorm0.median.out, rnorm0.meta] 
+bpipe.Utils	[22]	INFO	|7:28:30 Check rnorm1.mean.out : 1444370457000 >  rnorm1.mean.MSE.score : 1444370458000 
+bpipe.Utils	[21]	INFO	|7:28:30 Check rnorm0.median.out : 1444370457000 >  rnorm0.median.MSE.score : 1444370458000 
+bpipe.Utils	[23]	INFO	|7:28:30 Check rnorm1.median.out : 1444370457000 >  rnorm1.median.MSE.score : 1444370458000 
+bpipe.Utils	[21]	INFO	|7:28:30 Check rnorm0.meta : 1444369250000 >  rnorm0.median.MSE.score : 1444370458000 
+bpipe.Utils	[22]	INFO	|7:28:30 Check rnorm1.meta : 1444369672000 >  rnorm1.mean.MSE.score : 1444370458000 
+bpipe.Utils	[23]	INFO	|7:28:30 Check rnorm1.meta : 1444369672000 >  rnorm1.median.MSE.score : 1444370458000 
+bpipe.Dependencies	[21]	INFO	|7:28:30 No missing / older files from inputs: [rnorm0.median.MSE.score] are up to date 
+bpipe.Dependencies	[22]	INFO	|7:28:30 No missing / older files from inputs: [rnorm1.mean.MSE.score] are up to date 
+bpipe.Dependencies	[23]	INFO	|7:28:30 No missing / older files from inputs: [rnorm1.median.MSE.score] are up to date 
+bpipe.PipelineContext	[21]	INFO	|7:28:30 Skipping command Rscript R/scores/MSE.R rnorm0.... due to inferred outputs [rnorm0.median.MSE.score] newer than inputs [rnorm0.median.out] 
+bpipe.PipelineContext	[23]	INFO	|7:28:30 Skipping command Rscript R/scores/MSE.R rnorm1.... due to inferred outputs [rnorm1.median.MSE.score] newer than inputs [rnorm1.median.out] 
+bpipe.PipelineContext	[22]	INFO	|7:28:30 Skipping command Rscript R/scores/MSE.R rnorm1.... due to inferred outputs [rnorm1.mean.MSE.score] newer than inputs [rnorm1.mean.out] 
+bpipe.PipelineStage	[23]	INFO	|7:28:30 Stage MSE [*] returned null as default inputs for next stage 
+bpipe.PipelineStage	[22]	INFO	|7:28:30 Stage MSE [*] returned null as default inputs for next stage 
+bpipe.PipelineStage	[21]	INFO	|7:28:30 Stage MSE [*] returned null as default inputs for next stage 
+bpipe.PipelineStage	[23]	INFO	|7:28:30 Using inferred outputs [rnorm1.median.MSE.score] as outputs because no explicit outputs set 
+bpipe.PipelineStage	[22]	INFO	|7:28:30 Using inferred outputs [rnorm1.mean.MSE.score] as outputs because no explicit outputs set 
+bpipe.PipelineStage	[21]	INFO	|7:28:30 Using inferred outputs [rnorm0.median.MSE.score] as outputs because no explicit outputs set 
+bpipe.PipelineStage	[23]	INFO	|7:28:30 Inferring nextInputs from explicit output as [rnorm1.median.MSE.score] 
+bpipe.PipelineStage	[21]	INFO	|7:28:30 Inferring nextInputs from explicit output as [rnorm0.median.MSE.score] 
+bpipe.PipelineStage	[23]	INFO	|7:28:30 Setting next inputs [rnorm1.median.MSE.score] on stage 212394680, context 1311167840 in thread 26 
+bpipe.PipelineStage	[23]	INFO	|7:28:30 Checking files: [rnorm1.median.MSE.score] 
+bpipe.Dependencies	[23]	INFO	|7:28:30 Checking output (s) [rnorm1.median.MSE.score] 
+bpipe.Dependencies	[23]	INFO	|7:28:30  Checking file rnorm1.median.MSE.score 
+bpipe.PipelineStage	[22]	INFO	|7:28:30 Inferring nextInputs from explicit output as [rnorm1.mean.MSE.score] 
+bpipe.PipelineStage	[21]	INFO	|7:28:30 Setting next inputs [rnorm0.median.MSE.score] on stage 599565446, context 1459922102 in thread 24 
+bpipe.PipelineStage	[21]	INFO	|7:28:30 Checking files: [rnorm0.median.MSE.score] 
+bpipe.Dependencies	[21]	INFO	|7:28:30 Checking output (s) [rnorm0.median.MSE.score] 
+bpipe.Dependencies	[21]	INFO	|7:28:30  Checking file rnorm0.median.MSE.score 
+bpipe.PipelineStage	[22]	INFO	|7:28:30 Setting next inputs [rnorm1.mean.MSE.score] on stage 903179198, context 1468185013 in thread 25 
+bpipe.PipelineContext	[23]	INFO	|7:28:30 Setting output [rnorm1.median.MSE.score] on context 111947068 in thread 26 
+bpipe.PipelineStage	[23]	INFO	|7:28:30 Setting next inputs [rnorm1.median.MSE.score] on stage 1318363790, context 111947068 in thread 26 
+bpipe.PipelineStage	[22]	INFO	|7:28:30 Checking files: [rnorm1.mean.MSE.score] 
+bpipe.PipelineStage	[23]	INFO	|7:28:30 Checking files: [rnorm1.median.MSE.score] 
+bpipe.Dependencies	[23]	INFO	|7:28:30 Checking output (s) [rnorm1.median.MSE.score] 
+bpipe.Dependencies	[22]	INFO	|7:28:30 Checking output (s) [rnorm1.mean.MSE.score] 
+bpipe.Dependencies	[22]	INFO	|7:28:30  Checking file rnorm1.mean.MSE.score 
+bpipe.Dependencies	[23]	INFO	|7:28:30  Checking file rnorm1.median.MSE.score 
+bpipe.Pipeline	[23]	INFO	|7:28:30 Pipeline segment *.4 in thread 26 has finished normally 
+bpipe.Pipeline	[23]	INFO	|7:28:30 Finished running segment for inputs null 
+bpipe.PipelineContext	[22]	INFO	|7:28:30 Setting output [rnorm1.mean.MSE.score] on context 1532943889 in thread 25 
+bpipe.PipelineStage	[22]	INFO	|7:28:30 Setting next inputs [rnorm1.mean.MSE.score] on stage 1141656814, context 1532943889 in thread 25 
+bpipe.PipelineStage	[22]	INFO	|7:28:30 Checking files: [rnorm1.mean.MSE.score] 
+bpipe.Dependencies	[22]	INFO	|7:28:30 Checking output (s) [rnorm1.mean.MSE.score] 
+bpipe.Concurrency	[23]	INFO	|7:28:30 Decremented running count to 3 in thread Thread-11 
+bpipe.Dependencies	[22]	INFO	|7:28:30  Checking file rnorm1.mean.MSE.score 
+bpipe.Pipeline	[22]	INFO	|7:28:30 Pipeline segment *.3 in thread 25 has finished normally 
+bpipe.Pipeline	[22]	INFO	|7:28:30 Finished running segment for inputs null 
+bpipe.Concurrency	[22]	INFO	|7:28:30 Decremented running count to 2 in thread Thread-10 
+bpipe.PipelineContext	[21]	INFO	|7:28:30 Setting output [rnorm0.median.MSE.score] on context 1444226787 in thread 24 
+bpipe.PipelineStage	[21]	INFO	|7:28:30 Setting next inputs [rnorm0.median.MSE.score] on stage 210895197, context 1444226787 in thread 24 
+bpipe.PipelineStage	[21]	INFO	|7:28:30 Checking files: [rnorm0.median.MSE.score] 
+bpipe.Dependencies	[21]	INFO	|7:28:30 Checking output (s) [rnorm0.median.MSE.score] 
+bpipe.Dependencies	[21]	INFO	|7:28:30  Checking file rnorm0.median.MSE.score 
+bpipe.Pipeline	[21]	INFO	|7:28:30 Pipeline segment *.2 in thread 24 has finished normally 
+bpipe.Pipeline	[21]	INFO	|7:28:30 Finished running segment for inputs null 
+bpipe.Concurrency	[21]	INFO	|7:28:30 Decremented running count to 1 in thread Thread-9 
+bpipe.Command	[20]	INFO	|7:28:31 Command 16 changing state from RUNNING to COMPLETE 
+bpipe.executor.ThrottledDelegatingCommandExecutor	[20]	INFO	|7:28:31 Releasing 1 resources 
+bpipe.Concurrency	[20]	INFO	|7:28:31 Thread Thread-8 releasing 1 threads 
+bpipe.executor.ThrottledDelegatingCommandExecutor	[20]	INFO	|7:28:31 Released 1 resources 
+bpipe.PipelineStage	[20]	INFO	|7:28:31 Stage set_seed [*] returned null as default inputs for next stage 
+bpipe.PipelineStage	[20]	INFO	|7:28:31 Removing inferred outputs matching [\.bai$, \.log$] 
+bpipe.PipelineStage	[20]	INFO	|7:28:31 Inferring nextInputs from inputs bpipe.PipelineContext@4d342f5b.@input 
+bpipe.PipelineContext	[20]	INFO	|7:28:31 Setting output null on context 1295265627 in thread 23 
+bpipe.PipelineStage	[20]	INFO	|7:28:31 Setting next inputs null on stage 493993023, context 1295265627 in thread 23 
+bpipe.PipelineStage	[20]	INFO	|7:28:31 Checking files: null 
+bpipe.Dependencies	[20]	INFO	|7:28:31 Checking output (s) null 
+bpipe.PipelineCategory	[20]	INFO	|7:28:31 Checking that outputs null exist 
+bpipe.Dependencies	[20]	INFO	|7:28:31 Checking input (s) null 
+bpipe.PipelineCategory	[20]	INFO	|7:28:31 Next inputs from stage = null 
+bpipe.PipelineCategory	[20]	INFO	|7:28:31 Checking inputs for next stage:  null 
+bpipe.Dependencies	[20]	INFO	|7:28:31 Checking input (s) null 
+bpipe.Dependencies	[20]	INFO	|7:28:31 Checking input (s) null 
+bpipe.PipelineStage	[20]	INFO	|7:28:31 Stage rnorm0 [*] : INPUT=null OUTPUT=rnorm0 
+bpipe.PipelineDelegate	[20]	INFO	|7:28:31 Setting or creating a delegate for context 69284034 body 724860211/bpipe.PipelineDelegate in thread 23 
+bpipe.PipelineDelegate	[20]	INFO	|7:28:31 Existing delegate bpipe.PipelineDelegate@569c6f2 has type bpipe.PipelineDelegate in thread 23. Setting new context 69284034 
+bpipe.PipelineContext	[20]	INFO	|7:28:31 No inputs resolved by input wrappers: outputs based on default rnorm0 
+bpipe.PipelineContext	[20]	INFO	|7:28:31 No inputs resolved by input wrappers: outputs based on default rnorm0 
+bpipe.PipelineContext	[20]	INFO	|7:28:31 Tracking outputs referenced=[[]] inferred=[[rnorm0.data, rnorm0.meta]] for command Rscript R/scenarios/rnorm.R 1000 0 rnorm0.data rnorm0.meta 
+bpipe.PipelineContext	[20]	INFO	|7:28:31 Checking actual resolved inputs [] 
+bpipe.PipelineContext	[20]	INFO	|7:28:31 Skipping command Rscript R/scenarios/rnorm.R 10... because outputs [rnorm0.data, rnorm0.meta] already exist (no inputs referenced) 
+bpipe.PipelineStage	[20]	INFO	|7:28:31 Stage rnorm0 [*] returned null as default inputs for next stage 
+bpipe.PipelineStage	[20]	INFO	|7:28:31 Using inferred outputs [rnorm0.data, rnorm0.meta] as outputs because no explicit outputs set 
+bpipe.PipelineStage	[20]	INFO	|7:28:31 Inferring nextInputs from explicit output as [rnorm0.data, rnorm0.meta] 
+bpipe.PipelineStage	[20]	INFO	|7:28:31 Setting next inputs [rnorm0.data, rnorm0.meta] on stage 1790017034, context 69284034 in thread 23 
+bpipe.PipelineStage	[20]	INFO	|7:28:31 Checking files: [rnorm0.data, rnorm0.meta] 
+bpipe.Dependencies	[20]	INFO	|7:28:31 Checking output (s) [rnorm0.data, rnorm0.meta] 
+bpipe.Dependencies	[20]	INFO	|7:28:31  Checking file rnorm0.data 
+bpipe.Dependencies	[20]	INFO	|7:28:31  Checking file rnorm0.meta 
+bpipe.PipelineContext	[20]	INFO	|7:28:31 Setting output [rnorm0.data, rnorm0.meta] on context 1494019094 in thread 23 
+bpipe.PipelineStage	[20]	INFO	|7:28:31 Setting next inputs [rnorm0.data, rnorm0.meta] on stage 717879615, context 1494019094 in thread 23 
+bpipe.PipelineStage	[20]	INFO	|7:28:31 Checking files: [rnorm0.data, rnorm0.meta] 
+bpipe.Dependencies	[20]	INFO	|7:28:31 Checking output (s) [rnorm0.data, rnorm0.meta] 
+bpipe.Dependencies	[20]	INFO	|7:28:31  Checking file rnorm0.data 
+bpipe.Dependencies	[20]	INFO	|7:28:31  Checking file rnorm0.meta 
+bpipe.PipelineCategory	[20]	INFO	|7:28:31 Checking that outputs [rnorm0.data, rnorm0.meta] exist 
+bpipe.Dependencies	[20]	INFO	|7:28:31 Checking input (s) [rnorm0.data, rnorm0.meta] 
+bpipe.Dependencies	[20]	INFO	|7:28:31  Checking file rnorm0.data 
+bpipe.Dependencies	[20]	INFO	|7:28:31  Checking file rnorm0.meta 
+bpipe.PipelineCategory	[20]	INFO	|7:28:31 Next inputs from stage = [rnorm0.data, rnorm0.meta] 
+bpipe.PipelineCategory	[20]	INFO	|7:28:31 Checking inputs for next stage:  [rnorm0.data, rnorm0.meta] 
+bpipe.Dependencies	[20]	INFO	|7:28:31 Checking input (s) [rnorm0.data, rnorm0.meta] 
+bpipe.Dependencies	[20]	INFO	|7:28:31  Checking file rnorm0.data 
+bpipe.Dependencies	[20]	INFO	|7:28:31  Checking file rnorm0.meta 
+bpipe.Dependencies	[20]	INFO	|7:28:31 Checking input (s) [rnorm0.data, rnorm0.meta] 
+bpipe.Dependencies	[20]	INFO	|7:28:31  Checking file rnorm0.data 
+bpipe.Dependencies	[20]	INFO	|7:28:31  Checking file rnorm0.meta 
+bpipe.PipelineStage	[20]	INFO	|7:28:31 Stage mean [*] : INPUT=[rnorm0.data, rnorm0.meta] OUTPUT=rnorm0.data.mean 
+bpipe.PipelineDelegate	[20]	INFO	|7:28:31 Setting or creating a delegate for context 1695054816 body 1863862863/bpipe.PipelineDelegate in thread 23 
+bpipe.PipelineDelegate	[20]	INFO	|7:28:31 Existing delegate bpipe.PipelineDelegate@17e319a has type bpipe.PipelineDelegate in thread 23. Setting new context 1695054816 
+bpipe.PipelineInput	[20]	INFO	|7:28:31 Searching for missing Property: data 
+bpipe.PipelineInput	[20]	INFO	|7:28:31 Resolving inputs matching pattern ^.*\.data$ 
+bpipe.PipelineInput	[20]	INFO	|7:28:31 Checking outputs [rnorm0.data, rnorm0.meta] 
+bpipe.PipelineInput	[20]	INFO	|7:28:31 Found files with exts [data$] : [[rnorm0.data]] 
+bpipe.PipelineInput	[20]	INFO	|7:28:31 Adding resolved input rnorm0.data 
+bpipe.PipelineContext	[20]	INFO	|7:28:31 Using non-default output due to input property reference: rnorm0.data from resolved inputs [rnorm0.data] 
+bpipe.PipelineContext	[20]	INFO	|7:28:31 Tracking outputs referenced=[[]] inferred=[[rnorm0.mean.out]] for command Rscript R/methods/mean.R rnorm0.data rnorm0.mean.out 
+bpipe.PipelineContext	[20]	INFO	|7:28:31 Checking actual resolved inputs [rnorm0.data] 
+bpipe.Utils	[20]	INFO	|7:28:31 ===== Check rnorm0.mean.out ===== 
+bpipe.Utils	[20]	INFO	|7:28:31 Checking rnorm0.mean.out against inputs [rnorm0.data] 
+bpipe.Utils	[20]	INFO	|7:28:31 Check rnorm0.data : 1444369250000 >  rnorm0.mean.out : 1444369250000 
+bpipe.Dependencies	[20]	INFO	|7:28:31 No missing / older files from inputs: [rnorm0.mean.out] are up to date 
+bpipe.PipelineContext	[20]	INFO	|7:28:31 Skipping command Rscript R/methods/mean.R rnorm... due to inferred outputs [rnorm0.mean.out] newer than inputs [rnorm0.data, rnorm0.meta] 
+bpipe.PipelineStage	[20]	INFO	|7:28:31 Stage mean [*] returned null as default inputs for next stage 
+bpipe.PipelineStage	[20]	INFO	|7:28:31 Using inferred outputs [rnorm0.mean.out] as outputs because no explicit outputs set 
+bpipe.PipelineStage	[20]	INFO	|7:28:31 Inferring nextInputs from explicit output as [rnorm0.mean.out] 
+bpipe.PipelineStage	[20]	INFO	|7:28:31 Setting next inputs [rnorm0.mean.out] on stage 820172888, context 1695054816 in thread 23 
+bpipe.PipelineStage	[20]	INFO	|7:28:31 Checking files: [rnorm0.mean.out] 
+bpipe.Dependencies	[20]	INFO	|7:28:31 Checking output (s) [rnorm0.mean.out] 
+bpipe.Dependencies	[20]	INFO	|7:28:31  Checking file rnorm0.mean.out 
+bpipe.PipelineContext	[20]	INFO	|7:28:31 Setting output [rnorm0.mean.out] on context 1493780687 in thread 23 
+bpipe.PipelineStage	[20]	INFO	|7:28:31 Setting next inputs [rnorm0.mean.out] on stage 2095682170, context 1493780687 in thread 23 
+bpipe.PipelineStage	[20]	INFO	|7:28:31 Checking files: [rnorm0.mean.out] 
+bpipe.Dependencies	[20]	INFO	|7:28:31 Checking output (s) [rnorm0.mean.out] 
+bpipe.Dependencies	[20]	INFO	|7:28:31  Checking file rnorm0.mean.out 
+bpipe.PipelineCategory	[20]	INFO	|7:28:31 Checking that outputs [rnorm0.mean.out] exist 
+bpipe.Dependencies	[20]	INFO	|7:28:31 Checking input (s) [rnorm0.mean.out] 
+bpipe.Dependencies	[20]	INFO	|7:28:31  Checking file rnorm0.mean.out 
+bpipe.PipelineCategory	[20]	INFO	|7:28:31 Next inputs from stage = [rnorm0.mean.out] 
+bpipe.PipelineCategory	[20]	INFO	|7:28:31 Checking inputs for next stage:  [rnorm0.mean.out] 
+bpipe.Dependencies	[20]	INFO	|7:28:31 Checking input (s) [rnorm0.mean.out] 
+bpipe.Dependencies	[20]	INFO	|7:28:31  Checking file rnorm0.mean.out 
+bpipe.Dependencies	[20]	INFO	|7:28:31 Checking input (s) [rnorm0.mean.out] 
+bpipe.Dependencies	[20]	INFO	|7:28:31  Checking file rnorm0.mean.out 
+bpipe.PipelineStage	[20]	INFO	|7:28:31 Stage MSE [*] : INPUT=[rnorm0.mean.out] OUTPUT=rnorm0.mean.out.MSE 
+bpipe.PipelineDelegate	[20]	INFO	|7:28:31 Setting or creating a delegate for context 1589396619 body 861590381/bpipe.PipelineDelegate in thread 23 
+bpipe.PipelineDelegate	[20]	INFO	|7:28:31 Existing delegate bpipe.PipelineDelegate@5c8032df has type bpipe.PipelineDelegate in thread 23. Setting new context 1589396619 
+bpipe.PipelineInput	[20]	INFO	|7:28:31 Searching for missing Property: out 
+bpipe.PipelineInput	[20]	INFO	|7:28:31 Resolving inputs matching pattern ^.*\.out$ 
+bpipe.PipelineInput	[20]	INFO	|7:28:31 Checking outputs [rnorm0.mean.out] 
+bpipe.PipelineInput	[20]	INFO	|7:28:31 Found files with exts [out$] : [[rnorm0.mean.out]] 
+bpipe.PipelineInput	[20]	INFO	|7:28:31 Adding resolved input rnorm0.mean.out 
+bpipe.PipelineInput	[20]	INFO	|7:28:31 Searching for missing Property: meta 
+bpipe.PipelineInput	[20]	INFO	|7:28:31 Resolving inputs matching pattern ^.*\.meta$ 
+bpipe.PipelineInput	[20]	INFO	|7:28:31 Checking outputs [rnorm0.mean.out] 
+bpipe.PipelineInput	[20]	INFO	|7:28:31 Checking outputs [rnorm0.mean.out] 
+bpipe.PipelineInput	[20]	INFO	|7:28:31 Checking outputs [rnorm0.data, rnorm0.meta] 
+bpipe.PipelineInput	[20]	INFO	|7:28:31 Found files with exts [meta$] : [[rnorm0.meta]] 
+bpipe.PipelineInput	[20]	INFO	|7:28:31 Adding resolved input rnorm0.meta 
+bpipe.PipelineContext	[20]	INFO	|7:28:31 Using non-default output due to input property reference: rnorm0.mean.out from resolved inputs [rnorm0.mean.out, rnorm0.meta] 
+bpipe.PipelineContext	[20]	INFO	|7:28:31 Tracking outputs referenced=[[]] inferred=[[rnorm0.mean.MSE.score]] for command Rscript R/scores/MSE.R rnorm0.mean.out rnorm0.meta rnorm0.mean.MSE.score 
+bpipe.PipelineContext	[20]	INFO	|7:28:31 Checking actual resolved inputs [rnorm0.mean.out, rnorm0.meta] 
+bpipe.Utils	[20]	INFO	|7:28:31 ===== Check rnorm0.mean.MSE.score ===== 
+bpipe.Utils	[20]	INFO	|7:28:31 Checking rnorm0.mean.MSE.score against inputs [rnorm0.mean.out, rnorm0.meta] 
+bpipe.Utils	[20]	INFO	|7:28:31 Check rnorm0.mean.out : 1444369250000 >  rnorm0.mean.MSE.score : 1444369250000 
+bpipe.Utils	[20]	INFO	|7:28:31 Check rnorm0.meta : 1444369250000 >  rnorm0.mean.MSE.score : 1444369250000 
+bpipe.Dependencies	[20]	INFO	|7:28:31 No missing / older files from inputs: [rnorm0.mean.MSE.score] are up to date 
+bpipe.PipelineContext	[20]	INFO	|7:28:31 Skipping command Rscript R/scores/MSE.R rnorm0.... due to inferred outputs [rnorm0.mean.MSE.score] newer than inputs [rnorm0.mean.out] 
+bpipe.PipelineStage	[20]	INFO	|7:28:31 Stage MSE [*] returned null as default inputs for next stage 
+bpipe.PipelineStage	[20]	INFO	|7:28:31 Using inferred outputs [rnorm0.mean.MSE.score] as outputs because no explicit outputs set 
+bpipe.PipelineStage	[20]	INFO	|7:28:31 Inferring nextInputs from explicit output as [rnorm0.mean.MSE.score] 
+bpipe.PipelineStage	[20]	INFO	|7:28:31 Setting next inputs [rnorm0.mean.MSE.score] on stage 2107786874, context 1589396619 in thread 23 
+bpipe.PipelineStage	[20]	INFO	|7:28:31 Checking files: [rnorm0.mean.MSE.score] 
+bpipe.Dependencies	[20]	INFO	|7:28:31 Checking output (s) [rnorm0.mean.MSE.score] 
+bpipe.Dependencies	[20]	INFO	|7:28:31  Checking file rnorm0.mean.MSE.score 
+bpipe.PipelineContext	[20]	INFO	|7:28:31 Setting output [rnorm0.mean.MSE.score] on context 332327930 in thread 23 
+bpipe.PipelineStage	[20]	INFO	|7:28:31 Setting next inputs [rnorm0.mean.MSE.score] on stage 683750406, context 332327930 in thread 23 
+bpipe.PipelineStage	[20]	INFO	|7:28:31 Checking files: [rnorm0.mean.MSE.score] 
+bpipe.Dependencies	[20]	INFO	|7:28:31 Checking output (s) [rnorm0.mean.MSE.score] 
+bpipe.Dependencies	[20]	INFO	|7:28:31  Checking file rnorm0.mean.MSE.score 
+bpipe.Pipeline	[20]	INFO	|7:28:31 Pipeline segment *.1 in thread 23 has finished normally 
+bpipe.Pipeline	[20]	INFO	|7:28:31 Finished running segment for inputs null 
+bpipe.Concurrency	[20]	INFO	|7:28:31 Decremented running count to 0 in thread Thread-8 
+bpipe.PipelineCategory	[10]	INFO	|7:28:31 Parent pipeline of concurent sections [182228245, 398433093, 610982705, 1667006628] is 612687420 
+bpipe.PipelineCategory	[10]	INFO	|7:28:31 Maximum child stage list length = 4 
+bpipe.PipelineCategory	[10]	INFO	|7:28:31 ###### Merging results of parallel split in parent branch  ##### 
+bpipe.PipelineCategory	[10]	INFO	|7:28:31 Grouping stages at index 0 [set_seed, rnorm0, rnorm1, rnorm1] for merging 
+bpipe.PipelineCategory	[10]	INFO	|7:28:31 Merged outputs are [] 
+bpipe.PipelineContext	[10]	INFO	|7:28:31 Setting output [] on context 2097261823 in thread 1 
+bpipe.PipelineCategory	[10]	INFO	|7:28:31 Merged outputs are [rnorm0.data, rnorm0.meta] 
+bpipe.PipelineContext	[10]	INFO	|7:28:31 Setting output [rnorm0.data, rnorm0.meta] on context 2030360950 in thread 1 
+bpipe.PipelineCategory	[10]	INFO	|7:28:31 Parallel segment 0 contains 2 identical rnorm1 stages - Merging outputs to single stage 
+bpipe.PipelineCategory	[10]	INFO	|7:28:31 Merged outputs are [rnorm1.data, rnorm1.meta, rnorm1.data, rnorm1.meta] 
+bpipe.PipelineContext	[10]	INFO	|7:28:31 Setting output [rnorm1.data, rnorm1.meta, rnorm1.data, rnorm1.meta] on context 761335820 in thread 1 
+bpipe.PipelineCategory	[10]	INFO	|7:28:31 Grouping stages at index 1 [rnorm0, median, mean, median] for merging 
+bpipe.PipelineCategory	[10]	INFO	|7:28:31 Merged outputs are [rnorm0.data, rnorm0.meta] 
+bpipe.PipelineContext	[10]	INFO	|7:28:31 Setting output [rnorm0.data, rnorm0.meta] on context 1063557914 in thread 1 
+bpipe.PipelineCategory	[10]	INFO	|7:28:31 Parallel segment 1 contains 2 identical median stages - Merging outputs to single stage 
+bpipe.PipelineCategory	[10]	INFO	|7:28:31 Merged outputs are [rnorm0.median.out, rnorm1.median.out] 
+bpipe.PipelineContext	[10]	INFO	|7:28:31 Setting output [rnorm0.median.out, rnorm1.median.out] on context 1711466617 in thread 1 
+bpipe.PipelineCategory	[10]	INFO	|7:28:31 Merged outputs are [rnorm1.mean.out] 
+bpipe.PipelineContext	[10]	INFO	|7:28:31 Setting output [rnorm1.mean.out] on context 1211886293 in thread 1 
+bpipe.PipelineCategory	[10]	INFO	|7:28:31 Grouping stages at index 2 [mean, MSE, MSE, MSE] for merging 
+bpipe.PipelineCategory	[10]	INFO	|7:28:31 Merged outputs are [rnorm0.mean.out] 
+bpipe.PipelineContext	[10]	INFO	|7:28:31 Setting output [rnorm0.mean.out] on context 1438018303 in thread 1 
+bpipe.PipelineCategory	[10]	INFO	|7:28:31 Parallel segment 2 contains 3 identical MSE stages - Merging outputs to single stage 
+bpipe.PipelineCategory	[10]	INFO	|7:28:31 Merged outputs are [rnorm0.median.MSE.score, rnorm1.mean.MSE.score, rnorm1.median.MSE.score] 
+bpipe.PipelineContext	[10]	INFO	|7:28:31 Setting output [rnorm0.median.MSE.score, rnorm1.mean.MSE.score, rnorm1.median.MSE.score] on context 992655183 in thread 1 
+bpipe.PipelineCategory	[10]	INFO	|7:28:31 Grouping stages at index 3 [MSE, null, null, null] for merging 
+bpipe.PipelineCategory	[10]	INFO	|7:28:31 Merged outputs are [rnorm0.mean.MSE.score] 
+bpipe.PipelineContext	[10]	INFO	|7:28:31 Setting output [rnorm0.mean.MSE.score] on context 814507626 in thread 1 
+bpipe.PipelineCategory	[10]	INFO	|7:28:31 There are 4 stages from nested pipelines 
+bpipe.PipelineCategory	[10]	INFO	|7:28:31 There [bpipe.PipelineStage@7da2467a, bpipe.PipelineStage@23bca486, bpipe.PipelineStage@35d56bbe, bpipe.PipelineStage@ca8e2b8] parallel paths in final stage 
+bpipe.PipelineCategory	[10]	INFO	|7:28:31 Last merged outputs are [rnorm0.mean.MSE.score, rnorm0.median.MSE.score, rnorm1.mean.MSE.score, rnorm1.median.MSE.score] 
+bpipe.PipelineContext	[10]	INFO	|7:28:31 Setting output [rnorm0.mean.MSE.score, rnorm0.median.MSE.score, rnorm1.mean.MSE.score, rnorm1.median.MSE.score] on context 806052897 in thread 1 
+bpipe.PipelineCategory	[10]	INFO	|7:28:31 Merged stage name is MSE_bpipe_merge 
+bpipe.PipelineContext	[10]	INFO	|7:28:31 Setting output [rnorm0.mean.MSE.score, rnorm0.median.MSE.score, rnorm1.mean.MSE.score, rnorm1.median.MSE.score] on context 1404197114 in thread 1 
+bpipe.PipelineStage	[10]	INFO	|7:28:31 Setting next inputs [rnorm0.mean.MSE.score, rnorm0.median.MSE.score, rnorm1.mean.MSE.score, rnorm1.median.MSE.score] on stage 1509237029, context 1404197114 in thread 1 
+bpipe.PipelineStage	[10]	INFO	|7:28:31 Checking files: [rnorm0.mean.MSE.score, rnorm0.median.MSE.score, rnorm1.mean.MSE.score, rnorm1.median.MSE.score] 
+bpipe.Dependencies	[10]	INFO	|7:28:31 Checking output (s) [rnorm0.mean.MSE.score, rnorm0.median.MSE.score, rnorm1.mean.MSE.score, rnorm1.median.MSE.score] 
+bpipe.Dependencies	[10]	INFO	|7:28:31  Checking file rnorm0.mean.MSE.score 
+bpipe.Dependencies	[10]	INFO	|7:28:31  Checking file rnorm0.median.MSE.score 
+bpipe.Dependencies	[10]	INFO	|7:28:31  Checking file rnorm1.mean.MSE.score 
+bpipe.Dependencies	[10]	INFO	|7:28:31  Checking file rnorm1.median.MSE.score 
+bpipe.Pipeline	[10]	INFO	|7:28:31 Pipeline segment  in thread 1 has finished normally 
+bpipe.Pipeline	[10]	INFO	|7:28:31 Finished running segment for inputs null 
+bpipe.Dependencies	[25]	INFO	|7:28:31 Reading property file .bpipe/outputs/mean.rnorm0.mean.out.properties 
+bpipe.Dependencies	[26]	INFO	|7:28:31 Reading property file .bpipe/outputs/median.rnorm1.median.out.properties 
+bpipe.Dependencies	[28]	INFO	|7:28:31 Reading property file .bpipe/outputs/MSE.rnorm0.median.MSE.score.properties 
+bpipe.Dependencies	[29]	INFO	|7:28:31 Reading property file .bpipe/outputs/MSE.rnorm1.mean.MSE.score.properties 
+bpipe.Dependencies	[25]	INFO	|7:28:31 Reading property file .bpipe/outputs/mean.rnorm1.mean.out.properties 
+bpipe.Dependencies	[27]	INFO	|7:28:31 Reading property file .bpipe/outputs/MSE.rnorm0.mean.MSE.score.properties 
+bpipe.Dependencies	[28]	INFO	|7:28:31 Reading property file .bpipe/outputs/rnorm0.rnorm0.meta.properties 
+bpipe.Dependencies	[27]	INFO	|7:28:31 Reading property file .bpipe/outputs/rnorm1.rnorm1.data.properties 
+bpipe.Dependencies	[29]	INFO	|7:28:31 Reading property file .bpipe/outputs/rnorm0.rnorm0.data.properties 
+bpipe.Dependencies	[25]	INFO	|7:28:31 Reading property file .bpipe/outputs/median.rnorm0.median.out.properties 
+bpipe.Dependencies	[26]	INFO	|7:28:31 Reading property file .bpipe/outputs/MSE.rnorm1.median.MSE.score.properties 
+bpipe.Dependencies	[28]	INFO	|7:28:31 Reading property file .bpipe/outputs/rnorm1.rnorm1.meta.properties 
+bpipe.Utils	[10]	INFO	|7:28:31 Output folder scan (concurrency=5) executed in 0.009 seconds 
+bpipe.Dependencies	[10]	INFO	|7:28:31 External inputs: [[], [], [], []] for outputs [rnorm0.data, rnorm0.meta, rnorm1.data, rnorm1.meta] 
+bpipe.Dependencies	[10]	INFO	|7:28:31 There are 1 output groups 
+bpipe.Dependencies	[10]	INFO	|7:28:31 Subtracting 4 remaining outputs from 12 total outputs 
+bpipe.Dependencies	[10]	INFO	|7:28:31 External inputs: [[rnorm0.data], [rnorm1.data], [rnorm0.data], [rnorm1.data]] for outputs [rnorm0.mean.out, rnorm1.mean.out, rnorm0.median.out, rnorm1.median.out] 
+bpipe.Dependencies	[10]	INFO	|7:28:31 New entry for rnorm0.mean.out 
+bpipe.Dependencies	[10]	INFO	|7:28:31 Maxtimestamp for rnorm0.mean.out = 1444369250000 
+bpipe.Dependencies	[10]	INFO	|7:28:31 New entry for rnorm1.mean.out 
+bpipe.Dependencies	[10]	INFO	|7:28:31 Maxtimestamp for rnorm1.mean.out = 1444370457000 
+bpipe.Dependencies	[10]	INFO	|7:28:31 New entry for rnorm0.median.out 
+bpipe.Dependencies	[10]	INFO	|7:28:31 Maxtimestamp for rnorm0.median.out = 1444370457000 
+bpipe.Dependencies	[10]	INFO	|7:28:31 New entry for rnorm1.median.out 
+bpipe.Dependencies	[10]	INFO	|7:28:31 Maxtimestamp for rnorm1.median.out = 1444370457000 
+bpipe.Dependencies	[10]	INFO	|7:28:31 There are 4 output groups 
+bpipe.Dependencies	[10]	INFO	|7:28:31 Subtracting 4 remaining outputs from 8 total outputs 
+bpipe.Dependencies	[10]	INFO	|7:28:31 External inputs: [[rnorm0.mean.out, rnorm0.meta], [rnorm0.median.out, rnorm0.meta], [rnorm1.mean.out, rnorm1.meta], [rnorm1.median.out, rnorm1.meta]] for outputs [rnorm0.mean.MSE.score, rnorm0.median.MSE.score, rnorm1.mean.MSE.score, rnorm1.median.MSE.score] 
+bpipe.Dependencies	[10]	INFO	|7:28:31 New entry for rnorm0.mean.MSE.score 
+bpipe.Dependencies	[10]	INFO	|7:28:31 Maxtimestamp for rnorm0.mean.MSE.score = 1444369250000 
+bpipe.Dependencies	[10]	INFO	|7:28:31 New entry for rnorm0.median.MSE.score 
+bpipe.Dependencies	[10]	INFO	|7:28:31 Maxtimestamp for rnorm0.median.MSE.score = 1444370458000 
+bpipe.Dependencies	[10]	INFO	|7:28:31 New entry for rnorm1.mean.MSE.score 
+bpipe.Dependencies	[10]	INFO	|7:28:31 Maxtimestamp for rnorm1.mean.MSE.score = 1444370458000 
+bpipe.Dependencies	[10]	INFO	|7:28:31 New entry for rnorm1.median.MSE.score 
+bpipe.Dependencies	[10]	INFO	|7:28:31 Maxtimestamp for rnorm1.median.MSE.score = 1444370458000 
+bpipe.Dependencies	[10]	INFO	|7:28:31 There are 4 output groups 
+bpipe.Dependencies	[10]	INFO	|7:28:31 Subtracting 4 remaining outputs from 4 total outputs 
+bpipe.Dependencies	[10]	INFO	|7:28:31 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:28:31 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:28:31 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:28:31 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:28:31  rnorm0.mean.MSE.score / entry 1149028809  
+bpipe.Dependencies	[10]	INFO	|7:28:31 Checking timestamp of rnorm0.mean.MSE.score vs input rnorm0.mean.out 
+bpipe.Dependencies	[10]	INFO	|7:28:31 Checking timestamp of rnorm0.mean.MSE.score vs input rnorm0.meta 
+bpipe.Dependencies	[10]	INFO	|7:28:31 rnorm0.mean.MSE.score is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:28:31  rnorm0.median.MSE.score / entry 1554239039  
+bpipe.Dependencies	[10]	INFO	|7:28:31 Checking timestamp of rnorm0.median.MSE.score vs input rnorm0.median.out 
+bpipe.Dependencies	[10]	INFO	|7:28:31 Checking timestamp of rnorm0.median.MSE.score vs input rnorm0.meta 
+bpipe.Dependencies	[10]	INFO	|7:28:31 rnorm0.median.MSE.score is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:28:31  rnorm1.mean.MSE.score / entry 104446365  
+bpipe.Dependencies	[10]	INFO	|7:28:31 Checking timestamp of rnorm1.mean.MSE.score vs input rnorm1.mean.out 
+bpipe.Dependencies	[10]	INFO	|7:28:31 Checking timestamp of rnorm1.mean.MSE.score vs input rnorm1.meta 
+bpipe.Dependencies	[10]	INFO	|7:28:31 rnorm1.mean.MSE.score is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:28:31  rnorm1.median.MSE.score / entry 935916956  
+bpipe.Dependencies	[10]	INFO	|7:28:31 Checking timestamp of rnorm1.median.MSE.score vs input rnorm1.median.out 
+bpipe.Dependencies	[10]	INFO	|7:28:31 Checking timestamp of rnorm1.median.MSE.score vs input rnorm1.meta 
+bpipe.Dependencies	[10]	INFO	|7:28:31 rnorm1.median.MSE.score is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:28:31 ====Finished Output Graph===== 
+bpipe.Dependencies	[10]	INFO	|7:28:31 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:28:31 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:28:31 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:28:31 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:28:31 --- rnorm0.mean.out / entry 7838526 ---- 
+bpipe.Dependencies	[10]	INFO	|7:28:31 Checking timestamp of rnorm0.mean.out vs input rnorm0.data 
+bpipe.Dependencies	[10]	INFO	|7:28:31 rnorm0.mean.out is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:28:31 -- rnorm1.mean.out / entry 745604015 --- 
+bpipe.Dependencies	[10]	INFO	|7:28:31 Checking timestamp of rnorm1.mean.out vs input rnorm1.data 
+bpipe.Dependencies	[10]	INFO	|7:28:31 rnorm1.mean.out is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:28:31 - rnorm0.median.out / entry 799599860 -- 
+bpipe.Dependencies	[10]	INFO	|7:28:31 Checking timestamp of rnorm0.median.out vs input rnorm0.data 
+bpipe.Dependencies	[10]	INFO	|7:28:31 rnorm0.median.out is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:28:31 - rnorm1.median.out / entry 2069667741 - 
+bpipe.Dependencies	[10]	INFO	|7:28:31 Checking timestamp of rnorm1.median.out vs input rnorm1.data 
+bpipe.Dependencies	[10]	INFO	|7:28:31 rnorm1.median.out is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:28:31 ====Finished Output Graph===== 
+bpipe.Dependencies	[10]	INFO	|7:28:31 There are 0 remaining outputs 
+bpipe.Dependencies	[10]	INFO	|7:28:31 ---- rnorm0.data / entry 2113092528 ---- 
+bpipe.Dependencies	[10]	INFO	|7:28:31 rnorm0.data is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:28:31 ---- rnorm0.meta / entry 2113092528 ---- 
+bpipe.Dependencies	[10]	INFO	|7:28:31 rnorm0.meta is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:28:31 ---- rnorm1.data / entry 2113092528 ---- 
+bpipe.Dependencies	[10]	INFO	|7:28:31 rnorm1.data is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:28:31 ---- rnorm1.meta / entry 2113092528 ---- 
+bpipe.Dependencies	[10]	INFO	|7:28:31 rnorm1.meta is newer than input files 
+bpipe.Dependencies	[10]	INFO	|7:28:31 ====Finished Output Graph===== 
+bpipe.Utils	[10]	INFO	|7:28:31 Index output graph executed in 0 
+bpipe.Pipeline	[10]	INFO	|7:28:31 Outputs are: 
+		rnorm0.mean.MSE.score (pre-existing)
+		rnorm1.mean.MSE.score (pre-existing)
+		rnorm0.median.MSE.score (pre-existing)
+		rnorm1.median.MSE.score (pre-existing) 
+bpipe.Runner	[30]	INFO	|7:28:31 Deleting job file /Users/stephens/.bpipedb/jobs/4924 

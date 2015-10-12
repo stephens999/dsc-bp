@@ -1,0 +1,7 @@
+hello = {
+  exec "echo Hello | cat - $input.txt > $output.txt"
+}
+world = {
+  exec "echo World | cat $input.txt - > $output.txt"
+}
+run { hello + world }

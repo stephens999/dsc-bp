@@ -1,0 +1,23 @@
+<job id='3826'>
+  <succeeded>true</succeeded>
+  <startDateTime>2015-10-08 21:42:05</startDateTime>
+  <endDateTime>2015-10-08 21:42:06</endDateTime>
+  <commands>
+    <command>
+      <stage>hello</stage>
+      <branch></branch>
+      <content>echo Hello | cat - test.txt &gt; test.hello.txt</content>
+      <start>2015-10-08 21:42:06</start>
+      <end>2015-10-08 21:42:06</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>world</stage>
+      <branch></branch>
+      <content>echo World | cat test.hello.txt - &gt; test.hello.world.txt</content>
+      <start>2015-10-08 21:42:06</start>
+      <end>2015-10-08 21:42:06</end>
+      <exitCode>0</exitCode>
+    </command>
+  </commands>
+</job>

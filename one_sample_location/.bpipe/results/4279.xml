@@ -1,0 +1,15 @@
+<job id='4279'>
+  <succeeded>false</succeeded>
+  <startDateTime>2015-10-08 22:38:01</startDateTime>
+  <endDateTime>2015-10-08 22:38:03</endDateTime>
+  <commands>
+    <command>
+      <stage>MSE</stage>
+      <branch></branch>
+      <content>Rscript R/scores/MSE.R</content>
+      <start>2015-10-08 22:38:02</start>
+      <end>2015-10-08 22:38:03</end>
+      <exitCode>1</exitCode>
+    </command>
+  </commands>
+</job>

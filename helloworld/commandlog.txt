@@ -1,0 +1,47 @@
+
+####################################################################################################
+# Starting pipeline at Thu Oct 08 21:39:42 PDT 2015
+# Input files:  test.txt
+# Output Log:  .bpipe/logs/3720.log
+# ################ Finished at Thu Oct 08 21:39:42 PDT 2015 Duration = 0.163 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Oct 08 21:40:10 PDT 2015
+# Input files:  test.txt
+# Output Log:  .bpipe/logs/3770.log
+# Stage hello
+echo Hello | cat - test.txt > test.txt.hello
+# Stage world
+echo World | cat test.txt.hello - > test.txt.hello.world
+# ################ Finished at Thu Oct 08 21:40:11 PDT 2015 Duration = 0.986 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Oct 08 21:42:05 PDT 2015
+# Input files:  test.txt
+# Output Log:  .bpipe/logs/3826.log
+# Stage hello
+echo Hello | cat - test.txt > test.hello.txt
+# Stage world
+echo World | cat test.hello.txt - > test.hello.world.txt
+# ################ Finished at Thu Oct 08 21:42:06 PDT 2015 Duration = 1.099 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Oct 08 21:42:35 PDT 2015
+# Input files:  test.txt
+# Output Log:  .bpipe/logs/3885.log
+# Stage hello
+# Stage world
+# ################ Finished at Thu Oct 08 21:42:35 PDT 2015 Duration = 0.724 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Oct 08 21:42:52 PDT 2015
+# Input files:  test.txt
+# Output Log:  .bpipe/logs/3932.log
+# Stage hello
+# Stage world
+# ################ Finished at Thu Oct 08 21:42:53 PDT 2015 Duration = 0.719 seconds #################
+

@@ -1,0 +1,34 @@
+<job id='5139'>
+  <succeeded>true</succeeded>
+  <startDateTime>2015-10-09 07:30:51</startDateTime>
+  <endDateTime>2015-10-09 07:30:53</endDateTime>
+  <commands>
+    <command>
+      <stage>set_seed</stage>
+      <branch>1</branch>
+      <content>unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401052694345000-0"  Rscript - &lt;&lt;'!'
+            set.seed(scan("s0"))
+!
+</content>
+      <start>2015-10-09 07:30:52</start>
+      <end>2015-10-09 07:30:53</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>mean</stage>
+      <branch>1</branch>
+      <content>Rscript R/methods/mean.R s0.rnorm0.data s0.rnorm0.mean.out</content>
+      <start>2015-10-09 07:30:53</start>
+      <end>2015-10-09 07:30:53</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>MSE</stage>
+      <branch>1</branch>
+      <content>Rscript R/scores/MSE.R s0.rnorm0.mean.out s0.rnorm0.meta s0.rnorm0.mean.MSE.score</content>
+      <start>2015-10-09 07:30:53</start>
+      <end>2015-10-09 07:30:53</end>
+      <exitCode>0</exitCode>
+    </command>
+  </commands>
+</job>

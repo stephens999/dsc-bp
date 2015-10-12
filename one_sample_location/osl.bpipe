@@ -1,0 +1,26 @@
+rnorm0 = {
+	R {"""set.seed(scan("$input"))"""}
+	exec "Rscript R/scenarios/rnorm.R 1000 0 $output.data $output.meta"
+}
+
+rnorm1 = {
+	R {"""set.seed(scan("$input"))"""}
+	exec "Rscript R/scenarios/rnorm.R 1000 1 $output.data $output.meta"
+}
+
+mean = {
+	exec "Rscript R/methods/mean.R $input.data $output.out"
+}
+
+median = {
+	exec "Rscript R/methods/median.R $input.data $output.out"
+}
+
+MSE = {
+	exec "Rscript R/scores/MSE.R $input.out $input.meta $output.score"
+}
+
+Bpipe.run {
+	"_%." * [rnorm0 + mean + MSE, rnorm0 + median + MSE, rnorm1 + mean + MSE, rnorm1 + median + MSE]
+}
+

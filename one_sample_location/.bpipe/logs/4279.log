@@ -1,0 +1,26 @@
+[----]	====================================================================================================
+[----]	|                              Starting Pipeline at 2015-10-08 22:38                               |
+[----]	====================================================================================================
+[]	
+[]	=========================================== Stage rnorm0 ===========================================
+[]	
+[]	============================================ Stage mean ============================================
+[]	
+[]	============================================ Stage MSE =============================================
+[0.4]	Error in gzfile(file, "rb") : cannot open the connection
+[0.4]	Calls: readRDS -> gzfile
+[0.4]	In addition: Warning message:
+[0.4]	In gzfile(file, "rb") :
+[0.4]	  cannot open compressed file 'NA', probable reason 'No such file or directory'
+[0.4]	Execution halted
+ERROR: stage failed: Command failed with exit status = 1 : 
+
+Rscript R/scores/MSE.R 
+
+
+========================================= Pipeline Failed ==========================================
+
+Command failed with exit status = 1 : 
+
+Rscript R/scores/MSE.R
+

@@ -1,0 +1,21 @@
+[----]	====================================================================================================
+[----]	|                              Starting Pipeline at 2015-10-08 22:32                               |
+[----]	====================================================================================================
+[]	
+[]	=========================================== Stage rnorm0 ===========================================
+[0.1]	Error in if (file == "") stop("'file' must be non-empty string") : 
+[0.1]	  missing value where TRUE/FALSE needed
+[0.1]	Calls: saveRDS
+[0.1]	Execution halted
+Cleaned up file rnorm0 to .bpipe/trash/rnorm0
+ERROR: stage rnorm0 failed: Command failed with exit status = 1 : 
+
+Rscript R/scenarios/rnorm.R 1000 0 rnorm0 
+
+
+========================================= Pipeline Failed ==========================================
+
+Command failed with exit status = 1 : 
+
+Rscript R/scenarios/rnorm.R 1000 0 rnorm0
+

@@ -1,0 +1,886 @@
+
+####################################################################################################
+# Starting pipeline at Thu Oct 08 22:32:07 PDT 2015
+# Input files:  null
+# Output Log:  .bpipe/logs/4103.log
+# Stage rnorm0
+Rscript R/scenarios/rnorm.R 1000 0 rnorm0
+# ################ Finished at Thu Oct 08 22:32:08 PDT 2015 Duration = 1.250 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Oct 08 22:34:42 PDT 2015
+# Input files:  null
+# Output Log:  .bpipe/logs/4165.log
+# Stage rnorm0
+Rscript R/scenarios/rnorm.R 1000 0 rnorm0.data rnorm0.meta
+# ################ Finished at Thu Oct 08 22:34:43 PDT 2015 Duration = 0.797 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Oct 08 22:36:36 PDT 2015
+# Input files:  null
+# Output Log:  .bpipe/logs/4224.log
+# Stage rnorm0
+# Stage mean
+Rscript R/methods/mean.R rnorm0.data rnorm0.mean.out
+# ################ Finished at Thu Oct 08 22:36:37 PDT 2015 Duration = 0.993 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Oct 08 22:38:01 PDT 2015
+# Input files:  null
+# Output Log:  .bpipe/logs/4279.log
+# Stage rnorm0
+# Stage mean
+# Stage MSE
+Rscript R/scores/MSE.R
+# ################ Finished at Thu Oct 08 22:38:03 PDT 2015 Duration = 1.321 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Oct 08 22:38:58 PDT 2015
+# Input files:  null
+# Output Log:  .bpipe/logs/4335.log
+# Stage rnorm0
+# Stage mean
+# Stage MSE
+Rscript R/scores/MSE.R rnorm0.mean.out rnorm0.meta rnorm0.mean.MSE.score
+# ################ Finished at Thu Oct 08 22:38:59 PDT 2015 Duration = 1.216 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Oct 08 22:40:26 PDT 2015
+# Input files:  null
+# Output Log:  .bpipe/logs/4393.log
+# Stage rnorm0
+# Stage mean
+# Stage MSE
+# ################ Finished at Thu Oct 08 22:40:27 PDT 2015 Duration = 0.930 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Oct 08 22:40:49 PDT 2015
+# Input files:  null
+# Output Log:  .bpipe/logs/4442.log
+# Stage rnorm0
+Rscript R/scenarios/rnorm.R 1000 0 rnorm0.data rnorm0.meta
+# Stage mean
+Rscript R/methods/mean.R rnorm0.data rnorm0.mean.out
+# Stage MSE
+Rscript R/scores/MSE.R rnorm0.mean.out rnorm0.meta rnorm0.mean.MSE.score
+# ################ Finished at Thu Oct 08 22:40:50 PDT 2015 Duration = 1.583 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Oct 08 22:47:52 PDT 2015
+# Input files:  null
+# Output Log:  .bpipe/logs/4519.log
+# Stage rnorm0 [*]
+# Stage rnorm1 [*]
+# Stage mean [*]
+# Stage median [*]
+Rscript R/scenarios/rnorm.R 1000 1 rnorm1.data rnorm1.meta
+# ################ Finished at Thu Oct 08 22:47:53 PDT 2015 Duration = 1.294 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Oct 08 22:48:42 PDT 2015
+# Input files:  null
+# Output Log:  .bpipe/logs/4576.log
+# Stage rnorm0 [*]
+# Stage rnorm1 [*]
+# Stage mean
+# Stage MSE
+# ################ Finished at Thu Oct 08 22:48:43 PDT 2015 Duration = 1.175 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Oct 08 22:53:21 PDT 2015
+# Input files:  null
+# Output Log:  .bpipe/logs/4626.log
+# Stage rnorm1 [*]
+# Stage rnorm0 [*]
+# Stage mean
+# Stage MSE
+# ################ Finished at Thu Oct 08 22:53:22 PDT 2015 Duration = 1.113 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Thu Oct 08 23:00:56 PDT 2015
+# Input files:  null
+# Output Log:  .bpipe/logs/4682.log
+# Stage rnorm1 [*]
+# Stage rnorm1 [*]
+# Stage rnorm0 [*]
+# Stage rnorm0 [*]
+# Stage mean [*]
+# Stage median [*]
+# Stage mean [*]
+# Stage median [*]
+Rscript R/methods/mean.R rnorm1.data rnorm1.mean.out
+Rscript R/methods/median.R rnorm1.data rnorm1.median.out
+Rscript R/methods/median.R rnorm0.data rnorm0.median.out
+# Stage MSE [*]
+# Stage MSE [*]
+# Stage MSE [*]
+# Stage MSE [*]
+Rscript R/scores/MSE.R rnorm1.median.out rnorm1.meta rnorm1.median.MSE.score
+Rscript R/scores/MSE.R rnorm1.mean.out rnorm1.meta rnorm1.mean.MSE.score
+Rscript R/scores/MSE.R rnorm0.median.out rnorm0.meta rnorm0.median.MSE.score
+# ################ Finished at Thu Oct 08 23:00:58 PDT 2015 Duration = 2.012 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Fri Oct 09 07:28:29 PDT 2015
+# Input files:  null
+# Output Log:  .bpipe/logs/4924.log
+# Stage set_seed [*]
+# Stage rnorm1 [*]
+# Stage rnorm0 [*]
+# Stage rnorm1 [*]
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444400910502237000-0"  Rscript - <<'!'
+            set.seed(1)
+!
+
+# Stage mean [*]
+# Stage median [*]
+# Stage median [*]
+# Stage MSE [*]
+# Stage MSE [*]
+# Stage MSE [*]
+# Stage rnorm0 [*]
+# Stage mean [*]
+# Stage MSE [*]
+# ################ Finished at Fri Oct 09 07:28:31 PDT 2015 Duration = 1.767 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Fri Oct 09 07:29:56 PDT 2015
+# Input files:  null
+# Output Log:  .bpipe/logs/4982.log
+# Stage rnorm1 [*]
+# Stage rnorm1 [*]
+# Stage rnorm0 [*]
+# Stage set_seed [*]
+# Stage median [*]
+# Stage median [*]
+# Stage mean [*]
+# Stage MSE [*]
+# Stage MSE [*]
+# Stage MSE [*]
+# ################ Finished at Fri Oct 09 07:29:57 PDT 2015 Duration = 1.561 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Fri Oct 09 07:30:10 PDT 2015
+# Input files:  s0
+# Output Log:  .bpipe/logs/5030.log
+# Stage rnorm0 [2]
+# Stage rnorm1 [3]
+# Stage rnorm1 [4]
+# Stage set_seed [1]
+Rscript R/scenarios/rnorm.R 1000 1 s0.rnorm1.data s0.rnorm1.meta
+Rscript R/scenarios/rnorm.R 1000 1 s0.rnorm1.data s0.rnorm1.meta
+Rscript R/scenarios/rnorm.R 1000 0 s0.rnorm0.data s0.rnorm0.meta
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401011266763000-0"  Rscript - <<'!'
+            set.seed(scan(s0))
+!
+
+# Stage mean [3]
+# Stage median [4]
+# Stage median [2]
+Rscript R/methods/median.R s0.rnorm1.data s0.rnorm1.median.out
+Rscript R/methods/mean.R s0.rnorm1.data s0.rnorm1.mean.out
+Rscript R/methods/median.R s0.rnorm0.data s0.rnorm0.median.out
+# Stage MSE [4]
+Rscript R/scores/MSE.R s0.rnorm1.median.out s0.rnorm1.meta s0.rnorm1.median.MSE.score
+# Stage MSE [3]
+# Stage MSE [2]
+Rscript R/scores/MSE.R s0.rnorm1.mean.out s0.rnorm1.meta s0.rnorm1.mean.MSE.score
+Rscript R/scores/MSE.R s0.rnorm0.median.out s0.rnorm0.meta s0.rnorm0.median.MSE.score
+# ################ Finished at Fri Oct 09 07:30:12 PDT 2015 Duration = 2.554 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Fri Oct 09 07:30:51 PDT 2015
+# Input files:  s0
+# Output Log:  .bpipe/logs/5139.log
+# Stage rnorm0 [2]
+# Stage rnorm1 [3]
+# Stage rnorm1 [4]
+# Stage set_seed [1]
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401052694345000-0"  Rscript - <<'!'
+            set.seed(scan("s0"))
+!
+
+# Stage median [4]
+# Stage mean [3]
+# Stage median [2]
+# Stage MSE [4]
+# Stage MSE [2]
+# Stage MSE [3]
+# Stage rnorm0 [1]
+# Stage mean [1]
+Rscript R/methods/mean.R s0.rnorm0.data s0.rnorm0.mean.out
+# Stage MSE [1]
+Rscript R/scores/MSE.R s0.rnorm0.mean.out s0.rnorm0.meta s0.rnorm0.mean.MSE.score
+# ################ Finished at Fri Oct 09 07:30:53 PDT 2015 Duration = 2.125 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Fri Oct 09 07:31:02 PDT 2015
+# Input files:  [s0, s1]
+# Output Log:  .bpipe/logs/5205.log
+# Stage rnorm1 [3]
+# Stage rnorm0 [2]
+# Stage set_seed [1]
+# Stage rnorm1 [4]
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401063263955000-0"  Rscript - <<'!'
+            set.seed(scan("s0"))
+!
+
+# Stage median [4]
+# Stage mean [3]
+# Stage median [2]
+# Stage MSE [4]
+# Stage MSE [3]
+# Stage MSE [2]
+# Stage rnorm0 [1]
+# Stage mean [1]
+# Stage MSE [1]
+# ################ Finished at Fri Oct 09 07:31:03 PDT 2015 Duration = 1.832 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Fri Oct 09 07:34:58 PDT 2015
+# Input files:  [s.0, s.1]
+# Output Log:  .bpipe/logs/5268.log
+# Stage set_seed [1]
+# Stage set_seed [0]
+# Stage set_seed [1]
+# Stage set_seed [0]
+# Stage set_seed [1]
+# Stage set_seed [0]
+# Stage set_seed [1]
+# Stage set_seed [0]
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401299976901000-0"  Rscript - <<'!'
+            set.seed(scan("s.0"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401299991627000-0"  Rscript - <<'!'
+            set.seed(scan("s.1"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401299978948000-0"  Rscript - <<'!'
+            set.seed(scan("s.1"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401299994424000-0"  Rscript - <<'!'
+            set.seed(scan("s.1"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401300006850000-0"  Rscript - <<'!'
+            set.seed(scan("s.0"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401299981143000-0"  Rscript - <<'!'
+            set.seed(scan("s.0"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401300018195000-0"  Rscript - <<'!'
+            set.seed(scan("s.1"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401299977436000-0"  Rscript - <<'!'
+            set.seed(scan("s.0"))
+!
+
+# Stage rnorm1 [0]
+# Stage rnorm1 [0]
+# Stage rnorm1 [1]
+Rscript R/scenarios/rnorm.R 1000 1 s.rnorm1.data s.rnorm1.meta
+Rscript R/scenarios/rnorm.R 1000 1 s.rnorm1.data s.rnorm1.meta
+Rscript R/scenarios/rnorm.R 1000 1 s.rnorm1.data s.rnorm1.meta
+# Stage rnorm0 [1]
+# Stage rnorm1 [1]
+Rscript R/scenarios/rnorm.R 1000 1 s.rnorm1.data s.rnorm1.meta
+Rscript R/scenarios/rnorm.R 1000 0 s.rnorm0.data s.rnorm0.meta
+# Stage rnorm0 [0]
+# Stage rnorm0 [0]
+Rscript R/scenarios/rnorm.R 1000 0 s.rnorm0.data s.rnorm0.meta
+Rscript R/scenarios/rnorm.R 1000 0 s.rnorm0.data s.rnorm0.meta
+# Stage rnorm0 [1]
+Rscript R/scenarios/rnorm.R 1000 0 s.rnorm0.data s.rnorm0.meta
+# Stage median [0]
+# Stage mean [1]
+Rscript R/methods/mean.R s.rnorm1.data s.rnorm1.mean.out
+# Stage median [1]
+Rscript R/methods/median.R s.rnorm1.data s.rnorm1.median.out
+# Stage mean [0]
+Rscript R/methods/median.R s.rnorm1.data s.rnorm1.median.out
+Rscript R/methods/mean.R s.rnorm1.data s.rnorm1.mean.out
+# Stage mean [1]
+# Stage mean [0]
+# Stage median [0]
+Rscript R/methods/mean.R s.rnorm0.data s.rnorm0.mean.out
+Rscript R/methods/mean.R s.rnorm0.data s.rnorm0.mean.out
+# Stage median [1]
+Rscript R/methods/median.R s.rnorm0.data s.rnorm0.median.out
+Rscript R/methods/median.R s.rnorm0.data s.rnorm0.median.out
+# Stage MSE [1]
+Rscript R/scores/MSE.R s.rnorm1.mean.out s.rnorm1.meta s.rnorm1.mean.MSE.score
+# Stage MSE [0]
+Rscript R/scores/MSE.R s.rnorm1.median.out s.rnorm1.meta s.rnorm1.median.MSE.score
+# Stage MSE [1]
+Rscript R/scores/MSE.R s.rnorm1.median.out s.rnorm1.meta s.rnorm1.median.MSE.score
+# Stage MSE [0]
+Rscript R/scores/MSE.R s.rnorm1.mean.out s.rnorm1.meta s.rnorm1.mean.MSE.score
+# Stage MSE [0]
+Rscript R/scores/MSE.R s.rnorm0.median.out s.rnorm0.meta s.rnorm0.median.MSE.score
+# Stage MSE [1]
+# Stage MSE [0]
+Rscript R/scores/MSE.R s.rnorm0.mean.out s.rnorm0.meta s.rnorm0.mean.MSE.score
+Rscript R/scores/MSE.R s.rnorm0.mean.out s.rnorm0.meta s.rnorm0.mean.MSE.score
+# Stage MSE [1]
+Rscript R/scores/MSE.R s.rnorm0.median.out s.rnorm0.meta s.rnorm0.median.MSE.score
+# ################ Finished at Fri Oct 09 07:35:03 PDT 2015 Duration = 5.030 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Fri Oct 09 07:44:26 PDT 2015
+# Input files:  [s.0, s.1, s.rnorm0.data, s.rnorm0.mean.MSE.score, s.rnorm0.mean.out, s.rnorm0.median.MSE.score, s.rnorm0.median.out, s.rnorm0.meta, s.rnorm1.data, s.rnorm1.mean.MSE.score, s.rnorm1.mean.out, s.rnorm1.median.MSE.score, s.rnorm1.median.out, s.rnorm1.meta]
+# Output Log:  .bpipe/logs/5531.log
+# Stage rnorm0 [rnorm0.data]
+# Stage rnorm0 [rnorm0.median.out]
+# Stage rnorm0 [rnorm0.mean.out]
+# Stage rnorm0 [rnorm0.meta]
+# Stage rnorm0 [rnorm0.mean.MSE.score]
+# Stage rnorm0 [rnorm0.median.MSE.score]
+# Stage rnorm0 [1]
+# Stage rnorm0 [0]
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401867482982000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.median.out"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401867485851000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.mean.MSE.score"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401867489830000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.meta"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401867482447000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.data"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401867482266000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.mean.out"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401867510112000-0"  Rscript - <<'!'
+            set.seed(scan("s.0"))
+!
+
+# Stage rnorm0 [rnorm1.mean.MSE.score]
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401867499788000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.median.MSE.score"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401867502423000-0"  Rscript - <<'!'
+            set.seed(scan("s.1"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401867563649000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.mean.MSE.score"))
+!
+
+# Stage rnorm0 [rnorm0.data]
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401867755271000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.data"))
+!
+
+# Stage rnorm0 [rnorm1.mean.out]
+# Stage rnorm0 [rnorm0.median.out]
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401867856537000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.median.out"))
+!
+
+# Stage rnorm0 [rnorm0.mean.MSE.score]
+# Stage rnorm0 [rnorm1.data]
+# Stage rnorm0 [1]
+# Stage rnorm0 [rnorm1.median.out]
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868035819000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.mean.MSE.score"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868224475000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.mean.out"))
+!
+
+# Stage rnorm0 [rnorm1.data]
+# Stage rnorm1 [rnorm0.meta]
+# Stage rnorm1 [rnorm0.mean.MSE.score]
+# Stage rnorm1 [rnorm1.mean.MSE.score]
+# Stage rnorm0 [rnorm0.median.MSE.score]
+# Stage rnorm1 [rnorm1.meta]
+# Stage rnorm0 [rnorm0.mean.out]
+# Stage rnorm0 [rnorm1.median.out]
+# Stage rnorm1 [1]
+# Stage rnorm1 [rnorm0.data]
+# Stage rnorm0 [rnorm1.median.MSE.score]
+# Stage rnorm0 [rnorm1.mean.MSE.score]
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868368346000-0"  Rscript - <<'!'
+            set.seed(scan("s.1"))
+!
+
+# Stage rnorm0 [rnorm1.meta]
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868416181000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.median.out"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868492389000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.mean.out"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868497349000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.data"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868510590000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.median.MSE.score"))
+!
+
+# Stage rnorm1 [rnorm0.mean.out]
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868573765000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.data"))
+!
+
+# Stage rnorm1 [0]
+# Stage rnorm0 [rnorm1.median.MSE.score]
+# Stage rnorm0 [rnorm0.meta]
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868502823000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.meta"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868586612000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.mean.MSE.score"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868607574000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.median.MSE.score"))
+!
+
+# Stage rnorm0 [rnorm1.meta]
+# Stage rnorm1 [0]
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868678612000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.meta"))
+!
+
+# Stage rnorm1 [rnorm0.mean.out]
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868601344000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.median.out"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868724757000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.data"))
+!
+
+# Stage rnorm1 [1]
+# Stage rnorm1 [rnorm1.mean.MSE.score]
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868611847000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.meta"))
+!
+
+# Stage rnorm0 [rnorm1.mean.out]
+# Stage rnorm0 [0]
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868774920000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.mean.MSE.score"))
+!
+
+# Stage rnorm1 [rnorm0.median.out]
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868863101000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.meta"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401868835262000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.mean.out"))
+!
+
+# Stage rnorm1 [rnorm1.median.out]
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869003648000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.mean.MSE.score"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869053795000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.mean.out"))
+!
+
+# Stage rnorm1 [rnorm0.median.MSE.score]
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869021539000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.meta"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869025248000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.median.MSE.score"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869033961000-0"  Rscript - <<'!'
+            set.seed(scan("s.1"))
+!
+
+# Stage rnorm1 [rnorm0.data]
+# Stage rnorm1 [rnorm0.mean.MSE.score]
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869051027000-0"  Rscript - <<'!'
+            set.seed(scan("s.0"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869044415000-0"  Rscript - <<'!'
+            set.seed(scan("s.0"))
+!
+
+# Stage rnorm1 [rnorm1.median.MSE.score]
+# Stage rnorm1 [rnorm0.median.MSE.score]
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869321161000-0"  Rscript - <<'!'
+            set.seed(scan("s.0"))
+!
+
+# Stage rnorm1 [rnorm1.data]
+# Stage rnorm1 [rnorm0.meta]
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869485590000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.median.MSE.score"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869549051000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.median.MSE.score"))
+!
+
+# Stage rnorm1 [rnorm1.median.MSE.score]
+# Stage rnorm1 [rnorm1.mean.out]
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869553439000-0"  Rscript - <<'!'
+            set.seed(scan("s.1"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869473626000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.mean.out"))
+!
+
+# Stage rnorm1 [rnorm0.median.out]
+# Stage rnorm1 [rnorm1.mean.out]
+# Stage rnorm1 [rnorm1.meta]
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869564789000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.mean.MSE.score"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869579216000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.data"))
+!
+
+# Stage rnorm1 [rnorm1.median.out]
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869593814000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.median.out"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869594568000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.mean.MSE.score"))
+!
+
+# Stage rnorm1 [rnorm1.data]
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869603184000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.median.out"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869604725000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.data"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869609468000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.median.out"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869613546000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.meta"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869625951000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.median.out"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869633472000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.mean.out"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869628331000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.median.MSE.score"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869625036000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.mean.out"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869754585000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.meta"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869752607000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm0.median.MSE.score"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401869760519000-0"  Rscript - <<'!'
+            set.seed(scan("s.rnorm1.data"))
+!
+
+# Stage mean [1]
+# Stage mean [0]
+# Stage median [1]
+# Stage MSE [1]
+# Stage MSE [0]
+# Stage mean [1]
+# Stage MSE [1]
+# Stage MSE [1]
+# Stage median [0]
+# Stage median [0]
+# Stage median [1]
+# Stage mean [0]
+# Stage MSE [0]
+# Stage MSE [0]
+# Stage MSE [1]
+# Stage MSE [0]
+# ################ Finished at Fri Oct 09 07:44:33 PDT 2015 Duration = 7.317 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Fri Oct 09 07:45:21 PDT 2015
+# Input files:  s.%
+# Output Log:  .bpipe/logs/5971.log
+# ################ Finished at Fri Oct 09 07:45:22 PDT 2015 Duration = 1.046 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Fri Oct 09 07:45:57 PDT 2015
+# Input files:  s.%
+# Output Log:  .bpipe/logs/6021.log
+# ################ Finished at Fri Oct 09 07:45:58 PDT 2015 Duration = 1.105 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Fri Oct 09 07:46:06 PDT 2015
+# Input files:  [s.0, s.1]
+# Output Log:  .bpipe/logs/6068.log
+# Stage rnorm1 [0]
+# Stage rnorm0 [1]
+# Stage rnorm0 [0]
+# Stage rnorm0 [1]
+# Stage rnorm0 [0]
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401967931245000-0"  Rscript - <<'!'
+            set.seed(scan("s.1"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401967937857000-0"  Rscript - <<'!'
+            set.seed(scan("s.0"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401967938274000-0"  Rscript - <<'!'
+            set.seed(scan("s.1"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401967929108000-0"  Rscript - <<'!'
+            set.seed(scan("s.0"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401967959927000-0"  Rscript - <<'!'
+            set.seed(scan("s.0"))
+!
+
+# Stage rnorm1 [1]
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401968171846000-0"  Rscript - <<'!'
+            set.seed(scan("s.1"))
+!
+
+# Stage rnorm1 [1]
+# Stage rnorm1 [0]
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401968228021000-0"  Rscript - <<'!'
+            set.seed(scan("s.1"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401968249955000-0"  Rscript - <<'!'
+            set.seed(scan("s.0"))
+!
+
+Rscript R/scenarios/rnorm.R 1000 1 s.rnorm1.data s.rnorm1.meta
+Rscript R/scenarios/rnorm.R 1000 0 s.rnorm0.data s.rnorm0.meta
+Rscript R/scenarios/rnorm.R 1000 0 s.rnorm0.data s.rnorm0.meta
+Rscript R/scenarios/rnorm.R 1000 0 s.rnorm0.data s.rnorm0.meta
+Rscript R/scenarios/rnorm.R 1000 1 s.rnorm1.data s.rnorm1.meta
+Rscript R/scenarios/rnorm.R 1000 1 s.rnorm1.data s.rnorm1.meta
+Rscript R/scenarios/rnorm.R 1000 1 s.rnorm1.data s.rnorm1.meta
+Rscript R/scenarios/rnorm.R 1000 0 s.rnorm0.data s.rnorm0.meta
+# Stage median [1]
+# Stage median [0]
+# Stage mean [0]
+# Stage mean [0]
+Rscript R/methods/median.R s.rnorm0.data s.rnorm0.median.out
+Rscript R/methods/mean.R s.rnorm0.data s.rnorm0.mean.out
+Rscript R/methods/median.R s.rnorm0.data s.rnorm0.median.out
+# Stage median [1]
+Rscript R/methods/median.R s.rnorm1.data s.rnorm1.median.out
+Rscript R/methods/mean.R s.rnorm1.data s.rnorm1.mean.out
+# Stage median [0]
+# Stage mean [1]
+Rscript R/methods/median.R s.rnorm1.data s.rnorm1.median.out
+Rscript R/methods/mean.R s.rnorm1.data s.rnorm1.mean.out
+# Stage mean [1]
+Rscript R/methods/mean.R s.rnorm0.data s.rnorm0.mean.out
+# Stage MSE [1]
+# Stage MSE [0]
+Rscript R/scores/MSE.R s.rnorm0.mean.out s.rnorm0.meta s.rnorm0.mean.MSE.score
+Rscript R/scores/MSE.R s.rnorm0.median.out s.rnorm0.meta s.rnorm0.median.MSE.score
+# Stage MSE [1]
+Rscript R/scores/MSE.R s.rnorm1.median.out s.rnorm1.meta s.rnorm1.median.MSE.score
+# Stage MSE [0]
+# Stage MSE [0]
+# Stage MSE [0]
+Rscript R/scores/MSE.R s.rnorm0.median.out s.rnorm0.meta s.rnorm0.median.MSE.score
+Rscript R/scores/MSE.R s.rnorm1.median.out s.rnorm1.meta s.rnorm1.median.MSE.score
+Rscript R/scores/MSE.R s.rnorm1.mean.out s.rnorm1.meta s.rnorm1.mean.MSE.score
+# Stage MSE [1]
+Rscript R/scores/MSE.R s.rnorm1.mean.out s.rnorm1.meta s.rnorm1.mean.MSE.score
+# Stage MSE [1]
+Rscript R/scores/MSE.R s.rnorm0.mean.out s.rnorm0.meta s.rnorm0.mean.MSE.score
+# ################ Finished at Fri Oct 09 07:46:11 PDT 2015 Duration = 4.633 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Fri Oct 09 07:49:41 PDT 2015
+# Input files:  [s_0.txt, s_1.txt]
+# Output Log:  .bpipe/logs/6319.log
+# Stage rnorm0 [0]
+# Stage rnorm0 [1]
+# Stage rnorm1 [1]
+# Stage rnorm1 [0]
+# Stage rnorm1 [0]
+# Stage rnorm0 [1]
+# Stage rnorm0 [0]
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444402182395054000-0"  Rscript - <<'!'
+            set.seed(scan("s_0.txt"))
+!
+
+# Stage rnorm1 [1]
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444402182394809000-0"  Rscript - <<'!'
+            set.seed(scan("s_1.txt"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444402182421375000-0"  Rscript - <<'!'
+            set.seed(scan("s_1.txt"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444402182434236000-0"  Rscript - <<'!'
+            set.seed(scan("s_0.txt"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444402182430774000-0"  Rscript - <<'!'
+            set.seed(scan("s_0.txt"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444402182442532000-0"  Rscript - <<'!'
+            set.seed(scan("s_1.txt"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444402182445641000-0"  Rscript - <<'!'
+            set.seed(scan("s_0.txt"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444402182454420000-0"  Rscript - <<'!'
+            set.seed(scan("s_1.txt"))
+!
+
+Rscript R/scenarios/rnorm.R 1000 0 s_1.rnorm0.data s_1.rnorm0.meta
+Rscript R/scenarios/rnorm.R 1000 1 s_0.rnorm1.data s_0.rnorm1.meta
+Rscript R/scenarios/rnorm.R 1000 0 s_0.rnorm0.data s_0.rnorm0.meta
+Rscript R/scenarios/rnorm.R 1000 0 s_0.rnorm0.data s_0.rnorm0.meta
+Rscript R/scenarios/rnorm.R 1000 1 s_1.rnorm1.data s_1.rnorm1.meta
+Rscript R/scenarios/rnorm.R 1000 0 s_1.rnorm0.data s_1.rnorm0.meta
+Rscript R/scenarios/rnorm.R 1000 1 s_1.rnorm1.data s_1.rnorm1.meta
+Rscript R/scenarios/rnorm.R 1000 1 s_0.rnorm1.data s_0.rnorm1.meta
+# Stage mean [0]
+Rscript R/methods/mean.R s_0.rnorm1.data s_0.rnorm1.mean.out
+# Stage mean [1]
+# Stage median [0]
+# Stage mean [0]
+Rscript R/methods/median.R s_0.rnorm0.data s_0.rnorm0.median.out
+Rscript R/methods/mean.R s_1.rnorm0.data s_1.rnorm0.mean.out
+Rscript R/methods/mean.R s_0.rnorm0.data s_0.rnorm0.mean.out
+# Stage median [1]
+# Stage median [1]
+Rscript R/methods/median.R s_1.rnorm1.data s_1.rnorm1.median.out
+# Stage mean [1]
+Rscript R/methods/median.R s_1.rnorm0.data s_1.rnorm0.median.out
+# Stage median [0]
+Rscript R/methods/mean.R s_1.rnorm1.data s_1.rnorm1.mean.out
+Rscript R/methods/median.R s_0.rnorm1.data s_0.rnorm1.median.out
+# Stage MSE [0]
+Rscript R/scores/MSE.R s_0.rnorm1.mean.out s_0.rnorm1.meta s_0.rnorm1.mean.MSE.score
+# Stage MSE [0]
+Rscript R/scores/MSE.R s_0.rnorm0.median.out s_0.rnorm0.meta s_0.rnorm0.median.MSE.score
+# Stage MSE [1]
+# Stage MSE [1]
+Rscript R/scores/MSE.R s_1.rnorm1.median.out s_1.rnorm1.meta s_1.rnorm1.median.MSE.score
+Rscript R/scores/MSE.R s_1.rnorm0.mean.out s_1.rnorm0.meta s_1.rnorm0.mean.MSE.score
+# Stage MSE [0]
+Rscript R/scores/MSE.R s_0.rnorm0.mean.out s_0.rnorm0.meta s_0.rnorm0.mean.MSE.score
+# Stage MSE [1]
+# Stage MSE [1]
+Rscript R/scores/MSE.R s_1.rnorm0.median.out s_1.rnorm0.meta s_1.rnorm0.median.MSE.score
+Rscript R/scores/MSE.R s_1.rnorm1.mean.out s_1.rnorm1.meta s_1.rnorm1.mean.MSE.score
+# Stage MSE [0]
+Rscript R/scores/MSE.R s_0.rnorm1.median.out s_0.rnorm1.meta s_0.rnorm1.median.MSE.score
+# ################ Finished at Fri Oct 09 07:49:45 PDT 2015 Duration = 4.840 seconds #################
+
+
+####################################################################################################
+# Starting pipeline at Fri Oct 09 12:08:06 PDT 2015
+# Input files:  [s_0.txt, s_1.txt]
+# Output Log:  .bpipe/logs/6629.log
+# Stage rnorm0 [0]
+# Stage rnorm0 [1]
+# Stage rnorm1 [0]
+# Stage rnorm1 [0]
+# Stage rnorm0 [1]
+# Stage rnorm1 [1]
+# Stage rnorm0 [0]
+# Stage rnorm1 [1]
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444417687366038000-0"  Rscript - <<'!'
+            set.seed(scan("s_0.txt"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444417687365588000-0"  Rscript - <<'!'
+            set.seed(scan("s_0.txt"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444417687367696000-0"  Rscript - <<'!'
+            set.seed(scan("s_1.txt"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444417687370281000-0"  Rscript - <<'!'
+            set.seed(scan("s_1.txt"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444417687370642000-0"  Rscript - <<'!'
+            set.seed(scan("s_1.txt"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444417687366889000-0"  Rscript - <<'!'
+            set.seed(scan("s_0.txt"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444417687373288000-0"  Rscript - <<'!'
+            set.seed(scan("s_0.txt"))
+!
+
+unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444417687399759000-0"  Rscript - <<'!'
+            set.seed(scan("s_1.txt"))
+!
+
+# ################ Finished at Fri Oct 09 12:08:07 PDT 2015 Duration = 1.197 seconds #################
+

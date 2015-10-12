@@ -1,0 +1,58 @@
+bpipe.Runner	[10]	INFO	|9:39:41 Starting 
+bpipe.Runner	[10]	INFO	|9:39:41 OS: Mac OS X (10.10.3) Java: 1.6.0_65 Vendor: Apple Inc. 
+bpipe.Runner	[10]	INFO	|9:39:41 Initializing plugins ... 
+bpipe.Config	[10]	INFO	|9:39:41 No plugins directory found: /Users/stephens/Dropbox/Documents/git/dsc-bpipe/helloworld/.bpipe/plugins 
+bpipe.Runner	[10]	INFO	|9:39:41 Reading user config ...  
+bpipe.Config	[10]	INFO	|9:39:41 No configuration file found in same dir as pipeline file /Users/stephens/Dropbox/Documents/git/dsc-bpipe/helloworld/bpipe.config 
+bpipe.Config	[10]	INFO	|9:39:41 No local configuration file found 
+bpipe.Utils	[11]	INFO	|9:39:41 Read config from /Users/stephens/bpipe-0.9.8.7/bin/../bpipe.config executed in 0.289 seconds 
+bpipe.Utils	[10]	INFO	|9:39:41 Read user config executed in 0.443 seconds 
+bpipe.Runner	[10]	INFO	|9:39:42 Loading tool database ...  
+bpipe.ToolDatabase	[12]	INFO	|9:39:42 Loading tool database from user configuration 
+bpipe.Tool	[12]	INFO	|9:39:42 Configured meta data about tool samtools 
+bpipe.Tool	[12]	INFO	|9:39:42 Configured meta data about tool bwa 
+bpipe.Tool	[12]	INFO	|9:39:42 Configured meta data about tool bowtie 
+bpipe.Tool	[12]	INFO	|9:39:42 Configured meta data about tool fastqc 
+bpipe.Tool	[12]	INFO	|9:39:42 Configured meta data about tool coverageBed 
+bpipe.Tool	[12]	INFO	|9:39:42 Configured meta data about tool fastx_clipper 
+bpipe.Tool	[12]	INFO	|9:39:42 Configured meta data about tool convert2annovar.pl 
+bpipe.Tool	[12]	INFO	|9:39:42 Configured meta data about tool summarize_annovar.pl 
+bpipe.Tool	[12]	INFO	|9:39:42 Configured meta data about tool bowtie2 
+bpipe.Tool	[12]	INFO	|9:39:42 Configured meta data about tool GenomeAnalysisTK 
+bpipe.Tool	[12]	INFO	|9:39:42 Configured meta data about tool MarkDuplicates 
+bpipe.Tool	[12]	INFO	|9:39:42 Configured meta data about tool signalp 
+bpipe.Concurrency	[13]	INFO	|9:39:42 Creating thread pool with 32 threads to execute parallel pipelines 
+bpipe.Tool	[12]	INFO	|9:39:42 Configured meta data about tool variant_effect_predictor.pl 
+bpipe.Tool	[12]	INFO	|9:39:42 Configured meta data about tool igvtools 
+bpipe.Tool	[12]	INFO	|9:39:42 Configured meta data about tool ls 
+bpipe.NotificationManager	[14]	INFO	|9:39:42 Configuring notifications 
+bpipe.NotificationManager	[14]	INFO	|9:39:42 Trying class name file for notification channel file 
+bpipe.Runner	[10]	INFO	|9:39:42 No CLI parameters specified 
+bpipe.NotificationManager	[14]	INFO	|9:39:42 Unable to create notification channel using class file: java.lang.ClassNotFoundException: file 
+bpipe.NotificationManager	[14]	INFO	|9:39:42 Trying class name bpipe.FILENotificationChannel for notification channel file 
+bpipe.NotificationManager	[14]	INFO	|9:39:42 Unable to create notification channel using class bpipe.FILENotificationChannel: java.lang.ClassNotFoundException: bpipe.FILENotificationChannel 
+bpipe.NotificationManager	[14]	INFO	|9:39:42 Trying class name bpipe.file for notification channel file 
+bpipe.NotificationManager	[14]	INFO	|9:39:42 Unable to create notification channel using class bpipe.file: java.lang.ClassNotFoundException: bpipe.file 
+bpipe.NotificationManager	[14]	INFO	|9:39:42 Trying class name bpipe.FileNotificationChannel for notification channel file 
+bpipe.NotificationManager	[14]	INFO	|9:39:42 Successfully created notification channel using class bpipe.FileNotificationChannel 
+bpipe.Runner	[10]	INFO	|9:39:42 Parsing script ...  
+bpipe.Runner	[10]	INFO	|9:39:42 Run ...  
+bpipe.Pipeline	[10]	INFO	|9:39:42 Running with input [test.txt] 
+bpipe.PipelineCategory	[10]	INFO	|9:39:42 Found closure variable hello 
+bpipe.PipelineCategory	[10]	INFO	|9:39:42 Found closure variable world 
+bpipe.Pipeline	[10]	WARNING	|9:39:42 Pipeline folder /Users/stephens/bpipes could not be found 
+bpipe.Pipeline	[10]	INFO	|9:39:42 Loaded external reference: args 
+bpipe.Pipeline	[10]	INFO	|9:39:42 External reference args is overridden by local reference 
+bpipe.Pipeline	[10]	INFO	|9:39:42 Loaded external reference: hello 
+bpipe.Pipeline	[10]	INFO	|9:39:42 External reference hello is overridden by local reference 
+bpipe.Pipeline	[10]	INFO	|9:39:42 Loaded external reference: world 
+bpipe.Pipeline	[10]	INFO	|9:39:42 External reference world is overridden by local reference 
+bpipe.Pipeline	[10]	INFO	|9:39:42 Running segment with inputs test.txt 
+bpipe.Dependencies	[10]	INFO	|9:39:42 Checking input (s) test.txt 
+bpipe.Utils	[10]	INFO	|9:39:42 Output folder scan (concurrency=5) executed in 0.010 seconds 
+bpipe.Utils	[10]	INFO	|9:39:42 Index output graph executed in 0.001 seconds 
+bpipe.Dependencies	[10]	INFO	|9:39:42  Checking file test.txt 
+bpipe.Dependencies	[10]	INFO	|9:39:42 There are no properties for test.txt and file is missing 
+bpipe.Pipeline	[10]	INFO	|9:39:42 Pipeline segment failed (2): Expected input file test.txt could not be found 
+bpipe.Pipeline	[10]	INFO	|9:39:42 Finished running segment for inputs test.txt 
+bpipe.Runner	[15]	INFO	|9:39:42 Deleting job file /Users/stephens/.bpipedb/jobs/3720 

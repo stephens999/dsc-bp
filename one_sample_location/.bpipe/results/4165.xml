@@ -1,0 +1,15 @@
+<job id='4165'>
+  <succeeded>true</succeeded>
+  <startDateTime>2015-10-08 22:34:42</startDateTime>
+  <endDateTime>2015-10-08 22:34:43</endDateTime>
+  <commands>
+    <command>
+      <stage>rnorm0</stage>
+      <branch></branch>
+      <content>Rscript R/scenarios/rnorm.R 1000 0 rnorm0.data rnorm0.meta</content>
+      <start>2015-10-08 22:34:42</start>
+      <end>2015-10-08 22:34:43</end>
+      <exitCode>0</exitCode>
+    </command>
+  </commands>
+</job>

@@ -1,0 +1,55 @@
+<job id='4682'>
+  <succeeded>true</succeeded>
+  <startDateTime>2015-10-08 23:00:56</startDateTime>
+  <endDateTime>2015-10-08 23:00:58</endDateTime>
+  <commands>
+    <command>
+      <stage>median</stage>
+      <branch>*.2</branch>
+      <content>Rscript R/methods/median.R rnorm0.data rnorm0.median.out</content>
+      <start>2015-10-08 23:00:57</start>
+      <end>2015-10-08 23:00:57</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>median</stage>
+      <branch>*.4</branch>
+      <content>Rscript R/methods/median.R rnorm1.data rnorm1.median.out</content>
+      <start>2015-10-08 23:00:57</start>
+      <end>2015-10-08 23:00:57</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>mean</stage>
+      <branch>*.3</branch>
+      <content>Rscript R/methods/mean.R rnorm1.data rnorm1.mean.out</content>
+      <start>2015-10-08 23:00:57</start>
+      <end>2015-10-08 23:00:57</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>MSE</stage>
+      <branch>*.4</branch>
+      <content>Rscript R/scores/MSE.R rnorm1.median.out rnorm1.meta rnorm1.median.MSE.score</content>
+      <start>2015-10-08 23:00:57</start>
+      <end>2015-10-08 23:00:58</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>MSE</stage>
+      <branch>*.3</branch>
+      <content>Rscript R/scores/MSE.R rnorm1.mean.out rnorm1.meta rnorm1.mean.MSE.score</content>
+      <start>2015-10-08 23:00:57</start>
+      <end>2015-10-08 23:00:58</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>MSE</stage>
+      <branch>*.2</branch>
+      <content>Rscript R/scores/MSE.R rnorm0.median.out rnorm0.meta rnorm0.median.MSE.score</content>
+      <start>2015-10-08 23:00:58</start>
+      <end>2015-10-08 23:00:58</end>
+      <exitCode>0</exitCode>
+    </command>
+  </commands>
+</job>

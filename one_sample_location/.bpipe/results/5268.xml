@@ -1,0 +1,287 @@
+<job id='5268'>
+  <succeeded>true</succeeded>
+  <startDateTime>2015-10-09 07:34:58</startDateTime>
+  <endDateTime>2015-10-09 07:35:03</endDateTime>
+  <commands>
+    <command>
+      <stage>set_seed</stage>
+      <branch>1.4</branch>
+      <content>unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401300018195000-0"  Rscript - &lt;&lt;'!'
+            set.seed(scan("s.1"))
+!
+</content>
+      <start>2015-10-09 07:35:00</start>
+      <end>2015-10-09 07:35:00</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>set_seed</stage>
+      <branch>1.3</branch>
+      <content>unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401299994424000-0"  Rscript - &lt;&lt;'!'
+            set.seed(scan("s.1"))
+!
+</content>
+      <start>2015-10-09 07:35:00</start>
+      <end>2015-10-09 07:35:00</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>set_seed</stage>
+      <branch>1.1</branch>
+      <content>unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401299978948000-0"  Rscript - &lt;&lt;'!'
+            set.seed(scan("s.1"))
+!
+</content>
+      <start>2015-10-09 07:35:00</start>
+      <end>2015-10-09 07:35:00</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>set_seed</stage>
+      <branch>0.1</branch>
+      <content>unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401299977436000-0"  Rscript - &lt;&lt;'!'
+            set.seed(scan("s.0"))
+!
+</content>
+      <start>2015-10-09 07:35:00</start>
+      <end>2015-10-09 07:35:00</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>set_seed</stage>
+      <branch>0.3</branch>
+      <content>unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401299976901000-0"  Rscript - &lt;&lt;'!'
+            set.seed(scan("s.0"))
+!
+</content>
+      <start>2015-10-09 07:35:00</start>
+      <end>2015-10-09 07:35:00</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>set_seed</stage>
+      <branch>0.4</branch>
+      <content>unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401300006850000-0"  Rscript - &lt;&lt;'!'
+            set.seed(scan("s.0"))
+!
+</content>
+      <start>2015-10-09 07:35:00</start>
+      <end>2015-10-09 07:35:00</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>set_seed</stage>
+      <branch>1.2</branch>
+      <content>unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401299991627000-0"  Rscript - &lt;&lt;'!'
+            set.seed(scan("s.1"))
+!
+</content>
+      <start>2015-10-09 07:35:00</start>
+      <end>2015-10-09 07:35:01</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>set_seed</stage>
+      <branch>0.2</branch>
+      <content>unset TMP; unset TEMP; TEMPDIR="/var/folders/1f/d96lz9ts15g81dqs_hcc_9cr0000gq/T/1444401299981143000-0"  Rscript - &lt;&lt;'!'
+            set.seed(scan("s.0"))
+!
+</content>
+      <start>2015-10-09 07:35:00</start>
+      <end>2015-10-09 07:35:00</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>rnorm1</stage>
+      <branch>0.4</branch>
+      <content>Rscript R/scenarios/rnorm.R 1000 1 s.rnorm1.data s.rnorm1.meta</content>
+      <start>2015-10-09 07:35:00</start>
+      <end>2015-10-09 07:35:01</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>rnorm1</stage>
+      <branch>1.3</branch>
+      <content>Rscript R/scenarios/rnorm.R 1000 1 s.rnorm1.data s.rnorm1.meta</content>
+      <start>2015-10-09 07:35:00</start>
+      <end>2015-10-09 07:35:01</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>rnorm1</stage>
+      <branch>0.3</branch>
+      <content>Rscript R/scenarios/rnorm.R 1000 1 s.rnorm1.data s.rnorm1.meta</content>
+      <start>2015-10-09 07:35:00</start>
+      <end>2015-10-09 07:35:01</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>rnorm1</stage>
+      <branch>1.4</branch>
+      <content>Rscript R/scenarios/rnorm.R 1000 1 s.rnorm1.data s.rnorm1.meta</content>
+      <start>2015-10-09 07:35:00</start>
+      <end>2015-10-09 07:35:01</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>rnorm0</stage>
+      <branch>0.1</branch>
+      <content>Rscript R/scenarios/rnorm.R 1000 0 s.rnorm0.data s.rnorm0.meta</content>
+      <start>2015-10-09 07:35:01</start>
+      <end>2015-10-09 07:35:01</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>rnorm0</stage>
+      <branch>1.1</branch>
+      <content>Rscript R/scenarios/rnorm.R 1000 0 s.rnorm0.data s.rnorm0.meta</content>
+      <start>2015-10-09 07:35:01</start>
+      <end>2015-10-09 07:35:01</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>rnorm0</stage>
+      <branch>0.2</branch>
+      <content>Rscript R/scenarios/rnorm.R 1000 0 s.rnorm0.data s.rnorm0.meta</content>
+      <start>2015-10-09 07:35:01</start>
+      <end>2015-10-09 07:35:01</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>rnorm0</stage>
+      <branch>1.2</branch>
+      <content>Rscript R/scenarios/rnorm.R 1000 0 s.rnorm0.data s.rnorm0.meta</content>
+      <start>2015-10-09 07:35:01</start>
+      <end>2015-10-09 07:35:01</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>mean</stage>
+      <branch>1.3</branch>
+      <content>Rscript R/methods/mean.R s.rnorm1.data s.rnorm1.mean.out</content>
+      <start>2015-10-09 07:35:01</start>
+      <end>2015-10-09 07:35:02</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>median</stage>
+      <branch>0.4</branch>
+      <content>Rscript R/methods/median.R s.rnorm1.data s.rnorm1.median.out</content>
+      <start>2015-10-09 07:35:01</start>
+      <end>2015-10-09 07:35:02</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>median</stage>
+      <branch>1.4</branch>
+      <content>Rscript R/methods/median.R s.rnorm1.data s.rnorm1.median.out</content>
+      <start>2015-10-09 07:35:01</start>
+      <end>2015-10-09 07:35:02</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>mean</stage>
+      <branch>0.3</branch>
+      <content>Rscript R/methods/mean.R s.rnorm1.data s.rnorm1.mean.out</content>
+      <start>2015-10-09 07:35:01</start>
+      <end>2015-10-09 07:35:02</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>mean</stage>
+      <branch>1.1</branch>
+      <content>Rscript R/methods/mean.R s.rnorm0.data s.rnorm0.mean.out</content>
+      <start>2015-10-09 07:35:02</start>
+      <end>2015-10-09 07:35:02</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>mean</stage>
+      <branch>0.1</branch>
+      <content>Rscript R/methods/mean.R s.rnorm0.data s.rnorm0.mean.out</content>
+      <start>2015-10-09 07:35:02</start>
+      <end>2015-10-09 07:35:02</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>median</stage>
+      <branch>0.2</branch>
+      <content>Rscript R/methods/median.R s.rnorm0.data s.rnorm0.median.out</content>
+      <start>2015-10-09 07:35:02</start>
+      <end>2015-10-09 07:35:02</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>median</stage>
+      <branch>1.2</branch>
+      <content>Rscript R/methods/median.R s.rnorm0.data s.rnorm0.median.out</content>
+      <start>2015-10-09 07:35:02</start>
+      <end>2015-10-09 07:35:02</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>MSE</stage>
+      <branch>1.3</branch>
+      <content>Rscript R/scores/MSE.R s.rnorm1.mean.out s.rnorm1.meta s.rnorm1.mean.MSE.score</content>
+      <start>2015-10-09 07:35:02</start>
+      <end>2015-10-09 07:35:03</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>MSE</stage>
+      <branch>0.4</branch>
+      <content>Rscript R/scores/MSE.R s.rnorm1.median.out s.rnorm1.meta s.rnorm1.median.MSE.score</content>
+      <start>2015-10-09 07:35:02</start>
+      <end>2015-10-09 07:35:03</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>MSE</stage>
+      <branch>1.4</branch>
+      <content>Rscript R/scores/MSE.R s.rnorm1.median.out s.rnorm1.meta s.rnorm1.median.MSE.score</content>
+      <start>2015-10-09 07:35:02</start>
+      <end>2015-10-09 07:35:03</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>MSE</stage>
+      <branch>0.3</branch>
+      <content>Rscript R/scores/MSE.R s.rnorm1.mean.out s.rnorm1.meta s.rnorm1.mean.MSE.score</content>
+      <start>2015-10-09 07:35:02</start>
+      <end>2015-10-09 07:35:03</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>MSE</stage>
+      <branch>0.2</branch>
+      <content>Rscript R/scores/MSE.R s.rnorm0.median.out s.rnorm0.meta s.rnorm0.median.MSE.score</content>
+      <start>2015-10-09 07:35:02</start>
+      <end>2015-10-09 07:35:03</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>MSE</stage>
+      <branch>0.1</branch>
+      <content>Rscript R/scores/MSE.R s.rnorm0.mean.out s.rnorm0.meta s.rnorm0.mean.MSE.score</content>
+      <start>2015-10-09 07:35:02</start>
+      <end>2015-10-09 07:35:03</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>MSE</stage>
+      <branch>1.1</branch>
+      <content>Rscript R/scores/MSE.R s.rnorm0.mean.out s.rnorm0.meta s.rnorm0.mean.MSE.score</content>
+      <start>2015-10-09 07:35:02</start>
+      <end>2015-10-09 07:35:03</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <stage>MSE</stage>
+      <branch>1.2</branch>
+      <content>Rscript R/scores/MSE.R s.rnorm0.median.out s.rnorm0.meta s.rnorm0.median.MSE.score</content>
+      <start>2015-10-09 07:35:03</start>
+      <end>2015-10-09 07:35:03</end>
+      <exitCode>0</exitCode>
+    </command>
+  </commands>
+</job>

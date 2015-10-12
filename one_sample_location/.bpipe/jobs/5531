@@ -1,0 +1,1 @@
+/Users/stephens/bpipe-0.9.8.7/bin/bpipe run osl.bpipe s.0 s.1 s.rnorm0.data s.rnorm0.mean.MSE.score s.rnorm0.mean.out s.rnorm0.median.MSE.score s.rnorm0.median.out s.rnorm0.meta s.rnorm1.data s.rnorm1.mean.MSE.score s.rnorm1.mean.out s.rnorm1.median.MSE.score s.rnorm1.median.out s.rnorm1.meta
